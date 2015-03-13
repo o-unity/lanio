@@ -1,0 +1,3 @@
+[
+	{ id: "configBP", type: "button", img: "runit.png", text: "config bg processes", title: "Tooltip here", action: "openWin"}
+]
