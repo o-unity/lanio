@@ -64,7 +64,6 @@ function checkHeight() {
 //window.winObj("test") = new String();
 
 
-
 function openWin(obj) {
 	myLayout.cells("b").progressOn();
 	window.dhx4.ajax.get("?l=winStruct&obj=" + obj, function(r) {
@@ -111,6 +110,17 @@ function openWin(obj) {
 
 		myLayout.cells("b").appendObject("winVP");
 		myLayout.cells("b").progressOff();
+		
+		// LOAD NOW CONTENT TO WINDOW
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = "?l=winLoadJS";
+		document.body.appendChild(script);         
+		
+		
+		
+		dhxWins.window(t.id).attachHTMLString('<b>Hello</b>');		
+  
 	});
 }
 
