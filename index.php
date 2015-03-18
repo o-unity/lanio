@@ -1,6 +1,6 @@
 <?
  $loadStruct = $_REQUEST["l"];
- $structLoad = "bin/".$loadStruct.".php";
+ $structLoad = "bin/php/".$loadStruct.".php";
  
  $configFile = "etc/conf/global.json";
  
@@ -27,11 +27,13 @@
 	 
 	 
 	 /// DESTRUCT
-	 $cfgJsonStr = json_encode($cfg);
+	 $cfgJsonStr = json_encode($cfg,JSON_UNESCAPED_SLASHES);
 	 if($cfgJsonStr == "null"){
 	 	$cfgJsonStr = "";
 	 }
 	 if(md5($cfgJsonStr) != $cfg_md5){
+	 	include_once("bin/php/functions/indentJson.php");
+	 	$cfgJsonStr = indent($cfgJsonStr);
 	 	file_put_contents($configFile,$cfgJsonStr);
 	 	//echo "write down new config";
 	 }
@@ -60,9 +62,9 @@
 	<div id="treeboxbox_tree"></div>
 	<div id="workspace" style="padding:20px"><div id="myForm"></div></div>
 	<div id="accObj"></div>
-	<div id="config" style="padding:20px"></div>
 	<div id="toolbarObj"></div>
 	<div id="winVP"></div>
+	
 	
 </body>
 </html>

@@ -1,1 +1,27 @@
-{"winStruct":{"win_configBP":{"id":"win_configBP","left":157,"top":107,"width":600,"height":462,"buttonId":"configBP","active":"true"}}}
+{
+  "winStruct":{
+    "win_configBP":{
+      "id":"win_configBP",
+      "left":272,
+      "top":62,
+      "width":277,
+      "height":269,
+      "buttonId":"configBP",
+      "active":"true"
+    }
+  },
+  "onewire":{
+    "devices":[
+      {
+        "id":"28-0314640daeff",
+        "name":"28-0314640daeff"
+      }
+    ],
+    "cfg":{
+      "path":"/sys/bus/w1/devices/"
+    }
+  },
+  "global":{
+    "log":"logs/"
+  }
+}

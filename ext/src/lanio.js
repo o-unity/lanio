@@ -60,15 +60,13 @@ function checkHeight() {
 }
 
 
-//window.winObj = new String();
-//window.winObj("test") = new String();
-
 
 function openWin(obj) {
 	myLayout.cells("b").progressOn();
 	window.dhx4.ajax.get("?l=winStruct&obj=" + obj, function(r) {
 		var t = JSON.parse(r.xmlDoc.responseText);
 
+		// CHECK IF ALREADY OPPEN
 		if (window.winRegId) {
 			if (window.winRegId[t.id]) {
 				dhtmlx.message({
@@ -80,10 +78,11 @@ function openWin(obj) {
 			}
 		}
 
+		// MARK FOR FURTHER PROZESSING
 		window.winRegId = [t.id];
 		window.winRegId[t.id] = true;
 
-
+		// CREATE WINDOW, BASED ON JSON
 		dhxWins = new dhtmlXWindows({
 			viewport: {
 				object: "winVP"
@@ -91,6 +90,7 @@ function openWin(obj) {
 			wins: [t],
 		});
 
+		// CREATE EVENTS
 		dhxWins.attachEvent("onMoveFinish", function(win) {
 			saveWinPosition(win, true);
 		});
@@ -105,22 +105,22 @@ function openWin(obj) {
 			return true;
 		});
 
-
+		// UPDATE WINDOW NAME
 		dhxWins.window(t.id).setText(myToolbarJSON.getItemText(t.buttonId));
 
+		// APPEND AND PROGRESS OFF
 		myLayout.cells("b").appendObject("winVP");
 		myLayout.cells("b").progressOff();
 		
 		// LOAD NOW CONTENT TO WINDOW
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = "?l=winLoadJS";
+		script.src = "?l=winLoadJS&winID="+t.id;
 		document.body.appendChild(script);         
+
+		// SAVE POSITION
+		saveWinPosition(dhxWins.window(t.id),true);
 		
-		
-		
-		dhxWins.window(t.id).attachHTMLString('<b>Hello</b>');		
-  
 	});
 }
 
