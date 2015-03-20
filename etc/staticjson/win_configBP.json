@@ -8,29 +8,29 @@
 	name: "gpiDeamon",
 	value: "1",
 	label: "GPI Deamon (5001)",
-	checked: true
+	checked: false
 }, {
 	type: "btn2state",
 	name: "gpoListener",
 	value: "1",
 	label: "GPO Listener (5002)",
-	checked: true
+	checked: false
 }, {
 	type: "btn2state",
 	name: "1wireDeamon",
 	value: "1",
 	label: "One Wire Deamon (5003)",
-	checked: true
+	checked: false
 }, {
 	type: "btn2state",
 	name: "dispListener",
 	value: "1",
 	label: "Display Listener (5004)",
-	checked: true
+	checked: false
 }, {
 	type: "btn2state",
 	name: "messageBus",
 	value: "1",
 	label: "Message Bus (5099)",
-	checked: true
+	checked: false
 }];

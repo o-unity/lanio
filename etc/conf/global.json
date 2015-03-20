@@ -18,7 +18,8 @@
       }
     ],
     "cfg":{
-      "path":"/sys/bus/w1/devices/"
+      "path":"/sys/bus/w1/devices/",
+      "wait":11
     }
   },
   "global":{
