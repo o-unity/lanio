@@ -1,0 +1,191 @@
+2015-02-17 13:22:29,319 - 73 - INFO     -  
+2015-02-17 13:22:29,322 - 74 - INFO     -  
+2015-02-17 13:22:29,324 - 75 - INFO     - ======================================================
+2015-02-17 13:22:29,325 - 76 - INFO     - start service
+2015-02-17 13:22:29,327 - 77 - INFO     - ======================================================
+2015-02-17 13:22:29,328 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 13:22:29,331 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 13:22:29,334 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 13:22:51,712 - 73 - INFO     -  
+2015-02-17 13:22:51,715 - 74 - INFO     -  
+2015-02-17 13:22:51,716 - 75 - INFO     - ======================================================
+2015-02-17 13:22:51,718 - 76 - INFO     - start service
+2015-02-17 13:22:51,719 - 77 - INFO     - ======================================================
+2015-02-17 13:22:51,721 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 13:22:51,724 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 13:22:51,727 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 13:23:51,789 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 13:24:43,635 - 73 - INFO     -  
+2015-02-17 13:24:43,637 - 74 - INFO     -  
+2015-02-17 13:24:43,639 - 75 - INFO     - ======================================================
+2015-02-17 13:24:43,641 - 76 - INFO     - start service
+2015-02-17 13:24:43,642 - 77 - INFO     - ======================================================
+2015-02-17 13:24:43,644 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 13:24:43,646 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 13:24:43,650 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 13:25:33,214 - 73 - INFO     -  
+2015-02-17 13:25:33,216 - 74 - INFO     -  
+2015-02-17 13:25:33,218 - 75 - INFO     - ======================================================
+2015-02-17 13:25:33,220 - 76 - INFO     - start service
+2015-02-17 13:25:33,222 - 77 - INFO     - ======================================================
+2015-02-17 13:25:33,224 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 13:25:33,226 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 13:25:33,229 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 13:26:06,063 - 73 - INFO     -  
+2015-02-17 13:26:06,065 - 74 - INFO     -  
+2015-02-17 13:26:06,067 - 75 - INFO     - ======================================================
+2015-02-17 13:26:06,068 - 76 - INFO     - start service
+2015-02-17 13:26:06,070 - 77 - INFO     - ======================================================
+2015-02-17 13:26:06,072 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 13:26:06,074 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 13:26:06,077 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:30:29,654 - 73 - INFO     -  
+2015-02-17 14:30:29,656 - 74 - INFO     -  
+2015-02-17 14:30:29,658 - 75 - INFO     - ======================================================
+2015-02-17 14:30:29,659 - 76 - INFO     - start service
+2015-02-17 14:30:29,661 - 77 - INFO     - ======================================================
+2015-02-17 14:30:29,663 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 14:30:29,665 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 14:30:29,669 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:31:29,731 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:32:29,793 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:33:29,855 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:34:29,890 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:35:29,927 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:36:29,989 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:37:30,051 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:38:30,113 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:39:30,140 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:40:30,202 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:41:30,264 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:42:30,326 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:43:30,388 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:44:30,440 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:45:30,502 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:46:30,564 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:46:50,715 - 73 - INFO     -  
+2015-02-17 14:46:50,717 - 74 - INFO     -  
+2015-02-17 14:46:50,719 - 75 - INFO     - ======================================================
+2015-02-17 14:46:50,721 - 76 - INFO     - start service
+2015-02-17 14:46:50,722 - 77 - INFO     - ======================================================
+2015-02-17 14:46:50,724 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 14:46:50,726 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 14:46:50,730 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:47:50,765 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:48:29,759 - 73 - INFO     -  
+2015-02-17 14:48:29,761 - 74 - INFO     -  
+2015-02-17 14:48:29,763 - 75 - INFO     - ======================================================
+2015-02-17 14:48:29,764 - 76 - INFO     - start service
+2015-02-17 14:48:29,766 - 77 - INFO     - ======================================================
+2015-02-17 14:48:29,767 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 14:48:29,770 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 14:48:29,774 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 14:49:29,836 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:02:18,273 - 73 - INFO     -  
+2015-02-17 15:02:18,275 - 74 - INFO     -  
+2015-02-17 15:02:18,277 - 75 - INFO     - ======================================================
+2015-02-17 15:02:18,278 - 76 - INFO     - start service
+2015-02-17 15:02:18,280 - 77 - INFO     - ======================================================
+2015-02-17 15:02:18,282 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:02:18,284 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 15:02:18,287 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:03:18,349 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:06:29,868 - 73 - INFO     -  
+2015-02-17 15:06:29,871 - 74 - INFO     -  
+2015-02-17 15:06:29,872 - 75 - INFO     - ======================================================
+2015-02-17 15:06:29,874 - 76 - INFO     - start service
+2015-02-17 15:06:29,876 - 77 - INFO     - ======================================================
+2015-02-17 15:06:29,877 - 81 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:06:29,880 - 82 - INFO     -  -> Event type: [FE]
+2015-02-17 15:06:29,883 - 95 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:18:56,924 - 80 - INFO     -  
+2015-02-17 15:18:56,926 - 81 - INFO     -  
+2015-02-17 15:18:56,928 - 82 - INFO     - ======================================================
+2015-02-17 15:18:56,929 - 83 - INFO     - start service
+2015-02-17 15:18:56,931 - 84 - INFO     - ======================================================
+2015-02-17 15:18:56,933 - 88 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:18:56,938 - 89 - INFO     -  -> Event type: [FE]
+2015-02-17 15:18:56,941 - 102 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:19:11,099 - 80 - INFO     -  
+2015-02-17 15:19:11,102 - 81 - INFO     -  
+2015-02-17 15:19:11,103 - 82 - INFO     - ======================================================
+2015-02-17 15:19:11,105 - 83 - INFO     - start service
+2015-02-17 15:19:11,107 - 84 - INFO     - ======================================================
+2015-02-17 15:19:11,108 - 88 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:19:11,111 - 89 - INFO     -  -> Event type: [FE]
+2015-02-17 15:19:11,121 - 102 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:19:17,960 - 24 - INFO     - terminate deamon normaly
+2015-02-17 15:19:43,423 - 80 - INFO     -  
+2015-02-17 15:19:43,426 - 81 - INFO     -  
+2015-02-17 15:19:43,427 - 82 - INFO     - ======================================================
+2015-02-17 15:19:43,429 - 83 - INFO     - start service
+2015-02-17 15:19:43,431 - 84 - INFO     - ======================================================
+2015-02-17 15:19:43,432 - 88 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:19:43,435 - 89 - INFO     -  -> Event type: [FE]
+2015-02-17 15:19:43,451 - 102 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:20:19,569 - 24 - INFO     - terminate deamon normaly
+2015-02-17 15:20:30,283 - 84 - INFO     -  
+2015-02-17 15:20:30,286 - 85 - INFO     -  
+2015-02-17 15:20:30,287 - 86 - INFO     - ======================================================
+2015-02-17 15:20:30,289 - 87 - INFO     - start service
+2015-02-17 15:20:30,291 - 88 - INFO     - ======================================================
+2015-02-17 15:20:30,292 - 92 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:20:30,295 - 93 - INFO     -  -> Event type: [FE]
+2015-02-17 15:20:30,311 - 106 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:20:33,832 - 24 - INFO     - 
+2015-02-17 15:20:33,834 - 25 - INFO     - 
+2015-02-17 15:20:33,835 - 26 - INFO     - terminate deamon normaly
+2015-02-17 15:20:33,837 - 27 - INFO     - 
+2015-02-17 15:20:33,839 - 28 - INFO     - 
+2015-02-17 15:21:07,455 - 84 - INFO     -  
+2015-02-17 15:21:07,458 - 85 - INFO     -  
+2015-02-17 15:21:07,459 - 86 - INFO     - ======================================================
+2015-02-17 15:21:07,461 - 87 - INFO     - start service
+2015-02-17 15:21:07,463 - 88 - INFO     - ======================================================
+2015-02-17 15:21:07,464 - 92 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:21:07,467 - 93 - INFO     -  -> Event type: [FE]
+2015-02-17 15:21:07,481 - 106 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:22:07,544 - 106 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:22:11,946 - 24 - INFO     - 
+2015-02-17 15:22:11,948 - 25 - INFO     - 
+2015-02-17 15:22:11,949 - 26 - INFO     - terminate deamon normaly
+2015-02-17 15:22:11,960 - 27 - INFO     - 
+2015-02-17 15:22:11,972 - 28 - INFO     - 
+2015-02-17 15:22:41,722 - 81 - INFO     -  
+2015-02-17 15:22:41,725 - 82 - INFO     -  
+2015-02-17 15:22:41,726 - 83 - INFO     - ======================================================
+2015-02-17 15:22:41,728 - 84 - INFO     - start service
+2015-02-17 15:22:41,730 - 85 - INFO     - ======================================================
+2015-02-17 15:22:41,732 - 89 - INFO     - create interrupt for GPIO [18]
+2015-02-17 15:22:41,734 - 90 - INFO     -  -> Event type: [FE]
+2015-02-17 15:22:41,742 - 103 - INFO     - service up and running, waiting for interrupts
+2015-02-17 15:22:46,761 - 24 - INFO     - 
+2015-02-17 15:22:46,763 - 25 - INFO     - terminate deamon normaly
+2015-02-17 21:22:36,376 - 81 - INFO     -  
+2015-02-17 21:22:36,378 - 82 - INFO     -  
+2015-02-17 21:22:36,379 - 83 - INFO     - ======================================================
+2015-02-17 21:22:36,381 - 84 - INFO     - start service
+2015-02-17 21:22:36,383 - 85 - INFO     - ======================================================
+2015-02-17 21:22:36,385 - 89 - INFO     - create interrupt for GPIO [18]
+2015-02-17 21:22:36,387 - 90 - INFO     -  -> Event type: [FE]
+2015-02-17 21:22:36,402 - 103 - INFO     - service up and running, waiting for interrupts
+2015-02-17 21:23:07,427 - 49 - INFO     - falling edge detected on channel [18]
+2015-02-17 21:23:07,442 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-02-17 21:23:07,444 - 57 - INFO     -           		application/json
+2015-02-17 21:23:07,446 - 58 - INFO     -           		POST
+2015-02-17 21:23:07,447 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-02-17 21:23:07,449 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-02-17 21:23:07,461 - 61 - INFO     -           		service
+2015-02-17 21:23:07,685 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-02-17 21:23:23,393 - 73 - INFO     - risign edge detected on channel [18]
+2015-02-17 21:23:24,775 - 49 - INFO     - falling edge detected on channel [18]
+2015-02-17 21:23:24,779 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-02-17 21:23:24,791 - 57 - INFO     -           		application/json
+2015-02-17 21:23:24,793 - 58 - INFO     -           		POST
+2015-02-17 21:23:24,795 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-02-17 21:23:24,797 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-02-17 21:23:24,799 - 61 - INFO     -           		service
+2015-02-17 21:23:25,022 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-02-17 21:23:36,464 - 103 - INFO     - service up and running, waiting for interrupts
+2015-02-17 21:23:41,609 - 24 - INFO     - 
+2015-02-17 21:23:41,611 - 25 - INFO     - terminate deamon normaly

@@ -1,0 +1,359 @@
+2015-02-10 15:50:18,231 - 43 - INFO     - service up and running, waiting for interrupts
+2015-02-10 15:51:33,591 - 43 - INFO     - service up and running, waiting for interrupts
+2015-02-10 15:52:19,248 - 34 - INFO     - ======================================================
+2015-02-10 15:52:19,250 - 35 - INFO     - start service
+2015-02-10 15:52:19,252 - 36 - INFO     - ======================================================
+2015-02-10 15:52:19,257 - 46 - INFO     - service up and running, waiting for interrupts
+2015-02-10 15:52:34,093 - 34 - INFO     - ======================================================
+2015-02-10 15:52:34,095 - 35 - INFO     - start service
+2015-02-10 15:52:34,097 - 36 - INFO     - ======================================================
+2015-02-10 15:52:34,102 - 46 - INFO     - service up and running, waiting for interrupts
+2015-02-10 15:53:15,614 - 34 - INFO     - ======================================================
+2015-02-10 15:53:15,618 - 35 - INFO     - start service
+2015-02-10 15:53:15,620 - 36 - INFO     - ======================================================
+2015-02-10 15:53:15,627 - 46 - INFO     - service up and running, waiting for interrupts
+2015-02-10 15:58:24,951 - 34 - INFO     - ======================================================
+2015-02-10 15:58:24,958 - 35 - INFO     - start service
+2015-02-10 15:58:24,961 - 36 - INFO     - ======================================================
+2015-02-10 15:58:24,964 - 39 - INFO     - create interrupt for GPIO [24]
+2015-02-10 15:58:24,975 - 39 - INFO     - create interrupt for GPIO [18]
+2015-02-10 15:58:24,979 - 39 - INFO     - create interrupt for GPIO [17]
+2015-02-10 15:58:24,983 - 47 - INFO     - service up and running, waiting for interrupts
+2015-02-10 15:59:34,039 - 34 - INFO     - ======================================================
+2015-02-10 15:59:34,042 - 35 - INFO     - start service
+2015-02-10 15:59:34,045 - 36 - INFO     - ======================================================
+2015-02-10 15:59:34,048 - 39 - INFO     - create interrupt for GPIO [24]
+2015-02-10 15:59:34,055 - 40 - INFO     -  -> Event type: [BOTH]
+2015-02-10 15:59:34,059 - 39 - INFO     - create interrupt for GPIO [18]
+2015-02-10 15:59:34,062 - 40 - INFO     -  -> Event type: [FE]
+2015-02-10 15:59:34,067 - 39 - INFO     - create interrupt for GPIO [17]
+2015-02-10 15:59:34,070 - 40 - INFO     -  -> Event type: [RE]
+2015-02-10 15:59:34,074 - 48 - INFO     - service up and running, waiting for interrupts
+2015-02-10 16:03:07,512 - 35 - INFO     - ======================================================
+2015-02-10 16:03:07,516 - 36 - INFO     - start service
+2015-02-10 16:03:07,519 - 37 - INFO     - ======================================================
+2015-02-10 16:03:07,522 - 40 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:03:07,528 - 41 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:04:20,204 - 35 - INFO     - ======================================================
+2015-02-10 16:04:20,207 - 36 - INFO     - start service
+2015-02-10 16:04:20,210 - 37 - INFO     - ======================================================
+2015-02-10 16:04:20,213 - 40 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:04:20,220 - 41 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:04:20,223 - 42 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:04:20,226 - 43 - INFO     -    -> option detectonce [1]
+2015-02-10 16:04:20,230 - 40 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:04:20,233 - 41 - INFO     -  -> Event type: [FE]
+2015-02-10 16:04:20,237 - 42 - INFO     -    -> option bounce     [200]
+2015-02-10 16:04:20,239 - 43 - INFO     -    -> option detectonce [0]
+2015-02-10 16:04:20,244 - 40 - INFO     - create interrupt for GPIO [17]
+2015-02-10 16:04:20,247 - 41 - INFO     -  -> Event type: [RE]
+2015-02-10 16:04:20,250 - 42 - INFO     -    -> option bounce     [200]
+2015-02-10 16:04:20,253 - 43 - INFO     -    -> option detectonce [1]
+2015-02-10 16:04:20,257 - 51 - INFO     - service up and running, waiting for interrupts
+2015-02-10 16:40:18,464 - 39 - INFO     - ======================================================
+2015-02-10 16:40:18,468 - 40 - INFO     - start service
+2015-02-10 16:40:18,470 - 41 - INFO     - ======================================================
+2015-02-10 16:40:18,474 - 44 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:40:18,480 - 45 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:40:18,483 - 46 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:40:18,486 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:40:18,489 - 44 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:40:18,492 - 45 - INFO     -  -> Event type: [FE]
+2015-02-10 16:40:18,495 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:40:18,499 - 47 - INFO     -    -> option detectonce [0]
+2015-02-10 16:40:46,509 - 39 - INFO     - ======================================================
+2015-02-10 16:40:46,513 - 40 - INFO     - start service
+2015-02-10 16:40:46,515 - 41 - INFO     - ======================================================
+2015-02-10 16:40:46,519 - 44 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:40:46,525 - 45 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:40:46,528 - 46 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:40:46,531 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:40:46,534 - 44 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:40:46,537 - 45 - INFO     -  -> Event type: [FE]
+2015-02-10 16:40:46,540 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:40:46,543 - 47 - INFO     -    -> option detectonce [0]
+2015-02-10 16:43:09,897 - 39 - INFO     - ======================================================
+2015-02-10 16:43:09,900 - 40 - INFO     - start service
+2015-02-10 16:43:09,903 - 41 - INFO     - ======================================================
+2015-02-10 16:43:09,906 - 44 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:43:09,912 - 45 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:43:09,915 - 46 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:43:09,919 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:43:09,921 - 44 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:43:09,925 - 45 - INFO     -  -> Event type: [FE]
+2015-02-10 16:43:09,928 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:43:09,931 - 47 - INFO     -    -> option detectonce [0]
+2015-02-10 16:43:09,935 - 44 - INFO     - create interrupt for GPIO [17]
+2015-02-10 16:43:09,938 - 45 - INFO     -  -> Event type: [RE]
+2015-02-10 16:43:09,942 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:43:09,944 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:43:09,947 - 60 - INFO     - service up and running, waiting for interrupts
+2015-02-10 16:43:43,635 - 39 - INFO     - ======================================================
+2015-02-10 16:43:43,639 - 40 - INFO     - start service
+2015-02-10 16:43:43,642 - 41 - INFO     - ======================================================
+2015-02-10 16:43:43,645 - 44 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:43:43,651 - 45 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:43:43,654 - 46 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:43:43,658 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:43:43,660 - 44 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:43:43,663 - 45 - INFO     -  -> Event type: [FE]
+2015-02-10 16:43:43,667 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:43:43,670 - 47 - INFO     -    -> option detectonce [0]
+2015-02-10 16:45:11,357 - 39 - INFO     - ======================================================
+2015-02-10 16:45:11,360 - 40 - INFO     - start service
+2015-02-10 16:45:11,363 - 41 - INFO     - ======================================================
+2015-02-10 16:45:11,366 - 44 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:45:11,372 - 45 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:45:11,375 - 46 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:45:11,379 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:45:11,382 - 44 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:45:11,385 - 45 - INFO     -  -> Event type: [FE]
+2015-02-10 16:45:11,388 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:45:11,391 - 47 - INFO     -    -> option detectonce [0]
+2015-02-10 16:45:26,665 - 39 - INFO     - ======================================================
+2015-02-10 16:45:26,668 - 40 - INFO     - start service
+2015-02-10 16:45:26,671 - 41 - INFO     - ======================================================
+2015-02-10 16:45:26,674 - 44 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:45:26,680 - 45 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:45:26,683 - 46 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:45:26,687 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:45:26,690 - 44 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:45:26,693 - 45 - INFO     -  -> Event type: [FE]
+2015-02-10 16:45:26,696 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:45:26,699 - 47 - INFO     -    -> option detectonce [0]
+2015-02-10 16:45:26,707 - 44 - INFO     - create interrupt for GPIO [17]
+2015-02-10 16:45:26,717 - 45 - INFO     -  -> Event type: [RE]
+2015-02-10 16:45:26,720 - 46 - INFO     -    -> option bounce     [200]
+2015-02-10 16:45:26,726 - 47 - INFO     -    -> option detectonce [1]
+2015-02-10 16:45:26,729 - 60 - INFO     - service up and running, waiting for interrupts
+2015-02-10 16:47:47,514 - 40 - INFO     - ======================================================
+2015-02-10 16:47:47,517 - 41 - INFO     - start service
+2015-02-10 16:47:47,520 - 42 - INFO     - ======================================================
+2015-02-10 16:47:47,523 - 45 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:47:47,529 - 46 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:47:47,532 - 47 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:47:47,535 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:47:47,539 - 45 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:47:47,542 - 46 - INFO     -  -> Event type: [FE]
+2015-02-10 16:47:47,545 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:47:47,548 - 48 - INFO     -    -> option detectonce [0]
+2015-02-10 16:47:47,566 - 45 - INFO     - create interrupt for GPIO [17]
+2015-02-10 16:47:47,570 - 46 - INFO     -  -> Event type: [RE]
+2015-02-10 16:47:47,573 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:47:47,576 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:47:47,586 - 62 - INFO     - service up and running, waiting for interrupts
+2015-02-10 16:49:18,741 - 40 - INFO     - ======================================================
+2015-02-10 16:49:18,744 - 41 - INFO     - start service
+2015-02-10 16:49:18,747 - 42 - INFO     - ======================================================
+2015-02-10 16:49:18,750 - 45 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:49:18,757 - 46 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:49:18,760 - 47 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:49:18,763 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:49:18,766 - 45 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:49:18,769 - 46 - INFO     -  -> Event type: [FE]
+2015-02-10 16:49:18,772 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:49:18,775 - 48 - INFO     -    -> option detectonce [0]
+2015-02-10 16:49:18,787 - 45 - INFO     - create interrupt for GPIO [17]
+2015-02-10 16:49:18,791 - 46 - INFO     -  -> Event type: [RE]
+2015-02-10 16:49:18,796 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:49:18,802 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:49:18,805 - 61 - INFO     - service up and running, waiting for interrupts
+2015-02-10 16:49:57,630 - 40 - INFO     - ======================================================
+2015-02-10 16:49:57,633 - 41 - INFO     - start service
+2015-02-10 16:49:57,636 - 42 - INFO     - ======================================================
+2015-02-10 16:49:57,639 - 45 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:49:57,645 - 46 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:49:57,649 - 47 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:49:57,652 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:49:57,655 - 45 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:49:57,658 - 46 - INFO     -  -> Event type: [FE]
+2015-02-10 16:49:57,661 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:49:57,664 - 48 - INFO     -    -> option detectonce [0]
+2015-02-10 16:49:57,677 - 45 - INFO     - create interrupt for GPIO [17]
+2015-02-10 16:49:57,681 - 46 - INFO     -  -> Event type: [RE]
+2015-02-10 16:49:57,687 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:49:57,690 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:49:57,696 - 61 - INFO     - service up and running, waiting for interrupts
+2015-02-10 16:50:03,795 - 34 - INFO     - falling edge detected on channel [18]
+2015-02-10 16:50:16,852 - 34 - INFO     - falling edge detected on channel [18]
+2015-02-10 16:50:18,999 - 34 - INFO     - falling edge detected on channel [18]
+2015-02-10 16:50:26,762 - 34 - INFO     - falling edge detected on channel [18]
+2015-02-10 16:50:29,099 - 34 - INFO     - falling edge detected on channel [18]
+2015-02-10 16:50:56,279 - 40 - INFO     - ======================================================
+2015-02-10 16:50:56,283 - 41 - INFO     - start service
+2015-02-10 16:50:56,286 - 42 - INFO     - ======================================================
+2015-02-10 16:50:56,289 - 45 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:50:56,295 - 46 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:50:56,298 - 47 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:50:56,301 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:50:56,304 - 45 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:50:56,307 - 46 - INFO     -  -> Event type: [FE]
+2015-02-10 16:50:56,311 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:50:56,313 - 48 - INFO     -    -> option detectonce [0]
+2015-02-10 16:50:56,317 - 34 - INFO     - falling edge detected on channel [18]
+2015-02-10 16:52:43,480 - 40 - INFO     - ======================================================
+2015-02-10 16:52:43,484 - 41 - INFO     - start service
+2015-02-10 16:52:43,487 - 42 - INFO     - ======================================================
+2015-02-10 16:52:43,489 - 45 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:52:43,496 - 46 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:52:43,499 - 47 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:52:43,502 - 48 - INFO     -    -> option detectonce [1]
+2015-02-10 16:52:43,505 - 45 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:52:43,508 - 46 - INFO     -  -> Event type: [FE]
+2015-02-10 16:52:43,511 - 47 - INFO     -    -> option bounce     [200]
+2015-02-10 16:52:43,514 - 48 - INFO     -    -> option detectonce [0]
+2015-02-10 16:57:10,891 - 41 - INFO     - ======================================================
+2015-02-10 16:57:10,894 - 42 - INFO     - start service
+2015-02-10 16:57:10,897 - 43 - INFO     - ======================================================
+2015-02-10 16:57:10,900 - 46 - INFO     - create interrupt for GPIO [24]
+2015-02-10 16:57:10,907 - 47 - INFO     -  -> Event type: [BOTH]
+2015-02-10 16:57:10,910 - 48 - INFO     -    -> option bounce     [1000]
+2015-02-10 16:57:10,913 - 49 - INFO     -    -> option detectonce [1]
+2015-02-10 16:57:10,916 - 46 - INFO     - create interrupt for GPIO [18]
+2015-02-10 16:57:10,919 - 47 - INFO     -  -> Event type: [FE]
+2015-02-10 16:57:10,922 - 48 - INFO     -    -> option bounce     [200]
+2015-02-10 16:57:10,925 - 49 - INFO     -    -> option detectonce [0]
+2015-02-10 16:57:10,937 - 46 - INFO     - create interrupt for GPIO [17]
+2015-02-10 16:57:10,941 - 47 - INFO     -  -> Event type: [RE]
+2015-02-10 16:57:10,946 - 48 - INFO     -    -> option bounce     [200]
+2015-02-10 16:57:10,952 - 49 - INFO     -    -> option detectonce [1]
+2015-02-10 16:57:10,955 - 62 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:47:21,635 - 46 - INFO     - ======================================================
+2015-02-10 18:47:21,639 - 47 - INFO     - start service
+2015-02-10 18:47:21,642 - 48 - INFO     - ======================================================
+2015-02-10 18:47:21,645 - 51 - INFO     - create interrupt for GPIO [24]
+2015-02-10 18:47:21,651 - 52 - INFO     -  -> Event type: [BOTH]
+2015-02-10 18:47:21,654 - 53 - INFO     -    -> option bounce     [1000]
+2015-02-10 18:47:21,657 - 54 - INFO     -    -> option detectonce [1]
+2015-02-10 18:47:21,660 - 51 - INFO     - create interrupt for GPIO [18]
+2015-02-10 18:47:21,663 - 52 - INFO     -  -> Event type: [FE]
+2015-02-10 18:47:21,667 - 53 - INFO     -    -> option bounce     [200]
+2015-02-10 18:47:21,669 - 54 - INFO     -    -> option detectonce [1]
+2015-02-10 18:47:21,687 - 51 - INFO     - create interrupt for GPIO [17]
+2015-02-10 18:47:21,690 - 52 - INFO     -  -> Event type: [RE]
+2015-02-10 18:47:21,693 - 53 - INFO     -    -> option bounce     [200]
+2015-02-10 18:47:21,696 - 54 - INFO     -    -> option detectonce [1]
+2015-02-10 18:47:21,707 - 67 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:47:34,799 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:47:39,800 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:47:45,498 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:47:57,388 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:47:58,792 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:47:59,355 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:47:59,573 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:00,049 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:04,735 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:05,132 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:05,496 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:05,777 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:06,944 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:07,224 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:07,533 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:07,948 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:08,256 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:08,485 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:48:21,770 - 67 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:49:19,424 - 46 - INFO     - ======================================================
+2015-02-10 18:49:19,428 - 47 - INFO     - start service
+2015-02-10 18:49:19,431 - 48 - INFO     - ======================================================
+2015-02-10 18:49:19,434 - 51 - INFO     - create interrupt for GPIO [24]
+2015-02-10 18:49:19,440 - 52 - INFO     -  -> Event type: [BOTH]
+2015-02-10 18:49:19,443 - 53 - INFO     -    -> option bounce     [1000]
+2015-02-10 18:49:19,447 - 54 - INFO     -    -> option detectonce [1]
+2015-02-10 18:49:19,450 - 51 - INFO     - create interrupt for GPIO [18]
+2015-02-10 18:49:19,453 - 52 - INFO     -  -> Event type: [FE]
+2015-02-10 18:49:19,456 - 53 - INFO     -    -> option bounce     [200]
+2015-02-10 18:49:19,459 - 54 - INFO     -    -> option detectonce [1]
+2015-02-10 18:49:19,467 - 51 - INFO     - create interrupt for GPIO [17]
+2015-02-10 18:49:19,477 - 52 - INFO     -  -> Event type: [RE]
+2015-02-10 18:49:19,480 - 53 - INFO     -    -> option bounce     [200]
+2015-02-10 18:49:19,486 - 54 - INFO     -    -> option detectonce [1]
+2015-02-10 18:49:19,489 - 67 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:49:27,987 - 36 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:49:27,992 - 39 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 18:50:19,557 - 67 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:51:19,595 - 67 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:52:19,659 - 67 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:53:19,722 - 67 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:54:03,527 - 60 - INFO     -  
+2015-02-10 18:54:03,530 - 61 - INFO     -  
+2015-02-10 18:54:03,533 - 62 - INFO     - ======================================================
+2015-02-10 18:54:03,536 - 63 - INFO     - start service
+2015-02-10 18:54:03,539 - 64 - INFO     - ======================================================
+2015-02-10 18:54:03,542 - 67 - INFO     - create interrupt for GPIO [24]
+2015-02-10 18:54:03,548 - 68 - INFO     -  -> Event type: [BOTH]
+2015-02-10 18:54:03,551 - 69 - INFO     -    -> option bounce     [1000]
+2015-02-10 18:54:03,554 - 70 - INFO     -    -> option detectonce [1]
+2015-02-10 18:54:03,557 - 67 - INFO     - create interrupt for GPIO [18]
+2015-02-10 18:54:03,560 - 68 - INFO     -  -> Event type: [FE]
+2015-02-10 18:54:03,563 - 69 - INFO     -    -> option bounce     [200]
+2015-02-10 18:54:03,566 - 70 - INFO     -    -> option detectonce [1]
+2015-02-10 18:54:03,577 - 67 - INFO     - create interrupt for GPIO [17]
+2015-02-10 18:54:03,581 - 68 - INFO     -  -> Event type: [RE]
+2015-02-10 18:54:03,587 - 69 - INFO     -    -> option bounce     [200]
+2015-02-10 18:54:03,595 - 70 - INFO     -    -> option detectonce [1]
+2015-02-10 18:54:03,598 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:54:15,755 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:54:15,760 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 18:54:16,143 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 18:54:16,147 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 18:54:40,339 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:54:40,342 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 18:54:43,236 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 18:54:43,239 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 18:55:03,667 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:56:03,730 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:56:42,091 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 18:56:42,094 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 18:56:42,281 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 18:56:42,284 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 18:57:03,786 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:58:03,849 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 18:59:03,912 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:00:03,975 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:01:04,036 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:02:04,099 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:02:14,283 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 19:02:14,286 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 19:02:14,928 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 19:02:14,931 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 19:02:15,740 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 19:02:15,743 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 19:02:16,020 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 19:02:16,024 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 19:02:16,119 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 19:02:16,123 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 19:02:17,012 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 19:02:17,015 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 19:02:26,032 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 19:02:26,035 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 19:03:04,117 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:03:26,331 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 19:03:26,334 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 19:03:26,348 - 37 - INFO     - falling edge detected on channel [18]
+2015-02-10 19:03:26,351 - 40 - INFO     - change from falling edge to rising edge [18]
+2015-02-10 19:03:26,447 - 49 - INFO     - risign edge detected on channel [18]
+2015-02-10 19:03:26,450 - 52 - INFO     - change from rising edge to falling edge [18]
+2015-02-10 19:04:04,180 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:05:04,243 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:06:04,286 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:07:04,349 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:08:04,412 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:09:04,475 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:10:04,536 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:11:04,599 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:12:04,652 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:13:04,715 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:14:04,774 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:15:04,786 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:16:04,849 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:17:04,912 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:18:04,976 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:19:05,036 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:20:05,099 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:21:05,162 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:22:05,226 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:23:05,286 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:24:05,349 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:25:05,413 - 83 - INFO     - service up and running, waiting for interrupts
+2015-02-10 19:26:05,476 - 83 - INFO     - service up and running, waiting for interrupts

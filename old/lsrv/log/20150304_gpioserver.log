@@ -1,0 +1,792 @@
+2015-03-04 19:38:28,730 - 81 - INFO     -  
+2015-03-04 19:38:28,732 - 82 - INFO     -  
+2015-03-04 19:38:28,734 - 83 - INFO     - ======================================================
+2015-03-04 19:38:28,735 - 84 - INFO     - start service
+2015-03-04 19:38:28,737 - 85 - INFO     - ======================================================
+2015-03-04 19:38:28,739 - 89 - INFO     - create interrupt for GPIO [23]
+2015-03-04 19:38:28,741 - 90 - INFO     -  -> Event type: [FE]
+2015-03-04 19:38:28,757 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:38:41,897 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:38:41,907 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:38:41,909 - 57 - INFO     -           		application/json
+2015-03-04 19:38:41,911 - 58 - INFO     -           		POST
+2015-03-04 19:38:41,913 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:38:41,915 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:38:41,927 - 61 - INFO     -           		service
+2015-03-04 19:38:42,546 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:39:01,131 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:39:16,615 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:39:16,627 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:39:16,629 - 57 - INFO     -           		application/json
+2015-03-04 19:39:16,631 - 58 - INFO     -           		POST
+2015-03-04 19:39:16,633 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:39:16,635 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:39:16,643 - 61 - INFO     -           		service
+2015-03-04 19:39:17,416 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:39:28,825 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:40:28,856 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:41:28,918 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:42:28,978 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:43:29,040 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:44:29,102 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:44:45,130 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:45:04,408 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:45:04,417 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:45:04,420 - 57 - INFO     -           		application/json
+2015-03-04 19:45:04,421 - 58 - INFO     -           		POST
+2015-03-04 19:45:04,423 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:45:04,538 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:45:04,540 - 61 - INFO     -           		service
+2015-03-04 19:45:04,980 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:45:29,106 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:45:37,059 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:45:39,700 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:45:39,718 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:45:39,719 - 57 - INFO     -           		application/json
+2015-03-04 19:45:39,721 - 58 - INFO     -           		POST
+2015-03-04 19:45:39,723 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:45:39,725 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:45:39,737 - 61 - INFO     -           		service
+2015-03-04 19:45:39,959 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:45:42,134 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:45:44,297 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:45:44,308 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:45:44,310 - 57 - INFO     -           		application/json
+2015-03-04 19:45:44,311 - 58 - INFO     -           		POST
+2015-03-04 19:45:44,313 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:45:44,315 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:45:44,327 - 61 - INFO     -           		service
+2015-03-04 19:45:44,858 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:45:47,094 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:45:49,081 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:45:49,097 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:45:49,099 - 57 - INFO     -           		application/json
+2015-03-04 19:45:49,101 - 58 - INFO     -           		POST
+2015-03-04 19:45:49,102 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:45:49,104 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:45:49,116 - 61 - INFO     -           		service
+2015-03-04 19:45:49,352 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:45:53,744 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:45:55,137 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:45:55,148 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:45:55,149 - 57 - INFO     -           		application/json
+2015-03-04 19:45:55,151 - 58 - INFO     -           		POST
+2015-03-04 19:45:55,153 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:45:55,155 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:45:55,167 - 61 - INFO     -           		service
+2015-03-04 19:45:55,387 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:45:58,091 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:45:59,881 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:45:59,896 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:45:59,898 - 57 - INFO     -           		application/json
+2015-03-04 19:45:59,900 - 58 - INFO     -           		POST
+2015-03-04 19:45:59,902 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:45:59,903 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:45:59,905 - 61 - INFO     -           		service
+2015-03-04 19:46:00,141 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:46:02,457 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:46:04,483 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:46:04,491 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:46:04,493 - 57 - INFO     -           		application/json
+2015-03-04 19:46:04,495 - 58 - INFO     -           		POST
+2015-03-04 19:46:04,547 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:46:04,549 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:46:04,551 - 61 - INFO     -           		service
+2015-03-04 19:46:04,982 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:46:17,852 - 24 - INFO     - 
+2015-03-04 19:46:17,854 - 25 - INFO     - terminate deamon normaly
+2015-03-04 19:46:22,564 - 81 - INFO     -  
+2015-03-04 19:46:22,566 - 82 - INFO     -  
+2015-03-04 19:46:22,568 - 83 - INFO     - ======================================================
+2015-03-04 19:46:22,569 - 84 - INFO     - start service
+2015-03-04 19:46:22,571 - 85 - INFO     - ======================================================
+2015-03-04 19:46:22,573 - 89 - INFO     - create interrupt for GPIO [23]
+2015-03-04 19:46:22,575 - 90 - INFO     -  -> Event type: [BOTH]
+2015-03-04 19:46:22,577 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:46:38,950 - 24 - INFO     - 
+2015-03-04 19:46:38,952 - 25 - INFO     - terminate deamon normaly
+2015-03-04 19:46:51,510 - 81 - INFO     -  
+2015-03-04 19:46:51,513 - 82 - INFO     -  
+2015-03-04 19:46:51,514 - 83 - INFO     - ======================================================
+2015-03-04 19:46:51,516 - 84 - INFO     - start service
+2015-03-04 19:46:51,518 - 85 - INFO     - ======================================================
+2015-03-04 19:46:51,519 - 89 - INFO     - create interrupt for GPIO [23]
+2015-03-04 19:46:51,522 - 90 - INFO     -  -> Event type: [FE]
+2015-03-04 19:46:51,537 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:46:57,128 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:46:57,145 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:46:57,147 - 57 - INFO     -           		application/json
+2015-03-04 19:46:57,149 - 58 - INFO     -           		POST
+2015-03-04 19:46:57,151 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:46:57,152 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:46:57,154 - 61 - INFO     -           		service
+2015-03-04 19:46:57,390 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:46:58,863 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:47:00,466 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:47:00,477 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:47:00,479 - 57 - INFO     -           		application/json
+2015-03-04 19:47:00,481 - 58 - INFO     -           		POST
+2015-03-04 19:47:00,483 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:47:00,485 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:47:00,497 - 61 - INFO     -           		service
+2015-03-04 19:47:00,914 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:47:02,489 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:47:04,109 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:47:04,118 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:47:04,119 - 57 - INFO     -           		application/json
+2015-03-04 19:47:04,121 - 58 - INFO     -           		POST
+2015-03-04 19:47:04,123 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:47:04,125 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:47:04,137 - 61 - INFO     -           		service
+2015-03-04 19:47:04,372 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:47:06,380 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:47:09,100 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:47:09,108 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:47:09,110 - 57 - INFO     -           		application/json
+2015-03-04 19:47:09,111 - 58 - INFO     -           		POST
+2015-03-04 19:47:09,113 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:47:09,115 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:47:09,127 - 61 - INFO     -           		service
+2015-03-04 19:47:09,355 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:47:11,815 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:47:15,012 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:47:15,028 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:47:15,030 - 57 - INFO     -           		application/json
+2015-03-04 19:47:15,031 - 58 - INFO     -           		POST
+2015-03-04 19:47:15,033 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:47:15,035 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:47:15,047 - 61 - INFO     -           		service
+2015-03-04 19:47:15,272 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:47:23,489 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:47:25,470 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:47:25,478 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:47:25,480 - 57 - INFO     -           		application/json
+2015-03-04 19:47:25,481 - 58 - INFO     -           		POST
+2015-03-04 19:47:25,483 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:47:25,485 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:47:25,497 - 61 - INFO     -           		service
+2015-03-04 19:47:25,732 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:47:30,604 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:47:32,831 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:47:32,838 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:47:32,840 - 57 - INFO     -           		application/json
+2015-03-04 19:47:32,841 - 58 - INFO     -           		POST
+2015-03-04 19:47:32,843 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:47:32,845 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:47:32,917 - 61 - INFO     -           		service
+2015-03-04 19:47:33,297 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:47:38,489 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:47:41,066 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:47:41,078 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:47:41,080 - 57 - INFO     -           		application/json
+2015-03-04 19:47:41,081 - 58 - INFO     -           		POST
+2015-03-04 19:47:41,083 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:47:41,085 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:47:41,097 - 61 - INFO     -           		service
+2015-03-04 19:47:41,347 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:47:51,599 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:48:50,550 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:48:51,606 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:48:52,037 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:48:52,048 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:48:52,050 - 57 - INFO     -           		application/json
+2015-03-04 19:48:52,051 - 58 - INFO     -           		POST
+2015-03-04 19:48:52,053 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:48:52,055 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:48:52,067 - 61 - INFO     -           		service
+2015-03-04 19:48:52,289 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:48:53,840 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:48:55,270 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:48:55,289 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:48:55,291 - 57 - INFO     -           		application/json
+2015-03-04 19:48:55,293 - 58 - INFO     -           		POST
+2015-03-04 19:48:55,295 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:48:55,347 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:48:55,349 - 61 - INFO     -           		service
+2015-03-04 19:48:55,864 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:48:57,454 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:48:59,204 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:48:59,218 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:48:59,220 - 57 - INFO     -           		application/json
+2015-03-04 19:48:59,221 - 58 - INFO     -           		POST
+2015-03-04 19:48:59,223 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:48:59,225 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:48:59,295 - 61 - INFO     -           		service
+2015-03-04 19:48:59,603 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:49:00,887 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:49:02,450 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:49:02,458 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:49:02,467 - 57 - INFO     -           		application/json
+2015-03-04 19:49:02,470 - 58 - INFO     -           		POST
+2015-03-04 19:49:02,472 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:49:02,474 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:49:02,486 - 61 - INFO     -           		service
+2015-03-04 19:49:02,724 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:49:04,419 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:49:07,857 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:49:07,868 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:49:07,870 - 57 - INFO     -           		application/json
+2015-03-04 19:49:07,871 - 58 - INFO     -           		POST
+2015-03-04 19:49:07,873 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:49:07,875 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:49:07,947 - 61 - INFO     -           		service
+2015-03-04 19:49:08,306 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:49:10,718 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:49:14,571 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:49:14,586 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:49:14,588 - 57 - INFO     -           		application/json
+2015-03-04 19:49:14,590 - 58 - INFO     -           		POST
+2015-03-04 19:49:14,592 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:49:14,594 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:49:14,595 - 61 - INFO     -           		service
+2015-03-04 19:49:14,828 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:49:45,802 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:49:47,965 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:49:47,978 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:49:47,979 - 57 - INFO     -           		application/json
+2015-03-04 19:49:47,981 - 58 - INFO     -           		POST
+2015-03-04 19:49:47,983 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:49:47,985 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:49:47,997 - 61 - INFO     -           		service
+2015-03-04 19:49:48,233 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:49:49,958 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:49:51,380 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:49:51,388 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:49:51,390 - 57 - INFO     -           		application/json
+2015-03-04 19:49:51,391 - 58 - INFO     -           		POST
+2015-03-04 19:49:51,393 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:49:51,395 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:49:51,408 - 61 - INFO     -           		service
+2015-03-04 19:49:51,666 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:49:51,710 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:50:51,609 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:50:51,726 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 19:50:52,776 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:50:52,788 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:50:52,789 - 57 - INFO     -           		application/json
+2015-03-04 19:50:52,791 - 58 - INFO     -           		POST
+2015-03-04 19:50:52,793 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:50:52,795 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:50:52,859 - 61 - INFO     -           		service
+2015-03-04 19:50:53,295 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:50:54,062 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 19:50:55,136 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 19:50:55,144 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 19:50:55,157 - 57 - INFO     -           		application/json
+2015-03-04 19:50:55,159 - 58 - INFO     -           		POST
+2015-03-04 19:50:55,160 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 19:50:55,162 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 19:50:55,164 - 61 - INFO     -           		service
+2015-03-04 19:50:55,398 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 19:51:05,634 - 24 - INFO     - 
+2015-03-04 19:51:05,635 - 25 - INFO     - terminate deamon normaly
+2015-03-04 21:37:02,381 - 81 - INFO     -  
+2015-03-04 21:37:02,383 - 82 - INFO     -  
+2015-03-04 21:37:02,385 - 83 - INFO     - ======================================================
+2015-03-04 21:37:02,387 - 84 - INFO     - start service
+2015-03-04 21:37:02,389 - 85 - INFO     - ======================================================
+2015-03-04 21:37:02,390 - 89 - INFO     - create interrupt for GPIO [23]
+2015-03-04 21:37:02,393 - 90 - INFO     -  -> Event type: [FE]
+2015-03-04 21:37:02,407 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:37:10,840 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:10,856 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:10,858 - 57 - INFO     -           		application/json
+2015-03-04 21:37:10,860 - 58 - INFO     -           		POST
+2015-03-04 21:37:10,862 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:10,863 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:10,865 - 61 - INFO     -           		service
+2015-03-04 21:37:11,104 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:11,347 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:15,051 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:15,066 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:15,068 - 57 - INFO     -           		application/json
+2015-03-04 21:37:15,070 - 58 - INFO     -           		POST
+2015-03-04 21:37:15,072 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:15,074 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:15,075 - 61 - INFO     -           		service
+2015-03-04 21:37:15,321 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:17,546 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:19,857 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:19,867 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:19,870 - 57 - INFO     -           		application/json
+2015-03-04 21:37:19,871 - 58 - INFO     -           		POST
+2015-03-04 21:37:19,873 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:19,875 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:19,887 - 61 - INFO     -           		service
+2015-03-04 21:37:20,450 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:22,249 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:23,559 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:23,567 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:23,569 - 57 - INFO     -           		application/json
+2015-03-04 21:37:23,571 - 58 - INFO     -           		POST
+2015-03-04 21:37:23,573 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:23,575 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:23,587 - 61 - INFO     -           		service
+2015-03-04 21:37:23,849 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:25,270 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:28,939 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:28,948 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:28,950 - 57 - INFO     -           		application/json
+2015-03-04 21:37:28,951 - 58 - INFO     -           		POST
+2015-03-04 21:37:28,953 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:28,955 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:28,967 - 61 - INFO     -           		service
+2015-03-04 21:37:29,193 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:32,429 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:33,824 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:33,828 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:33,830 - 57 - INFO     -           		application/json
+2015-03-04 21:37:33,831 - 58 - INFO     -           		POST
+2015-03-04 21:37:33,833 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:33,835 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:33,847 - 61 - INFO     -           		service
+2015-03-04 21:37:34,357 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:48,833 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:50,982 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:50,997 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:50,999 - 57 - INFO     -           		application/json
+2015-03-04 21:37:51,001 - 58 - INFO     -           		POST
+2015-03-04 21:37:51,003 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:51,005 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:51,017 - 61 - INFO     -           		service
+2015-03-04 21:37:51,228 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:52,881 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:54,233 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:54,248 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:54,250 - 57 - INFO     -           		application/json
+2015-03-04 21:37:54,251 - 58 - INFO     -           		POST
+2015-03-04 21:37:54,253 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:54,255 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:54,267 - 61 - INFO     -           		service
+2015-03-04 21:37:54,490 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:37:56,257 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:37:59,031 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:37:59,046 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:37:59,048 - 57 - INFO     -           		application/json
+2015-03-04 21:37:59,050 - 58 - INFO     -           		POST
+2015-03-04 21:37:59,052 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:37:59,053 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:37:59,055 - 61 - INFO     -           		service
+2015-03-04 21:37:59,282 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:38:02,470 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:38:02,927 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:38:05,522 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:38:05,537 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:38:05,539 - 57 - INFO     -           		application/json
+2015-03-04 21:38:05,541 - 58 - INFO     -           		POST
+2015-03-04 21:38:05,543 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:38:05,545 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:38:05,557 - 61 - INFO     -           		service
+2015-03-04 21:38:05,768 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:38:15,364 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:38:16,651 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:38:16,666 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:38:16,668 - 57 - INFO     -           		application/json
+2015-03-04 21:38:16,670 - 58 - INFO     -           		POST
+2015-03-04 21:38:16,672 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:38:16,674 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:38:16,675 - 61 - INFO     -           		service
+2015-03-04 21:38:16,902 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:38:29,283 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:39:02,489 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:39:22,795 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:39:22,807 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:39:22,809 - 57 - INFO     -           		application/json
+2015-03-04 21:39:22,811 - 58 - INFO     -           		POST
+2015-03-04 21:39:22,813 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:39:22,815 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:39:22,828 - 61 - INFO     -           		service
+2015-03-04 21:39:23,052 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:39:25,888 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:40:02,556 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:40:36,141 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:40:36,157 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:40:36,161 - 57 - INFO     -           		application/json
+2015-03-04 21:40:36,164 - 58 - INFO     -           		POST
+2015-03-04 21:40:36,176 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:40:36,179 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:40:36,183 - 61 - INFO     -           		service
+2015-03-04 21:40:36,413 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:40:39,859 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:40:52,386 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:40:52,397 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:40:52,406 - 57 - INFO     -           		application/json
+2015-03-04 21:40:52,410 - 58 - INFO     -           		POST
+2015-03-04 21:40:52,413 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:40:52,426 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:40:52,429 - 61 - INFO     -           		service
+2015-03-04 21:40:52,664 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:40:56,926 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:41:00,781 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:41:00,797 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:41:00,801 - 57 - INFO     -           		application/json
+2015-03-04 21:41:00,804 - 58 - INFO     -           		POST
+2015-03-04 21:41:00,816 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:41:00,819 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:41:00,822 - 61 - INFO     -           		service
+2015-03-04 21:41:01,243 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:41:02,606 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:41:03,574 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:41:06,451 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:41:06,467 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:41:06,471 - 57 - INFO     -           		application/json
+2015-03-04 21:41:06,474 - 58 - INFO     -           		POST
+2015-03-04 21:41:06,486 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:41:06,490 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:41:06,493 - 61 - INFO     -           		service
+2015-03-04 21:41:06,721 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:42:02,669 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:42:40,774 - 24 - INFO     - 
+2015-03-04 21:42:40,778 - 25 - INFO     - terminate deamon normaly
+2015-03-04 21:42:44,641 - 81 - INFO     -  
+2015-03-04 21:42:44,644 - 82 - INFO     -  
+2015-03-04 21:42:44,647 - 83 - INFO     - ======================================================
+2015-03-04 21:42:44,650 - 84 - INFO     - start service
+2015-03-04 21:42:44,653 - 85 - INFO     - ======================================================
+2015-03-04 21:42:44,656 - 89 - INFO     - create interrupt for GPIO [23]
+2015-03-04 21:42:44,660 - 90 - INFO     -  -> Event type: [FE]
+2015-03-04 21:42:44,677 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:42:49,848 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:42:49,866 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:42:49,869 - 57 - INFO     -           		application/json
+2015-03-04 21:42:49,872 - 58 - INFO     -           		POST
+2015-03-04 21:42:49,875 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:42:49,889 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:42:49,892 - 61 - INFO     -           		service
+2015-03-04 21:42:50,112 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:42:52,309 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:42:54,469 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:42:54,487 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:42:54,491 - 57 - INFO     -           		application/json
+2015-03-04 21:42:54,494 - 58 - INFO     -           		POST
+2015-03-04 21:42:54,507 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:42:54,511 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:42:54,514 - 61 - INFO     -           		service
+2015-03-04 21:42:54,767 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:42:56,158 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:42:57,093 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:42:57,108 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:42:57,182 - 57 - INFO     -           		application/json
+2015-03-04 21:42:57,186 - 58 - INFO     -           		POST
+2015-03-04 21:42:57,219 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:42:57,246 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:42:57,252 - 61 - INFO     -           		service
+2015-03-04 21:42:57,666 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:42:58,552 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:42:59,381 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:42:59,397 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:42:59,400 - 57 - INFO     -           		application/json
+2015-03-04 21:42:59,404 - 58 - INFO     -           		POST
+2015-03-04 21:42:59,416 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:42:59,419 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:42:59,423 - 61 - INFO     -           		service
+2015-03-04 21:42:59,661 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:43:00,708 - 73 - INFO     - risign edge detected on channel [23]
+2015-03-04 21:43:02,426 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:43:02,437 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:43:02,441 - 57 - INFO     -           		application/json
+2015-03-04 21:43:02,446 - 58 - INFO     -           		POST
+2015-03-04 21:43:02,452 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:43:02,456 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:43:02,466 - 61 - INFO     -           		service
+2015-03-04 21:43:02,702 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:43:44,736 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:44:44,786 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:45:44,846 - 103 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:46:00,567 - 24 - INFO     - 
+2015-03-04 21:46:00,570 - 25 - INFO     - terminate deamon normaly
+2015-03-04 21:46:03,645 - 82 - INFO     -  
+2015-03-04 21:46:03,649 - 83 - INFO     -  
+2015-03-04 21:46:03,651 - 84 - INFO     - ======================================================
+2015-03-04 21:46:03,654 - 85 - INFO     - start service
+2015-03-04 21:46:03,657 - 86 - INFO     - ======================================================
+2015-03-04 21:46:03,661 - 90 - INFO     - create interrupt for GPIO [23]
+2015-03-04 21:46:03,664 - 91 - INFO     -  -> Event type: [FE]
+2015-03-04 21:46:03,677 - 104 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:46:08,601 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:08,606 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:08,609 - 57 - INFO     -           		application/json
+2015-03-04 21:46:08,612 - 58 - INFO     -           		POST
+2015-03-04 21:46:08,615 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:08,618 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:08,622 - 61 - INFO     -           		service
+2015-03-04 21:46:08,742 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:08,745 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:08,750 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:08,760 - 57 - INFO     -           		application/json
+2015-03-04 21:46:08,766 - 58 - INFO     -           		POST
+2015-03-04 21:46:08,773 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:08,776 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:08,779 - 61 - INFO     -           		service
+2015-03-04 21:46:09,094 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:10,314 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:10,318 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:10,321 - 57 - INFO     -           		application/json
+2015-03-04 21:46:10,324 - 58 - INFO     -           		POST
+2015-03-04 21:46:10,327 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:10,330 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:10,334 - 61 - INFO     -           		service
+2015-03-04 21:46:10,451 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:10,455 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:10,459 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:10,470 - 57 - INFO     -           		application/json
+2015-03-04 21:46:10,476 - 58 - INFO     -           		POST
+2015-03-04 21:46:10,482 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:10,486 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:10,489 - 61 - INFO     -           		service
+2015-03-04 21:46:10,604 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:12,028 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:12,032 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:12,035 - 57 - INFO     -           		application/json
+2015-03-04 21:46:12,038 - 58 - INFO     -           		POST
+2015-03-04 21:46:12,041 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:12,044 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:12,048 - 61 - INFO     -           		service
+2015-03-04 21:46:12,164 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:12,168 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:12,171 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:12,182 - 57 - INFO     -           		application/json
+2015-03-04 21:46:12,191 - 58 - INFO     -           		POST
+2015-03-04 21:46:12,195 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:12,198 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:12,201 - 61 - INFO     -           		service
+2015-03-04 21:46:12,318 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:13,979 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:13,982 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:13,985 - 57 - INFO     -           		application/json
+2015-03-04 21:46:13,988 - 58 - INFO     -           		POST
+2015-03-04 21:46:13,992 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:13,995 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:13,998 - 61 - INFO     -           		service
+2015-03-04 21:46:14,113 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:14,117 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:14,121 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:14,131 - 57 - INFO     -           		application/json
+2015-03-04 21:46:14,140 - 58 - INFO     -           		POST
+2015-03-04 21:46:14,143 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:14,147 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:14,150 - 61 - INFO     -           		service
+2015-03-04 21:46:14,265 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:17,794 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:17,797 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:17,801 - 57 - INFO     -           		application/json
+2015-03-04 21:46:17,804 - 58 - INFO     -           		POST
+2015-03-04 21:46:17,807 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:17,810 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:17,813 - 61 - INFO     -           		service
+2015-03-04 21:46:17,927 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:17,930 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:17,934 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:17,945 - 57 - INFO     -           		application/json
+2015-03-04 21:46:17,954 - 58 - INFO     -           		POST
+2015-03-04 21:46:17,957 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:17,961 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:17,964 - 61 - INFO     -           		service
+2015-03-04 21:46:18,079 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:41,715 - 24 - INFO     - 
+2015-03-04 21:46:41,719 - 25 - INFO     - terminate deamon normaly
+2015-03-04 21:46:45,204 - 82 - INFO     -  
+2015-03-04 21:46:45,208 - 83 - INFO     -  
+2015-03-04 21:46:45,211 - 84 - INFO     - ======================================================
+2015-03-04 21:46:45,214 - 85 - INFO     - start service
+2015-03-04 21:46:45,217 - 86 - INFO     - ======================================================
+2015-03-04 21:46:45,220 - 90 - INFO     - create interrupt for GPIO [23]
+2015-03-04 21:46:45,224 - 91 - INFO     -  -> Event type: [FE]
+2015-03-04 21:46:45,237 - 104 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:46:48,068 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:48,077 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:48,086 - 57 - INFO     -           		application/json
+2015-03-04 21:46:48,096 - 58 - INFO     -           		POST
+2015-03-04 21:46:48,099 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:48,106 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:48,110 - 61 - INFO     -           		service
+2015-03-04 21:46:48,382 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:46:48,387 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:46:48,390 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:46:48,393 - 57 - INFO     -           		application/json
+2015-03-04 21:46:48,397 - 58 - INFO     -           		POST
+2015-03-04 21:46:48,400 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:46:48,410 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:46:48,416 - 61 - INFO     -           		service
+2015-03-04 21:46:48,535 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:09,818 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:09,821 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:09,824 - 57 - INFO     -           		application/json
+2015-03-04 21:47:09,827 - 58 - INFO     -           		POST
+2015-03-04 21:47:09,831 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:09,834 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:09,837 - 61 - INFO     -           		service
+2015-03-04 21:47:09,949 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:09,953 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:09,957 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:09,961 - 57 - INFO     -           		application/json
+2015-03-04 21:47:09,971 - 58 - INFO     -           		POST
+2015-03-04 21:47:09,980 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:09,984 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:10,002 - 61 - INFO     -           		service
+2015-03-04 21:47:10,368 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:13,250 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:13,254 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:13,257 - 57 - INFO     -           		application/json
+2015-03-04 21:47:13,260 - 58 - INFO     -           		POST
+2015-03-04 21:47:13,263 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:13,266 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:13,269 - 61 - INFO     -           		service
+2015-03-04 21:47:13,384 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:13,389 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:13,392 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:13,403 - 57 - INFO     -           		application/json
+2015-03-04 21:47:13,412 - 58 - INFO     -           		POST
+2015-03-04 21:47:13,415 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:13,419 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:13,422 - 61 - INFO     -           		service
+2015-03-04 21:47:13,564 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:16,685 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:16,689 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:16,692 - 57 - INFO     -           		application/json
+2015-03-04 21:47:16,695 - 58 - INFO     -           		POST
+2015-03-04 21:47:16,698 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:16,702 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:16,705 - 61 - INFO     -           		service
+2015-03-04 21:47:16,817 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:16,821 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:16,824 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:16,828 - 57 - INFO     -           		application/json
+2015-03-04 21:47:16,831 - 58 - INFO     -           		POST
+2015-03-04 21:47:16,834 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:16,844 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:16,854 - 61 - INFO     -           		service
+2015-03-04 21:47:16,969 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:19,629 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:19,633 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:19,636 - 57 - INFO     -           		application/json
+2015-03-04 21:47:19,639 - 58 - INFO     -           		POST
+2015-03-04 21:47:19,642 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:19,646 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:19,649 - 61 - INFO     -           		service
+2015-03-04 21:47:19,776 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:19,785 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:19,794 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:19,797 - 57 - INFO     -           		application/json
+2015-03-04 21:47:19,801 - 58 - INFO     -           		POST
+2015-03-04 21:47:19,804 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:19,807 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:19,810 - 61 - INFO     -           		service
+2015-03-04 21:47:19,923 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:45,301 - 104 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:47:53,843 - 24 - INFO     - 
+2015-03-04 21:47:53,846 - 25 - INFO     - terminate deamon normaly
+2015-03-04 21:47:56,214 - 82 - INFO     -  
+2015-03-04 21:47:56,238 - 83 - INFO     -  
+2015-03-04 21:47:56,243 - 84 - INFO     - ======================================================
+2015-03-04 21:47:56,266 - 85 - INFO     - start service
+2015-03-04 21:47:56,276 - 86 - INFO     - ======================================================
+2015-03-04 21:47:56,280 - 90 - INFO     - create interrupt for GPIO [23]
+2015-03-04 21:47:56,283 - 91 - INFO     -  -> Event type: [FE]
+2015-03-04 21:47:56,307 - 104 - INFO     - service up and running, waiting for interrupts
+2015-03-04 21:47:58,414 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:58,418 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:47:58,422 - 57 - INFO     -           		application/json
+2015-03-04 21:47:58,425 - 58 - INFO     -           		POST
+2015-03-04 21:47:58,428 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:47:58,431 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:47:58,434 - 61 - INFO     -           		service
+2015-03-04 21:47:58,556 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:47:59,996 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:47:59,999 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:00,003 - 57 - INFO     -           		application/json
+2015-03-04 21:48:00,006 - 58 - INFO     -           		POST
+2015-03-04 21:48:00,009 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:00,012 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:00,015 - 61 - INFO     -           		service
+2015-03-04 21:48:00,249 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:01,639 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:01,642 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:01,645 - 57 - INFO     -           		application/json
+2015-03-04 21:48:01,648 - 58 - INFO     -           		POST
+2015-03-04 21:48:01,651 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:01,655 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:01,658 - 61 - INFO     -           		service
+2015-03-04 21:48:01,792 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:03,127 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:03,130 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:03,133 - 57 - INFO     -           		application/json
+2015-03-04 21:48:03,137 - 58 - INFO     -           		POST
+2015-03-04 21:48:03,140 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:03,143 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:03,146 - 61 - INFO     -           		service
+2015-03-04 21:48:03,260 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:05,110 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:05,113 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:05,116 - 57 - INFO     -           		application/json
+2015-03-04 21:48:05,119 - 58 - INFO     -           		POST
+2015-03-04 21:48:05,122 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:05,126 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:05,129 - 61 - INFO     -           		service
+2015-03-04 21:48:05,244 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:07,379 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:07,383 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:07,386 - 57 - INFO     -           		application/json
+2015-03-04 21:48:07,389 - 58 - INFO     -           		POST
+2015-03-04 21:48:07,392 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:07,395 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:07,399 - 61 - INFO     -           		service
+2015-03-04 21:48:07,515 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:09,113 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:09,116 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:09,119 - 57 - INFO     -           		application/json
+2015-03-04 21:48:09,122 - 58 - INFO     -           		POST
+2015-03-04 21:48:09,125 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:09,129 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:09,132 - 61 - INFO     -           		service
+2015-03-04 21:48:09,246 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:10,551 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:10,554 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:10,557 - 57 - INFO     -           		application/json
+2015-03-04 21:48:10,561 - 58 - INFO     -           		POST
+2015-03-04 21:48:10,564 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:10,567 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:10,570 - 61 - INFO     -           		service
+2015-03-04 21:48:10,688 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:12,122 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:12,125 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:12,139 - 57 - INFO     -           		application/json
+2015-03-04 21:48:12,142 - 58 - INFO     -           		POST
+2015-03-04 21:48:12,146 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:12,155 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:12,176 - 61 - INFO     -           		service
+2015-03-04 21:48:12,532 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:13,982 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:13,986 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:13,989 - 57 - INFO     -           		application/json
+2015-03-04 21:48:13,992 - 58 - INFO     -           		POST
+2015-03-04 21:48:13,995 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:13,999 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:14,002 - 61 - INFO     -           		service
+2015-03-04 21:48:14,146 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:15,666 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:15,669 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:15,673 - 57 - INFO     -           		application/json
+2015-03-04 21:48:15,676 - 58 - INFO     -           		POST
+2015-03-04 21:48:15,679 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:15,682 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:15,685 - 61 - INFO     -           		service
+2015-03-04 21:48:15,799 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:17,306 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:17,309 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:17,312 - 57 - INFO     -           		application/json
+2015-03-04 21:48:17,316 - 58 - INFO     -           		POST
+2015-03-04 21:48:17,319 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:17,322 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:17,325 - 61 - INFO     -           		service
+2015-03-04 21:48:17,438 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:18,938 - 49 - INFO     - falling edge detected on channel [23]
+2015-03-04 21:48:18,941 - 56 - INFO     - calling ->		http://192.168.1.70:82/api/
+2015-03-04 21:48:18,944 - 57 - INFO     -           		application/json
+2015-03-04 21:48:18,947 - 58 - INFO     -           		POST
+2015-03-04 21:48:18,951 - 59 - INFO     -           		{ "jsonrpc":"2.0","method":"SetValueInteger","params":[30393,1],"id":1}
+2015-03-04 21:48:18,954 - 60 - INFO     -           		andi.zaugg@port80.ch
+2015-03-04 21:48:18,957 - 61 - INFO     -           		service
+2015-03-04 21:48:19,072 - 66 - INFO     - response:{"result":true,"id":1,"jsonrpc":"2.0"}
+2015-03-04 21:48:45,244 - 24 - INFO     - 
+2015-03-04 21:48:45,247 - 25 - INFO     - terminate deamon normaly

@@ -1,0 +1,5 @@
+[
+				{type: "settings", position: "label-right", inputWidth: 42, inputHeight: 20},
+				{type: "btn2state", name: "gpioDeamon", value: "1", label: "enable gpio deamon", checked: true},
+				{type: "btn2state", name: "dhcp", value: "1", label: "dhcp server", checked: true}
+];
