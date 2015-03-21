@@ -1,0 +1,4 @@
+pi@LANIO01 /var/www/lanio $ git add * -A
+pi@LANIO01 /var/www/lanio $ git commit -m "update"
+git push origin master
+
