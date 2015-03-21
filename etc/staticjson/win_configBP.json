@@ -29,7 +29,7 @@
 	checked: false
 }, {
 	type: "btn2state",
-	name: "messageBus",
+	name: "msgbus",
 	value: "1",
 	label: "Message Bus (5099)",
 	checked: false

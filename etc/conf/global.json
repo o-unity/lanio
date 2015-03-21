@@ -2,8 +2,8 @@
   "winStruct":{
     "win_configBP":{
       "id":"win_configBP",
-      "left":272,
-      "top":62,
+      "left":218,
+      "top":64,
       "width":277,
       "height":269,
       "buttonId":"configBP",
@@ -22,7 +22,13 @@
       "wait":11
     }
   },
+  "msgbus":{
+    "cfg":{
+      "port":50008
+    }
+  },
   "global":{
-    "log":"logs/"
+    "log":"logs/",
+    "root":"/var/www/lanio/bin/py"
   }
 }

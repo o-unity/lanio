@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys, getopt, json, os, signal, re
+import sys, getopt, json, os, signal, re, socket
 import inspect
 import logging
 import time
@@ -17,8 +17,7 @@ cfg = json.loads(json_data)
 
 
 def signal_term_handler(signal, frame):
-  logger.info(' ')
-  logger.info('terminate deamon normaly')
+  logger.info('terminate one wire deamon normaly')
   sys.exit(0)
 
 signal.signal(signal.SIGTERM, signal_term_handler)
@@ -32,7 +31,8 @@ def wl(file_level, console_level = None):
 
   fh = logging.FileHandler(direname+"/../../"+cfg['global']['log'] + str(time.strftime("%Y%m%d")) + "_lanio.log")
   fh.setLevel(file_level)
-  fh_format = logging.Formatter('%(asctime)s - %(lineno)d - %(levelname)-8s - %(message)s')
+
+  fh_format = logging.Formatter('%(asctime)s - %(lineno)d - %(levelname)-5s - ONEWIR  - %(message)s')
   fh.setFormatter(fh_format)
   logger.addHandler(fh)
 
@@ -58,6 +58,19 @@ def read_sensor(path):
   
 # -------------------------------------------------------------------
 
+def sendMsgBus(msg):
+	#print temp
+	HOST = '127.0.0.1'
+	PORT = cfg['msgbus']['cfg']['port'] 
+	logger.info('open socket to message bus')
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((HOST, PORT))
+	
+	logger.info('send message ['+msg+']')
+	s.sendall(msg)
+	s.close()
+
+# -------------------------------------------------------------------
 
 logger = wl(logging.INFO)
 logger.info('======================================================')
@@ -68,6 +81,7 @@ logger.info('======================================================')
 for (i, item) in enumerate(cfg['onewire']['devices']):
   sensT = read_sensor(cfg['onewire']['cfg']['path']+item['id']+"/w1_slave")
   cfg['onewire']['devices'][i]['temp'] = sensT
+  sendMsgBus('{"onewire":{"temp":' + sensT + '}')
   logger.info('init sensor: '+cfg['onewire']['cfg']['path']+item['id']+': '+sensT)
   		
 
@@ -79,16 +93,17 @@ try:
   	for (i, item) in enumerate(cfg['onewire']['devices']):
   		sensT = read_sensor(cfg['onewire']['cfg']['path']+item['id']+"/w1_slave")
   		if cfg['onewire']['devices'][i]['temp'] != sensT:
-  			print sensT
+  			#print sensT
   			logger.info(cfg['onewire']['cfg']['path']+item['id']+': '+sensT)
   			cfg['onewire']['devices'][i]['temp'] = sensT
+  			sendMsgBus('{"onewire":{"temp":' + sensT + '}')
   		
   		time.sleep(cfg['onewire']['cfg']['wait'])
     
   	
 except KeyboardInterrupt:  
   logger.info(' ')
-  logger.info('terminated manualy')
+  logger.info('one wire terminated manualy')
   logger.info(' ')
 
 

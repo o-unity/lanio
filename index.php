@@ -11,7 +11,7 @@
 	 	if(file_exists($structLoad)){
 	 		$cfgJsonStr = file_get_contents($configFile);
 	 		$cfg = json_decode($cfgJsonStr);
-	 		$cfg_md5 = md5($cfgJsonStr);
+	 		$cfg_md5 = md5(json_encode($cfg,JSON_UNESCAPED_SLASHES));
 	 	}
 	 	else{
 	 		echo "<b>config not found:</b> [$configFile]";
