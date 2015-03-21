@@ -1174,3 +1174,7 @@
 2015-03-21 17:00:33,438 - 69 - INFO  - ONEWIR  - send message [{"onewire":{"temp":19.8}]
 2015-03-21 17:00:33,441 - 76 - INFO  - MSGBUS  - data received: {"onewire":{"temp":19.8}
 2015-03-21 17:00:33,442 - 77 - INFO  - MSGBUS  - 
+2015-03-21 17:09:03,660 - 19 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-21 17:09:07,575 - 46 - INFO  - MSGBUS  - ======================================================
+2015-03-21 17:09:07,577 - 47 - INFO  - MSGBUS  - start message bus
+2015-03-21 17:09:07,579 - 48 - INFO  - MSGBUS  - ======================================================

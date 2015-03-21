@@ -6,7 +6,7 @@ $value = $_REQUEST["value"];
 
 $retVal = "none";
 
-if($name == "1wireDeamon"){
+if($name == "onewire"){
 	
 	$kill = "";
 	exec("ps -ef | grep onewire.py | grep -v grep | awk -F\" \" '{print $2}'",$out);

@@ -1,23 +1,18 @@
 <?
-$out = intval(exec("ps -ef | grep onewire.py | grep -v grep | wc -l"));
-$i = 0;
-$d[$i]['id'] = "1wireDeamon";
-if($out > 0){
-	$d[$i]['value'] = true;
-}
-else{
-	$d[$i]['value'] = false;
-}
 
-$out = intval(exec("ps -ef | grep msgbus.py | grep -v grep | wc -l"));
-$i++;
-$d[$i]['id'] = "msgbus";
-if($out > 0){
-	$d[$i]['value'] = true;
-}
-else{
-	$d[$i]['value'] = false;
-}
+ $i = 0;
+ foreach($cfg->bgp as $k => $v){
+	$out = intval(exec("ps -ef | grep ".$v->lib." | grep -v grep | wc -l"));
+	$d[$i]['id'] = $k;
+	if($out > 0){
+		$d[$i]['value'] = true;
+	}
+	else{
+		$d[$i]['value'] = false;
+	}
+	
+	$i++;
+ }
 
 
 header("Content-Type: application/json");

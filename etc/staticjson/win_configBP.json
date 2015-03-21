@@ -17,7 +17,7 @@
 	checked: false
 }, {
 	type: "btn2state",
-	name: "1wireDeamon",
+	name: "onewire",
 	value: "1",
 	label: "One Wire Deamon (5003)",
 	checked: false
