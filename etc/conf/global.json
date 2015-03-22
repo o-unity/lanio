@@ -1,46 +1,69 @@
 {
-  "winStruct":{
-    "win_configBP":{
-      "id":"win_configBP",
-      "left":252,
-      "top":76,
-      "width":277,
-      "height":269,
-      "buttonId":"configBP",
-      "active":"true"
-    }
-  },
-  "onewire":{
-    "devices":[
-      {
-        "id":"28-0314640daeff",
-        "name":"28-0314640daeff"
-      }
-    ],
-    "cfg":{
-      "path":"/sys/bus/w1/devices/",
-      "wait":11
-    }
-  },
-  "msgbus":{
-    "cfg":{
-      "port":50008
-    }
-  },
-  "global":{
-    "log":"logs/",
-    "root":"/var/www/lanio/bin/py"
-  },
-  "bgp":{
-    "msgbus":{
-      "lib":"msgbus.py",
-      "start":"python ./msgbus.py",
-      "name":"message bus"
-    },
-    "onewire":{
-      "lib":"onewire.py",
-      "start":"python ./onewire.py",
-      "name":"one wire deamon"
-    }
-  }
+	"winStruct": {
+		"win_configBP": {
+			"id": "win_configBP",
+			"left": 252,
+			"top": 76,
+			"width": 277,
+			"height": 269,
+			"buttonId": "configBP",
+			"active": "true"
+		}
+	},
+	"onewire": {
+		"devices": [{
+			"id": "28-0314640daeff",
+			"name": "28-0314640daeff"
+		}],
+		"cfg": {
+			"path": "/sys/bus/w1/devices/",
+			"wait": 11
+		}
+	},
+	"msgbus": {
+		"cfg": {
+			"port": 50008
+		}
+	},
+	"display": {
+		"cfg": {
+			"port": 50009
+		}
+	},
+	"global": {
+		"log": "logs/",
+		"root": "/var/www/lanio/bin/py"
+	},
+	"bgp": {
+		"msgbus": {
+			"lib": "msgbus.py",
+			"start": "python ./msgbus.py",
+			"name": "message bus"
+		},
+		"onewire": {
+			"lib": "onewire.py",
+			"start": "python ./onewire.py",
+			"name": "one wire deamon"
+		},
+		"display": {
+			"lib": "display.py",
+			"start": "python ./display.py",
+			"name": "display listener"
+		}
+	},
+	"events": {
+		"onewire": {
+			"28-0314640daeff": [{
+				"function": "postDisplay2Line",
+				"params": {
+					"text": "##value##"
+				}
+			}, {
+				"function": "displayOff",
+				"params": {
+					"time": 120
+				}
+			}]
+		}
+	}
 }

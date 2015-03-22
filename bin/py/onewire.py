@@ -32,7 +32,7 @@ def wl(file_level, console_level = None):
   fh = logging.FileHandler(direname+"/../../"+cfg['global']['log'] + str(time.strftime("%Y%m%d")) + "_lanio.log")
   fh.setLevel(file_level)
 
-  fh_format = logging.Formatter('%(asctime)s - %(lineno)d - %(levelname)-5s - ONEWIR  - %(message)s')
+  fh_format = logging.Formatter('%(asctime)s - %(levelname)-5s - ONEWIR  - %(message)s')
   fh.setFormatter(fh_format)
   logger.addHandler(fh)
 
@@ -66,7 +66,7 @@ def sendMsgBus(msg):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((HOST, PORT))
 	
-	logger.info('send message ['+msg+']')
+	logger.info('send message '+msg)
 	s.sendall(msg)
 	s.close()
 
@@ -81,7 +81,7 @@ logger.info('======================================================')
 for (i, item) in enumerate(cfg['onewire']['devices']):
   sensT = read_sensor(cfg['onewire']['cfg']['path']+item['id']+"/w1_slave")
   cfg['onewire']['devices'][i]['temp'] = sensT
-  sendMsgBus('{"onewire":{"temp":' + sensT + '}')
+  sendMsgBus('{"onewire": {"'+item['id']+'":{"value":' + sensT + '}}}')
   logger.info('init sensor: '+cfg['onewire']['cfg']['path']+item['id']+': '+sensT)
   		
 
@@ -96,7 +96,7 @@ try:
   			#print sensT
   			logger.info(cfg['onewire']['cfg']['path']+item['id']+': '+sensT)
   			cfg['onewire']['devices'][i]['temp'] = sensT
-  			sendMsgBus('{"onewire":{"temp":' + sensT + '}')
+  			sendMsgBus('{"onewire": {"'+item['id']+'":{"value":' + sensT + '}}}')
   		
   		time.sleep(cfg['onewire']['cfg']['wait'])
     

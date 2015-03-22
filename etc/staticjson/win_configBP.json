@@ -23,7 +23,7 @@
 	checked: false
 }, {
 	type: "btn2state",
-	name: "dispListener",
+	name: "display",
 	value: "1",
 	label: "Display Listener (5004)",
 	checked: false

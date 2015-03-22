@@ -32,11 +32,24 @@ def wl(file_level, console_level = None):
   fh = logging.FileHandler(direname+"/../../"+cfg['global']['log'] + str(time.strftime("%Y%m%d")) + "_lanio.log")
   fh.setLevel(file_level)
 
-  fh_format = logging.Formatter('%(asctime)s - %(lineno)d - %(levelname)-5s - MSGBUS  - %(message)s')
+  fh_format = logging.Formatter('%(asctime)s - %(levelname)-5s - MSGBUS  - %(message)s')
   fh.setFormatter(fh_format)
   logger.addHandler(fh)
 
   return logger
+
+
+def sendDisplay(msg):
+	#print temp
+	HOST = '127.0.0.1'
+	PORT = cfg['display']['cfg']['port'] 
+	logger.info('open socket to display deamon')
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((HOST, PORT))
+	
+	logger.info('send message '+msg)
+	s.sendall(msg)
+	s.close()
 
 
 # -------------------------------------------------------------------
@@ -77,6 +90,10 @@ try:
       logger.info('')
     
       if not data: break
+      
+      # PARSE NOW DATA STRING
+      js = json.loads(data) 
+      sendDisplay("Temp:"+str(js['onewire']['28-0314640daeff']['value']))
       
       conn.sendall("ok\n")
 	  
