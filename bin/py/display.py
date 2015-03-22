@@ -55,6 +55,7 @@ def firstLineDisplay():
   print content
   lcd.lcd_clear()
   lcd.lcd_display_string(content, 1)
+  lcd.lcd_device.write_cmd(0x00)
 
 firstLineDisplay()
 
@@ -111,6 +112,9 @@ try:
   
         lcd.lcd_display_string(data, 2) 
         logger.info('received data: '+ data)
+        logger.info('')
+        logger.info('')
+        
         e1 = scheduler.enter(120, 1, cleanupLCD,())
         t = threading.Thread(target=scheduler.run)
         t.start()

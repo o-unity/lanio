@@ -87,7 +87,7 @@ try:
       data = data.replace('\n', '')
       data = data.replace('\r', '')
       logger.info('data received: '+data)
-      logger.info('')
+      
     
       if not data: break
       
