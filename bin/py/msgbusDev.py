@@ -45,7 +45,7 @@ def wl(file_level, console_level = None):
 # -----------------------------------------------------------------------  
 
 def sendDisplay(params):
-	#print "in postDisplay2Line" + str(params)
+	print "in postDisplay2Line" + str(params)
 	opensocket(cfg['display']['cfg']['port'],"display deamon",json.dumps(params))
 	
 

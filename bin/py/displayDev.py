@@ -50,7 +50,7 @@ def wl(file_level, console_level = None):
 
 def text2L(value):
 	lcd.lcd_display_string(value, 2)
-	#displayOff(5)
+	displayOff(5)
 
 def displayOff(tValue):
 	try:
@@ -58,7 +58,7 @@ def displayOff(tValue):
 	except:
 		dummy = 1
 		
-	e1 = scheduler.enter(int(tValue), 1, displayLEDOff,())
+	e1 = scheduler.enter(tValue, 1, displayLEDOff,())
 	t = threading.Thread(target=scheduler.run)
 	t.start()
 

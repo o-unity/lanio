@@ -1,0 +1,1156 @@
+2015-03-23 01:00:03,077 - INFO  - MSGBUS  - ======================================================
+2015-03-23 01:00:03,079 - INFO  - MSGBUS  - start message bus
+2015-03-23 01:00:03,080 - INFO  - MSGBUS  - ======================================================
+2015-03-23 01:00:05,256 - INFO  - DISPLA  - ======================================================
+2015-03-23 01:00:05,259 - INFO  - DISPLA  - start display listener
+2015-03-23 01:00:05,260 - INFO  - DISPLA  - ======================================================
+2015-03-23 01:00:06,221 - INFO  - ONEWIR  - ======================================================
+2015-03-23 01:00:06,228 - INFO  - ONEWIR  - start one wire deamon
+2015-03-23 01:00:06,230 - INFO  - ONEWIR  - ======================================================
+2015-03-23 01:00:07,066 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 01:00:07,069 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57846))
+2015-03-23 01:00:07,071 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 01:00:07,075 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 01:00:07,077 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 01:00:07,081 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 18.1
+2015-03-23 01:00:07,084 - INFO  - MSGBUS  - send message Temp:18.1
+2015-03-23 01:00:07,138 - INFO  - DISPLA  - received data: Temp:18.1
+2015-03-23 01:00:07,140 - INFO  - DISPLA  - 
+2015-03-23 01:00:07,142 - INFO  - DISPLA  - 
+2015-03-23 01:08:11,441 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.0
+2015-03-23 01:08:11,443 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 01:08:11,446 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57848))
+2015-03-23 01:08:11,448 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 01:08:11,451 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 01:08:11,453 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 01:08:11,457 - INFO  - MSGBUS  - send message Temp:18.0
+2015-03-23 01:08:11,509 - INFO  - DISPLA  - received data: Temp:18.0
+2015-03-23 01:08:11,511 - INFO  - DISPLA  - 
+2015-03-23 01:08:11,512 - INFO  - DISPLA  - 
+2015-03-23 01:14:14,161 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.9
+2015-03-23 01:14:14,163 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 01:14:14,166 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57850))
+2015-03-23 01:14:14,168 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-23 01:14:14,171 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-23 01:14:14,173 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 01:14:14,177 - INFO  - MSGBUS  - send message Temp:17.9
+2015-03-23 01:14:14,229 - INFO  - DISPLA  - received data: Temp:17.9
+2015-03-23 01:14:14,231 - INFO  - DISPLA  - 
+2015-03-23 01:14:14,232 - INFO  - DISPLA  - 
+2015-03-23 01:32:22,191 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.8
+2015-03-23 01:32:22,193 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 01:32:22,197 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57852))
+2015-03-23 01:32:22,198 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.8}}}
+2015-03-23 01:32:22,201 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.8}}}
+2015-03-23 01:32:22,203 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 01:32:22,207 - INFO  - MSGBUS  - send message Temp:17.8
+2015-03-23 01:32:22,259 - INFO  - DISPLA  - received data: Temp:17.8
+2015-03-23 01:32:22,261 - INFO  - DISPLA  - 
+2015-03-23 01:32:22,263 - INFO  - DISPLA  - 
+2015-03-23 01:50:30,191 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.7
+2015-03-23 01:50:30,193 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 01:50:30,197 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57854))
+2015-03-23 01:50:30,199 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.7}}}
+2015-03-23 01:50:30,201 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.7}}}
+2015-03-23 01:50:30,203 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 01:50:30,207 - INFO  - MSGBUS  - send message Temp:17.7
+2015-03-23 01:50:30,259 - INFO  - DISPLA  - received data: Temp:17.7
+2015-03-23 01:50:30,261 - INFO  - DISPLA  - 
+2015-03-23 01:50:30,262 - INFO  - DISPLA  - 
+2015-03-23 02:00:34,702 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.6
+2015-03-23 02:00:34,704 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 02:00:34,707 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57856))
+2015-03-23 02:00:34,709 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.6}}}
+2015-03-23 02:00:34,711 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.6}}}
+2015-03-23 02:00:34,713 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 02:00:34,717 - INFO  - MSGBUS  - send message Temp:17.6
+2015-03-23 02:00:34,769 - INFO  - DISPLA  - received data: Temp:17.6
+2015-03-23 02:00:34,771 - INFO  - DISPLA  - 
+2015-03-23 02:00:34,773 - INFO  - DISPLA  - 
+2015-03-23 02:24:45,273 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.5
+2015-03-23 02:24:45,275 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 02:24:45,278 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57858))
+2015-03-23 02:24:45,280 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.5}}}
+2015-03-23 02:24:45,282 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.5}}}
+2015-03-23 02:24:45,284 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 02:24:45,288 - INFO  - MSGBUS  - send message Temp:17.5
+2015-03-23 02:24:45,340 - INFO  - DISPLA  - received data: Temp:17.5
+2015-03-23 02:24:45,342 - INFO  - DISPLA  - 
+2015-03-23 02:24:45,343 - INFO  - DISPLA  - 
+2015-03-23 02:36:50,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.4
+2015-03-23 02:36:50,773 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 02:36:50,776 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57860))
+2015-03-23 02:36:50,778 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.4}}}
+2015-03-23 02:36:50,781 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.4}}}
+2015-03-23 02:36:50,783 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 02:36:50,787 - INFO  - MSGBUS  - send message Temp:17.4
+2015-03-23 02:36:50,839 - INFO  - DISPLA  - received data: Temp:17.4
+2015-03-23 02:36:50,841 - INFO  - DISPLA  - 
+2015-03-23 02:36:50,843 - INFO  - DISPLA  - 
+2015-03-23 02:59:00,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.3
+2015-03-23 02:59:00,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 02:59:00,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57862))
+2015-03-23 02:59:00,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.3}}}
+2015-03-23 02:59:00,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.3}}}
+2015-03-23 02:59:00,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 02:59:00,537 - INFO  - MSGBUS  - send message Temp:17.3
+2015-03-23 02:59:00,589 - INFO  - DISPLA  - received data: Temp:17.3
+2015-03-23 02:59:00,591 - INFO  - DISPLA  - 
+2015-03-23 02:59:00,593 - INFO  - DISPLA  - 
+2015-03-23 03:21:10,301 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.2
+2015-03-23 03:21:10,303 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 03:21:10,307 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57864))
+2015-03-23 03:21:10,309 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.2}}}
+2015-03-23 03:21:10,311 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.2}}}
+2015-03-23 03:21:10,313 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 03:21:10,317 - INFO  - MSGBUS  - send message Temp:17.2
+2015-03-23 03:21:10,369 - INFO  - DISPLA  - received data: Temp:17.2
+2015-03-23 03:21:10,371 - INFO  - DISPLA  - 
+2015-03-23 03:21:10,373 - INFO  - DISPLA  - 
+2015-03-23 03:23:11,241 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.3
+2015-03-23 03:23:11,243 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 03:23:11,246 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57866))
+2015-03-23 03:23:11,248 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.3}}}
+2015-03-23 03:23:11,251 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.3}}}
+2015-03-23 03:23:11,253 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 03:23:11,257 - INFO  - MSGBUS  - send message Temp:17.3
+2015-03-23 03:23:11,309 - INFO  - DISPLA  - received data: Temp:17.3
+2015-03-23 03:23:11,311 - INFO  - DISPLA  - 
+2015-03-23 03:23:11,313 - INFO  - DISPLA  - 
+2015-03-23 03:25:12,181 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.2
+2015-03-23 03:25:12,183 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 03:25:12,187 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57868))
+2015-03-23 03:25:12,189 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.2}}}
+2015-03-23 03:25:12,191 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.2}}}
+2015-03-23 03:25:12,193 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 03:25:12,197 - INFO  - MSGBUS  - send message Temp:17.2
+2015-03-23 03:25:12,249 - INFO  - DISPLA  - received data: Temp:17.2
+2015-03-23 03:25:12,251 - INFO  - DISPLA  - 
+2015-03-23 03:25:12,253 - INFO  - DISPLA  - 
+2015-03-23 03:35:16,561 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.1
+2015-03-23 03:35:16,563 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 03:35:16,566 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57870))
+2015-03-23 03:35:16,569 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.1}}}
+2015-03-23 03:35:16,571 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.1}}}
+2015-03-23 03:35:16,573 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 03:35:16,577 - INFO  - MSGBUS  - send message Temp:17.1
+2015-03-23 03:35:16,629 - INFO  - DISPLA  - received data: Temp:17.1
+2015-03-23 03:35:16,631 - INFO  - DISPLA  - 
+2015-03-23 03:35:16,632 - INFO  - DISPLA  - 
+2015-03-23 03:59:27,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.0
+2015-03-23 03:59:27,273 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 03:59:27,277 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57872))
+2015-03-23 03:59:27,278 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.0}}}
+2015-03-23 03:59:27,281 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.0}}}
+2015-03-23 03:59:27,283 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 03:59:27,287 - INFO  - MSGBUS  - send message Temp:17.0
+2015-03-23 03:59:27,340 - INFO  - DISPLA  - received data: Temp:17.0
+2015-03-23 03:59:27,342 - INFO  - DISPLA  - 
+2015-03-23 03:59:27,344 - INFO  - DISPLA  - 
+2015-03-23 04:15:34,471 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.9
+2015-03-23 04:15:34,474 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 04:15:34,477 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57874))
+2015-03-23 04:15:34,479 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.9}}}
+2015-03-23 04:15:34,481 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.9}}}
+2015-03-23 04:15:34,483 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 04:15:34,487 - INFO  - MSGBUS  - send message Temp:16.9
+2015-03-23 04:15:34,539 - INFO  - DISPLA  - received data: Temp:16.9
+2015-03-23 04:15:34,541 - INFO  - DISPLA  - 
+2015-03-23 04:15:34,542 - INFO  - DISPLA  - 
+2015-03-23 04:39:45,161 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.8
+2015-03-23 04:39:45,163 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 04:39:45,166 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57876))
+2015-03-23 04:39:45,169 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.8}}}
+2015-03-23 04:39:45,171 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.8}}}
+2015-03-23 04:39:45,173 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 04:39:45,179 - INFO  - MSGBUS  - send message Temp:16.8
+2015-03-23 04:39:45,232 - INFO  - DISPLA  - received data: Temp:16.8
+2015-03-23 04:39:45,235 - INFO  - DISPLA  - 
+2015-03-23 04:39:45,236 - INFO  - DISPLA  - 
+2015-03-23 04:41:46,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.9
+2015-03-23 04:41:46,023 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 04:41:46,026 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57878))
+2015-03-23 04:41:46,028 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.9}}}
+2015-03-23 04:41:46,031 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.9}}}
+2015-03-23 04:41:46,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 04:41:46,037 - INFO  - MSGBUS  - send message Temp:16.9
+2015-03-23 04:41:46,088 - INFO  - DISPLA  - received data: Temp:16.9
+2015-03-23 04:41:46,090 - INFO  - DISPLA  - 
+2015-03-23 04:41:46,092 - INFO  - DISPLA  - 
+2015-03-23 04:43:46,961 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.8
+2015-03-23 04:43:46,963 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 04:43:46,967 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57880))
+2015-03-23 04:43:46,969 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.8}}}
+2015-03-23 04:43:46,971 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.8}}}
+2015-03-23 04:43:46,973 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 04:43:46,977 - INFO  - MSGBUS  - send message Temp:16.8
+2015-03-23 04:43:47,029 - INFO  - DISPLA  - received data: Temp:16.8
+2015-03-23 04:43:47,031 - INFO  - DISPLA  - 
+2015-03-23 04:43:47,033 - INFO  - DISPLA  - 
+2015-03-23 05:11:59,441 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.7
+2015-03-23 05:11:59,443 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 05:11:59,446 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57882))
+2015-03-23 05:11:59,448 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.7}}}
+2015-03-23 05:11:59,451 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.7}}}
+2015-03-23 05:11:59,453 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 05:11:59,457 - INFO  - MSGBUS  - send message Temp:16.7
+2015-03-23 05:11:59,509 - INFO  - DISPLA  - received data: Temp:16.7
+2015-03-23 05:11:59,511 - INFO  - DISPLA  - 
+2015-03-23 05:11:59,512 - INFO  - DISPLA  - 
+2015-03-23 05:30:07,561 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.6
+2015-03-23 05:30:07,563 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 05:30:07,567 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57884))
+2015-03-23 05:30:07,569 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.6}}}
+2015-03-23 05:30:07,571 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.6}}}
+2015-03-23 05:30:07,573 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 05:30:07,577 - INFO  - MSGBUS  - send message Temp:16.6
+2015-03-23 05:30:07,629 - INFO  - DISPLA  - received data: Temp:16.6
+2015-03-23 05:30:07,631 - INFO  - DISPLA  - 
+2015-03-23 05:30:07,632 - INFO  - DISPLA  - 
+2015-03-23 05:40:12,181 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.7
+2015-03-23 05:40:12,183 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 05:40:12,186 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57886))
+2015-03-23 05:40:12,189 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.7}}}
+2015-03-23 05:40:12,191 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.7}}}
+2015-03-23 05:40:12,193 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 05:40:12,197 - INFO  - MSGBUS  - send message Temp:16.7
+2015-03-23 05:40:12,249 - INFO  - DISPLA  - received data: Temp:16.7
+2015-03-23 05:40:12,251 - INFO  - DISPLA  - 
+2015-03-23 05:40:12,253 - INFO  - DISPLA  - 
+2015-03-23 05:44:13,941 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.8
+2015-03-23 05:44:13,943 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 05:44:13,946 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57888))
+2015-03-23 05:44:13,948 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.8}}}
+2015-03-23 05:44:13,951 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.8}}}
+2015-03-23 05:44:13,953 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 05:44:13,957 - INFO  - MSGBUS  - send message Temp:16.8
+2015-03-23 05:44:14,009 - INFO  - DISPLA  - received data: Temp:16.8
+2015-03-23 05:44:14,011 - INFO  - DISPLA  - 
+2015-03-23 05:44:14,013 - INFO  - DISPLA  - 
+2015-03-23 05:48:15,641 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 16.9
+2015-03-23 05:48:15,643 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 05:48:15,646 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57890))
+2015-03-23 05:48:15,648 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":16.9}}}
+2015-03-23 05:48:15,651 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":16.9}}}
+2015-03-23 05:48:15,653 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 05:48:15,657 - INFO  - MSGBUS  - send message Temp:16.9
+2015-03-23 05:48:15,709 - INFO  - DISPLA  - received data: Temp:16.9
+2015-03-23 05:48:15,711 - INFO  - DISPLA  - 
+2015-03-23 05:48:15,713 - INFO  - DISPLA  - 
+2015-03-23 05:54:18,401 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.0
+2015-03-23 05:54:18,403 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 05:54:18,406 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57892))
+2015-03-23 05:54:18,408 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.0}}}
+2015-03-23 05:54:18,411 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.0}}}
+2015-03-23 05:54:18,413 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 05:54:18,417 - INFO  - MSGBUS  - send message Temp:17.0
+2015-03-23 05:54:18,469 - INFO  - DISPLA  - received data: Temp:17.0
+2015-03-23 05:54:18,471 - INFO  - DISPLA  - 
+2015-03-23 05:54:18,472 - INFO  - DISPLA  - 
+2015-03-23 05:56:19,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.1
+2015-03-23 05:56:19,273 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 05:56:19,276 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57894))
+2015-03-23 05:56:19,278 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.1}}}
+2015-03-23 05:56:19,281 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.1}}}
+2015-03-23 05:56:19,283 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 05:56:19,287 - INFO  - MSGBUS  - send message Temp:17.1
+2015-03-23 05:56:19,339 - INFO  - DISPLA  - received data: Temp:17.1
+2015-03-23 05:56:19,341 - INFO  - DISPLA  - 
+2015-03-23 05:56:19,343 - INFO  - DISPLA  - 
+2015-03-23 06:00:21,131 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.2
+2015-03-23 06:00:21,133 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:00:21,136 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57896))
+2015-03-23 06:00:21,138 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.2}}}
+2015-03-23 06:00:21,141 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.2}}}
+2015-03-23 06:00:21,143 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:00:21,147 - INFO  - MSGBUS  - send message Temp:17.2
+2015-03-23 06:00:21,198 - INFO  - DISPLA  - received data: Temp:17.2
+2015-03-23 06:00:21,200 - INFO  - DISPLA  - 
+2015-03-23 06:00:21,202 - INFO  - DISPLA  - 
+2015-03-23 06:02:22,031 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.3
+2015-03-23 06:02:22,033 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:02:22,037 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57898))
+2015-03-23 06:02:22,039 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.3}}}
+2015-03-23 06:02:22,041 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.3}}}
+2015-03-23 06:02:22,043 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:02:22,047 - INFO  - MSGBUS  - send message Temp:17.3
+2015-03-23 06:02:22,099 - INFO  - DISPLA  - received data: Temp:17.3
+2015-03-23 06:02:22,101 - INFO  - DISPLA  - 
+2015-03-23 06:02:22,103 - INFO  - DISPLA  - 
+2015-03-23 06:08:24,731 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.4
+2015-03-23 06:08:24,733 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:08:24,736 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57900))
+2015-03-23 06:08:24,738 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.4}}}
+2015-03-23 06:08:24,741 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.4}}}
+2015-03-23 06:08:24,743 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:08:24,747 - INFO  - MSGBUS  - send message Temp:17.4
+2015-03-23 06:08:24,799 - INFO  - DISPLA  - received data: Temp:17.4
+2015-03-23 06:08:24,801 - INFO  - DISPLA  - 
+2015-03-23 06:08:24,802 - INFO  - DISPLA  - 
+2015-03-23 06:12:26,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.5
+2015-03-23 06:12:26,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:12:26,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57902))
+2015-03-23 06:12:26,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.5}}}
+2015-03-23 06:12:26,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.5}}}
+2015-03-23 06:12:26,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:12:26,537 - INFO  - MSGBUS  - send message Temp:17.5
+2015-03-23 06:12:26,589 - INFO  - DISPLA  - received data: Temp:17.5
+2015-03-23 06:12:26,591 - INFO  - DISPLA  - 
+2015-03-23 06:12:26,592 - INFO  - DISPLA  - 
+2015-03-23 06:16:28,301 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.6
+2015-03-23 06:16:28,303 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:16:28,307 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57904))
+2015-03-23 06:16:28,309 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.6}}}
+2015-03-23 06:16:28,311 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.6}}}
+2015-03-23 06:16:28,313 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:16:28,317 - INFO  - MSGBUS  - send message Temp:17.6
+2015-03-23 06:16:28,369 - INFO  - DISPLA  - received data: Temp:17.6
+2015-03-23 06:16:28,371 - INFO  - DISPLA  - 
+2015-03-23 06:16:28,373 - INFO  - DISPLA  - 
+2015-03-23 06:22:31,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.7
+2015-03-23 06:22:31,023 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:22:31,026 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57906))
+2015-03-23 06:22:31,028 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.7}}}
+2015-03-23 06:22:31,031 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.7}}}
+2015-03-23 06:22:31,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:22:31,037 - INFO  - MSGBUS  - send message Temp:17.7
+2015-03-23 06:22:31,089 - INFO  - DISPLA  - received data: Temp:17.7
+2015-03-23 06:22:31,091 - INFO  - DISPLA  - 
+2015-03-23 06:22:31,093 - INFO  - DISPLA  - 
+2015-03-23 06:24:31,961 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.8
+2015-03-23 06:24:31,963 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:24:31,967 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57908))
+2015-03-23 06:24:31,968 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.8}}}
+2015-03-23 06:24:31,971 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.8}}}
+2015-03-23 06:24:31,973 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:24:31,977 - INFO  - MSGBUS  - send message Temp:17.8
+2015-03-23 06:24:32,031 - INFO  - DISPLA  - received data: Temp:17.8
+2015-03-23 06:24:32,033 - INFO  - DISPLA  - 
+2015-03-23 06:24:32,035 - INFO  - DISPLA  - 
+2015-03-23 06:32:35,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.9
+2015-03-23 06:32:35,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:32:35,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57910))
+2015-03-23 06:32:35,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-23 06:32:35,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-23 06:32:35,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:32:35,537 - INFO  - MSGBUS  - send message Temp:17.9
+2015-03-23 06:32:35,589 - INFO  - DISPLA  - received data: Temp:17.9
+2015-03-23 06:32:35,591 - INFO  - DISPLA  - 
+2015-03-23 06:32:35,593 - INFO  - DISPLA  - 
+2015-03-23 06:38:38,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.0
+2015-03-23 06:38:38,273 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:38:38,277 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57912))
+2015-03-23 06:38:38,278 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 06:38:38,281 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 06:38:38,283 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:38:38,287 - INFO  - MSGBUS  - send message Temp:18.0
+2015-03-23 06:38:38,339 - INFO  - DISPLA  - received data: Temp:18.0
+2015-03-23 06:38:38,341 - INFO  - DISPLA  - 
+2015-03-23 06:38:38,343 - INFO  - DISPLA  - 
+2015-03-23 06:42:40,051 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.1
+2015-03-23 06:42:40,053 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:42:40,058 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57914))
+2015-03-23 06:42:40,060 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 06:42:40,063 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 06:42:40,065 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:42:40,069 - INFO  - MSGBUS  - send message Temp:18.1
+2015-03-23 06:42:40,121 - INFO  - DISPLA  - received data: Temp:18.1
+2015-03-23 06:42:40,123 - INFO  - DISPLA  - 
+2015-03-23 06:42:40,124 - INFO  - DISPLA  - 
+2015-03-23 06:46:41,911 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.2
+2015-03-23 06:46:41,913 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:46:41,916 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57916))
+2015-03-23 06:46:41,918 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-23 06:46:41,921 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-23 06:46:41,923 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:46:41,927 - INFO  - MSGBUS  - send message Temp:18.2
+2015-03-23 06:46:41,979 - INFO  - DISPLA  - received data: Temp:18.2
+2015-03-23 06:46:41,981 - INFO  - DISPLA  - 
+2015-03-23 06:46:41,982 - INFO  - DISPLA  - 
+2015-03-23 06:48:42,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.3
+2015-03-23 06:48:42,774 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:48:42,777 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57918))
+2015-03-23 06:48:42,779 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 06:48:42,781 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 06:48:42,783 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:48:42,788 - INFO  - MSGBUS  - send message Temp:18.3
+2015-03-23 06:48:42,840 - INFO  - DISPLA  - received data: Temp:18.3
+2015-03-23 06:48:42,842 - INFO  - DISPLA  - 
+2015-03-23 06:48:42,843 - INFO  - DISPLA  - 
+2015-03-23 06:56:46,411 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-03-23 06:56:46,413 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 06:56:46,417 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57920))
+2015-03-23 06:56:46,419 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 06:56:46,421 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 06:56:46,423 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 06:56:46,427 - INFO  - MSGBUS  - send message Temp:18.4
+2015-03-23 06:56:46,480 - INFO  - DISPLA  - received data: Temp:18.4
+2015-03-23 06:56:46,483 - INFO  - DISPLA  - 
+2015-03-23 06:56:46,484 - INFO  - DISPLA  - 
+2015-03-23 07:04:49,941 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-23 07:04:49,943 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 07:04:49,946 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57922))
+2015-03-23 07:04:49,948 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 07:04:49,951 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 07:04:49,953 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 07:04:49,957 - INFO  - MSGBUS  - send message Temp:18.5
+2015-03-23 07:04:50,009 - INFO  - DISPLA  - received data: Temp:18.5
+2015-03-23 07:04:50,011 - INFO  - DISPLA  - 
+2015-03-23 07:04:50,013 - INFO  - DISPLA  - 
+2015-03-23 07:06:50,821 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-23 07:06:50,823 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 07:06:50,826 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57924))
+2015-03-23 07:06:50,828 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 07:06:50,831 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 07:06:50,833 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 07:06:50,837 - INFO  - MSGBUS  - send message Temp:18.6
+2015-03-23 07:06:50,889 - INFO  - DISPLA  - received data: Temp:18.6
+2015-03-23 07:06:50,891 - INFO  - DISPLA  - 
+2015-03-23 07:06:50,893 - INFO  - DISPLA  - 
+2015-03-23 07:16:55,331 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-23 07:16:55,333 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 07:16:55,336 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57926))
+2015-03-23 07:16:55,338 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 07:16:55,341 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 07:16:55,343 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 07:16:55,347 - INFO  - MSGBUS  - send message Temp:18.5
+2015-03-23 07:16:55,398 - INFO  - DISPLA  - received data: Temp:18.5
+2015-03-23 07:16:55,400 - INFO  - DISPLA  - 
+2015-03-23 07:16:55,402 - INFO  - DISPLA  - 
+2015-03-23 07:18:56,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-23 07:18:56,273 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 07:18:56,276 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57928))
+2015-03-23 07:18:56,279 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 07:18:56,281 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 07:18:56,283 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 07:18:56,287 - INFO  - MSGBUS  - send message Temp:18.6
+2015-03-23 07:18:56,339 - INFO  - DISPLA  - received data: Temp:18.6
+2015-03-23 07:18:56,341 - INFO  - DISPLA  - 
+2015-03-23 07:18:56,343 - INFO  - DISPLA  - 
+2015-03-23 07:26:59,971 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-03-23 07:26:59,973 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 07:26:59,976 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57930))
+2015-03-23 07:26:59,979 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 07:26:59,981 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 07:26:59,983 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 07:26:59,987 - INFO  - MSGBUS  - send message Temp:18.7
+2015-03-23 07:27:00,039 - INFO  - DISPLA  - received data: Temp:18.7
+2015-03-23 07:27:00,041 - INFO  - DISPLA  - 
+2015-03-23 07:27:00,042 - INFO  - DISPLA  - 
+2015-03-23 07:35:03,541 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-03-23 07:35:03,543 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 07:35:03,547 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57932))
+2015-03-23 07:35:03,549 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 07:35:03,551 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 07:35:03,553 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 07:35:03,557 - INFO  - MSGBUS  - send message Temp:18.8
+2015-03-23 07:35:03,609 - INFO  - DISPLA  - received data: Temp:18.8
+2015-03-23 07:35:03,611 - INFO  - DISPLA  - 
+2015-03-23 07:35:03,612 - INFO  - DISPLA  - 
+2015-03-23 07:51:10,611 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-03-23 07:51:10,613 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 07:51:10,616 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57934))
+2015-03-23 07:51:10,618 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 07:51:10,621 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 07:51:10,623 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 07:51:10,627 - INFO  - MSGBUS  - send message Temp:18.9
+2015-03-23 07:51:10,680 - INFO  - DISPLA  - received data: Temp:18.9
+2015-03-23 07:51:10,682 - INFO  - DISPLA  - 
+2015-03-23 07:51:10,684 - INFO  - DISPLA  - 
+2015-03-23 08:29:27,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-03-23 08:29:27,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 08:29:27,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57936))
+2015-03-23 08:29:27,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 08:29:27,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 08:29:27,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 08:29:27,537 - INFO  - MSGBUS  - send message Temp:18.8
+2015-03-23 08:29:27,589 - INFO  - DISPLA  - received data: Temp:18.8
+2015-03-23 08:29:27,591 - INFO  - DISPLA  - 
+2015-03-23 08:29:27,593 - INFO  - DISPLA  - 
+2015-03-23 08:47:35,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-03-23 08:47:35,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 08:47:35,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57938))
+2015-03-23 08:47:35,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 08:47:35,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 08:47:35,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 08:47:35,537 - INFO  - MSGBUS  - send message Temp:18.7
+2015-03-23 08:47:35,589 - INFO  - DISPLA  - received data: Temp:18.7
+2015-03-23 08:47:35,591 - INFO  - DISPLA  - 
+2015-03-23 08:47:35,593 - INFO  - DISPLA  - 
+2015-03-23 08:57:39,941 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-23 08:57:39,943 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 08:57:39,946 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57940))
+2015-03-23 08:57:39,950 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 08:57:39,953 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 08:57:39,955 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 08:57:39,959 - INFO  - MSGBUS  - send message Temp:18.6
+2015-03-23 08:57:40,011 - INFO  - DISPLA  - received data: Temp:18.6
+2015-03-23 08:57:40,013 - INFO  - DISPLA  - 
+2015-03-23 08:57:40,014 - INFO  - DISPLA  - 
+2015-03-23 09:11:46,161 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-23 09:11:46,163 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 09:11:46,167 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57942))
+2015-03-23 09:11:46,169 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 09:11:46,171 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 09:11:46,173 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 09:11:46,177 - INFO  - MSGBUS  - send message Temp:18.5
+2015-03-23 09:11:46,229 - INFO  - DISPLA  - received data: Temp:18.5
+2015-03-23 09:11:46,231 - INFO  - DISPLA  - 
+2015-03-23 09:11:46,233 - INFO  - DISPLA  - 
+2015-03-23 09:19:49,691 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-03-23 09:19:49,693 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 09:19:49,696 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57944))
+2015-03-23 09:19:49,699 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 09:19:49,701 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 09:19:49,704 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 09:19:49,709 - INFO  - MSGBUS  - send message Temp:18.4
+2015-03-23 09:19:49,761 - INFO  - DISPLA  - received data: Temp:18.4
+2015-03-23 09:19:49,763 - INFO  - DISPLA  - 
+2015-03-23 09:19:49,765 - INFO  - DISPLA  - 
+2015-03-23 09:46:01,191 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.3
+2015-03-23 09:46:01,193 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 09:46:01,197 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57946))
+2015-03-23 09:46:01,199 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 09:46:01,201 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 09:46:01,203 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 09:46:01,207 - INFO  - MSGBUS  - send message Temp:18.3
+2015-03-23 09:46:01,259 - INFO  - DISPLA  - received data: Temp:18.3
+2015-03-23 09:46:01,261 - INFO  - DISPLA  - 
+2015-03-23 09:46:01,262 - INFO  - DISPLA  - 
+2015-03-23 10:26:18,801 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.2
+2015-03-23 10:26:18,803 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 10:26:18,807 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57948))
+2015-03-23 10:26:18,809 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-23 10:26:18,811 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-23 10:26:18,813 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 10:26:18,817 - INFO  - MSGBUS  - send message Temp:18.2
+2015-03-23 10:26:18,869 - INFO  - DISPLA  - received data: Temp:18.2
+2015-03-23 10:26:18,871 - INFO  - DISPLA  - 
+2015-03-23 10:26:18,873 - INFO  - DISPLA  - 
+2015-03-23 10:54:31,022 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.1
+2015-03-23 10:54:31,024 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 10:54:31,027 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57950))
+2015-03-23 10:54:31,029 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 10:54:31,031 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 10:54:31,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 10:54:31,037 - INFO  - MSGBUS  - send message Temp:18.1
+2015-03-23 10:54:31,089 - INFO  - DISPLA  - received data: Temp:18.1
+2015-03-23 10:54:31,091 - INFO  - DISPLA  - 
+2015-03-23 10:54:31,093 - INFO  - DISPLA  - 
+2015-03-23 11:50:56,621 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.0
+2015-03-23 11:50:56,623 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 11:50:56,626 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57952))
+2015-03-23 11:50:56,628 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 11:50:56,631 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 11:50:56,633 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 11:50:56,637 - INFO  - MSGBUS  - send message Temp:18.0
+2015-03-23 11:50:56,689 - INFO  - DISPLA  - received data: Temp:18.0
+2015-03-23 11:50:56,691 - INFO  - DISPLA  - 
+2015-03-23 11:50:56,693 - INFO  - DISPLA  - 
+2015-03-23 11:52:57,522 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.1
+2015-03-23 11:52:57,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 11:52:57,527 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57954))
+2015-03-23 11:52:57,529 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 11:52:57,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 11:52:57,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 11:52:57,537 - INFO  - MSGBUS  - send message Temp:18.1
+2015-03-23 11:52:57,589 - INFO  - DISPLA  - received data: Temp:18.1
+2015-03-23 11:52:57,591 - INFO  - DISPLA  - 
+2015-03-23 11:52:57,592 - INFO  - DISPLA  - 
+2015-03-23 11:59:00,161 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.0
+2015-03-23 11:59:00,163 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 11:59:00,166 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57956))
+2015-03-23 11:59:00,168 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 11:59:00,171 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-23 11:59:00,173 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 11:59:00,177 - INFO  - MSGBUS  - send message Temp:18.0
+2015-03-23 11:59:00,229 - INFO  - DISPLA  - received data: Temp:18.0
+2015-03-23 11:59:00,231 - INFO  - DISPLA  - 
+2015-03-23 11:59:00,233 - INFO  - DISPLA  - 
+2015-03-23 12:45:20,691 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.1
+2015-03-23 12:45:20,693 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 12:45:20,697 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57958))
+2015-03-23 12:45:20,699 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 12:45:20,701 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-23 12:45:20,703 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 12:45:20,708 - INFO  - MSGBUS  - send message Temp:18.1
+2015-03-23 12:45:20,760 - INFO  - DISPLA  - received data: Temp:18.1
+2015-03-23 12:45:20,762 - INFO  - DISPLA  - 
+2015-03-23 12:45:20,763 - INFO  - DISPLA  - 
+2015-03-23 12:51:23,421 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.2
+2015-03-23 12:51:23,423 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 12:51:23,426 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57960))
+2015-03-23 12:51:23,428 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-23 12:51:23,431 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-23 12:51:23,433 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 12:51:23,437 - INFO  - MSGBUS  - send message Temp:18.2
+2015-03-23 12:51:23,489 - INFO  - DISPLA  - received data: Temp:18.2
+2015-03-23 12:51:23,491 - INFO  - DISPLA  - 
+2015-03-23 12:51:23,493 - INFO  - DISPLA  - 
+2015-03-23 12:55:25,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.3
+2015-03-23 12:55:25,273 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 12:55:25,276 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57962))
+2015-03-23 12:55:25,278 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 12:55:25,281 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 12:55:25,283 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 12:55:25,287 - INFO  - MSGBUS  - send message Temp:18.3
+2015-03-23 12:55:25,341 - INFO  - DISPLA  - received data: Temp:18.3
+2015-03-23 12:55:25,343 - INFO  - DISPLA  - 
+2015-03-23 12:55:25,345 - INFO  - DISPLA  - 
+2015-03-23 13:01:28,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-03-23 13:01:28,023 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 13:01:28,026 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57964))
+2015-03-23 13:01:28,028 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 13:01:28,031 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 13:01:28,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 13:01:28,037 - INFO  - MSGBUS  - send message Temp:18.4
+2015-03-23 13:01:28,089 - INFO  - DISPLA  - received data: Temp:18.4
+2015-03-23 13:01:28,091 - INFO  - DISPLA  - 
+2015-03-23 13:01:28,093 - INFO  - DISPLA  - 
+2015-03-23 13:07:30,731 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-23 13:07:30,733 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 13:07:30,736 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57966))
+2015-03-23 13:07:30,738 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 13:07:30,741 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 13:07:30,743 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 13:07:30,747 - INFO  - MSGBUS  - send message Temp:18.5
+2015-03-23 13:07:30,799 - INFO  - DISPLA  - received data: Temp:18.5
+2015-03-23 13:07:30,801 - INFO  - DISPLA  - 
+2015-03-23 13:07:30,803 - INFO  - DISPLA  - 
+2015-03-23 13:13:33,351 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-23 13:13:33,353 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 13:13:33,356 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57968))
+2015-03-23 13:13:33,359 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 13:13:33,361 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 13:13:33,363 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 13:13:33,367 - INFO  - MSGBUS  - send message Temp:18.6
+2015-03-23 13:13:33,421 - INFO  - DISPLA  - received data: Temp:18.6
+2015-03-23 13:13:33,423 - INFO  - DISPLA  - 
+2015-03-23 13:13:33,425 - INFO  - DISPLA  - 
+2015-03-23 13:21:36,941 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-03-23 13:21:36,943 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 13:21:36,947 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57970))
+2015-03-23 13:21:36,949 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 13:21:36,951 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 13:21:36,953 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 13:21:36,957 - INFO  - MSGBUS  - send message Temp:18.7
+2015-03-23 13:21:37,009 - INFO  - DISPLA  - received data: Temp:18.7
+2015-03-23 13:21:37,011 - INFO  - DISPLA  - 
+2015-03-23 13:21:37,012 - INFO  - DISPLA  - 
+2015-03-23 13:27:39,581 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-03-23 13:27:39,583 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 13:27:39,587 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57972))
+2015-03-23 13:27:39,589 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 13:27:39,591 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 13:27:39,593 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 13:27:39,597 - INFO  - MSGBUS  - send message Temp:18.8
+2015-03-23 13:27:39,649 - INFO  - DISPLA  - received data: Temp:18.8
+2015-03-23 13:27:39,651 - INFO  - DISPLA  - 
+2015-03-23 13:27:39,653 - INFO  - DISPLA  - 
+2015-03-23 14:03:55,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-03-23 14:03:55,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 14:03:55,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57974))
+2015-03-23 14:03:55,529 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 14:03:55,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 14:03:55,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 14:03:55,537 - INFO  - MSGBUS  - send message Temp:18.7
+2015-03-23 14:03:55,589 - INFO  - DISPLA  - received data: Temp:18.7
+2015-03-23 14:03:55,591 - INFO  - DISPLA  - 
+2015-03-23 14:03:55,593 - INFO  - DISPLA  - 
+2015-03-23 14:18:01,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-23 14:18:01,774 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 14:18:01,777 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57976))
+2015-03-23 14:18:01,779 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 14:18:01,781 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 14:18:01,783 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 14:18:01,787 - INFO  - MSGBUS  - send message Temp:18.6
+2015-03-23 14:18:01,839 - INFO  - DISPLA  - received data: Temp:18.6
+2015-03-23 14:18:01,841 - INFO  - DISPLA  - 
+2015-03-23 14:18:01,843 - INFO  - DISPLA  - 
+2015-03-23 14:40:11,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-23 14:40:11,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 14:40:11,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57978))
+2015-03-23 14:40:11,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 14:40:11,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 14:40:11,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 14:40:11,537 - INFO  - MSGBUS  - send message Temp:18.5
+2015-03-23 14:40:11,589 - INFO  - DISPLA  - received data: Temp:18.5
+2015-03-23 14:40:11,591 - INFO  - DISPLA  - 
+2015-03-23 14:40:11,593 - INFO  - DISPLA  - 
+2015-03-23 14:48:15,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-03-23 14:48:15,023 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 14:48:15,026 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57980))
+2015-03-23 14:48:15,028 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 14:48:15,031 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 14:48:15,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 14:48:15,037 - INFO  - MSGBUS  - send message Temp:18.4
+2015-03-23 14:48:15,089 - INFO  - DISPLA  - received data: Temp:18.4
+2015-03-23 14:48:15,091 - INFO  - DISPLA  - 
+2015-03-23 14:48:15,093 - INFO  - DISPLA  - 
+2015-03-23 16:47:08,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-23 16:47:08,023 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 16:47:08,026 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 57998))
+2015-03-23 16:47:08,029 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 16:47:08,031 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 16:47:08,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 16:47:08,037 - INFO  - MSGBUS  - send message Temp:18.5
+2015-03-23 16:47:08,089 - INFO  - DISPLA  - received data: Temp:18.5
+2015-03-23 16:47:08,091 - INFO  - DISPLA  - 
+2015-03-23 16:47:08,092 - INFO  - DISPLA  - 
+2015-03-23 16:49:08,961 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-23 16:49:08,963 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 16:49:08,966 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58000))
+2015-03-23 16:49:08,968 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 16:49:08,971 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 16:49:08,973 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 16:49:08,977 - INFO  - MSGBUS  - send message Temp:18.6
+2015-03-23 16:49:09,030 - INFO  - DISPLA  - received data: Temp:18.6
+2015-03-23 16:49:09,032 - INFO  - DISPLA  - 
+2015-03-23 16:49:09,034 - INFO  - DISPLA  - 
+2015-03-23 16:53:10,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-03-23 16:53:10,773 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 16:53:10,776 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58002))
+2015-03-23 16:53:10,778 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 16:53:10,781 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 16:53:10,783 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 16:53:10,787 - INFO  - MSGBUS  - send message Temp:18.7
+2015-03-23 16:53:10,839 - INFO  - DISPLA  - received data: Temp:18.7
+2015-03-23 16:53:10,841 - INFO  - DISPLA  - 
+2015-03-23 16:53:10,842 - INFO  - DISPLA  - 
+2015-03-23 16:57:12,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-03-23 16:57:12,527 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 16:57:12,531 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58005))
+2015-03-23 16:57:12,533 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 16:57:12,535 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 16:57:12,538 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 16:57:12,542 - INFO  - MSGBUS  - send message Temp:18.8
+2015-03-23 16:57:12,593 - INFO  - DISPLA  - received data: Temp:18.8
+2015-03-23 16:57:12,595 - INFO  - DISPLA  - 
+2015-03-23 16:57:12,597 - INFO  - DISPLA  - 
+2015-03-23 17:01:14,311 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-03-23 17:01:14,313 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:01:14,317 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58007))
+2015-03-23 17:01:14,319 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 17:01:14,321 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 17:01:14,323 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:01:14,327 - INFO  - MSGBUS  - send message Temp:18.9
+2015-03-23 17:01:14,379 - INFO  - DISPLA  - received data: Temp:18.9
+2015-03-23 17:01:14,381 - INFO  - DISPLA  - 
+2015-03-23 17:01:14,382 - INFO  - DISPLA  - 
+2015-03-23 17:07:17,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.0
+2015-03-23 17:07:17,023 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:07:17,027 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58009))
+2015-03-23 17:07:17,029 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 17:07:17,031 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 17:07:17,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:07:17,037 - INFO  - MSGBUS  - send message Temp:19.0
+2015-03-23 17:07:17,089 - INFO  - DISPLA  - received data: Temp:19.0
+2015-03-23 17:07:17,091 - INFO  - DISPLA  - 
+2015-03-23 17:07:17,093 - INFO  - DISPLA  - 
+2015-03-23 17:11:18,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-03-23 17:11:18,773 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:11:18,776 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58011))
+2015-03-23 17:11:18,778 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 17:11:18,781 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 17:11:18,783 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:11:18,787 - INFO  - MSGBUS  - send message Temp:19.1
+2015-03-23 17:11:18,840 - INFO  - DISPLA  - received data: Temp:19.1
+2015-03-23 17:11:18,842 - INFO  - DISPLA  - 
+2015-03-23 17:11:18,844 - INFO  - DISPLA  - 
+2015-03-23 17:19:22,441 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.2
+2015-03-23 17:19:22,443 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:19:22,447 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58013))
+2015-03-23 17:19:22,449 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-23 17:19:22,451 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-23 17:19:22,453 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:19:22,457 - INFO  - MSGBUS  - send message Temp:19.2
+2015-03-23 17:19:22,509 - INFO  - DISPLA  - received data: Temp:19.2
+2015-03-23 17:19:22,511 - INFO  - DISPLA  - 
+2015-03-23 17:19:22,513 - INFO  - DISPLA  - 
+2015-03-23 17:25:25,191 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.3
+2015-03-23 17:25:25,193 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:25:25,197 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58015))
+2015-03-23 17:25:25,199 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-23 17:25:25,201 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-23 17:25:25,203 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:25:25,207 - INFO  - MSGBUS  - send message Temp:19.3
+2015-03-23 17:25:25,259 - INFO  - DISPLA  - received data: Temp:19.3
+2015-03-23 17:25:25,261 - INFO  - DISPLA  - 
+2015-03-23 17:25:25,263 - INFO  - DISPLA  - 
+2015-03-23 17:35:29,691 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.4
+2015-03-23 17:35:29,693 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:35:29,696 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58017))
+2015-03-23 17:35:29,699 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-23 17:35:29,701 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-23 17:35:29,703 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:35:29,707 - INFO  - MSGBUS  - send message Temp:19.4
+2015-03-23 17:35:29,759 - INFO  - DISPLA  - received data: Temp:19.4
+2015-03-23 17:35:29,761 - INFO  - DISPLA  - 
+2015-03-23 17:35:29,763 - INFO  - DISPLA  - 
+2015-03-23 17:57:39,561 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.5
+2015-03-23 17:57:39,564 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:57:39,567 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58019))
+2015-03-23 17:57:39,569 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-03-23 17:57:39,571 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-03-23 17:57:39,573 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:57:39,577 - INFO  - MSGBUS  - send message Temp:19.5
+2015-03-23 17:57:39,629 - INFO  - DISPLA  - received data: Temp:19.5
+2015-03-23 17:57:39,631 - INFO  - DISPLA  - 
+2015-03-23 17:57:39,632 - INFO  - DISPLA  - 
+2015-03-23 17:59:40,502 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.4
+2015-03-23 17:59:40,503 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 17:59:40,507 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58021))
+2015-03-23 17:59:40,509 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-23 17:59:40,511 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-23 17:59:40,513 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 17:59:40,517 - INFO  - MSGBUS  - send message Temp:19.4
+2015-03-23 17:59:40,569 - INFO  - DISPLA  - received data: Temp:19.4
+2015-03-23 17:59:40,571 - INFO  - DISPLA  - 
+2015-03-23 17:59:40,573 - INFO  - DISPLA  - 
+2015-03-23 18:25:51,921 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.3
+2015-03-23 18:25:51,923 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 18:25:51,927 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58023))
+2015-03-23 18:25:51,929 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-23 18:25:51,931 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-23 18:25:51,933 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 18:25:51,937 - INFO  - MSGBUS  - send message Temp:19.3
+2015-03-23 18:25:51,989 - INFO  - DISPLA  - received data: Temp:19.3
+2015-03-23 18:25:51,991 - INFO  - DISPLA  - 
+2015-03-23 18:25:51,993 - INFO  - DISPLA  - 
+2015-03-23 18:41:59,131 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.2
+2015-03-23 18:41:59,133 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 18:41:59,136 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58025))
+2015-03-23 18:41:59,138 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-23 18:41:59,141 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-23 18:41:59,143 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 18:41:59,147 - INFO  - MSGBUS  - send message Temp:19.2
+2015-03-23 18:41:59,200 - INFO  - DISPLA  - received data: Temp:19.2
+2015-03-23 18:41:59,202 - INFO  - DISPLA  - 
+2015-03-23 18:41:59,204 - INFO  - DISPLA  - 
+2015-03-23 18:54:04,531 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-03-23 18:54:04,533 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 18:54:04,536 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58027))
+2015-03-23 18:54:04,538 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 18:54:04,541 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 18:54:04,543 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 18:54:04,547 - INFO  - MSGBUS  - send message Temp:19.1
+2015-03-23 18:54:04,599 - INFO  - DISPLA  - received data: Temp:19.1
+2015-03-23 18:54:04,601 - INFO  - DISPLA  - 
+2015-03-23 18:54:04,602 - INFO  - DISPLA  - 
+2015-03-23 19:16:14,341 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.0
+2015-03-23 19:16:14,343 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 19:16:14,346 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58029))
+2015-03-23 19:16:14,348 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 19:16:14,351 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 19:16:14,353 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 19:16:14,357 - INFO  - MSGBUS  - send message Temp:19.0
+2015-03-23 19:16:14,409 - INFO  - DISPLA  - received data: Temp:19.0
+2015-03-23 19:16:14,411 - INFO  - DISPLA  - 
+2015-03-23 19:16:14,412 - INFO  - DISPLA  - 
+2015-03-23 19:44:26,621 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-03-23 19:44:26,623 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 19:44:26,626 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58031))
+2015-03-23 19:44:26,628 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 19:44:26,631 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 19:44:26,633 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 19:44:26,637 - INFO  - MSGBUS  - send message Temp:19.1
+2015-03-23 19:44:26,689 - INFO  - DISPLA  - received data: Temp:19.1
+2015-03-23 19:44:26,691 - INFO  - DISPLA  - 
+2015-03-23 19:44:26,693 - INFO  - DISPLA  - 
+2015-03-23 21:13:05,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.0
+2015-03-23 21:13:05,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 21:13:05,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58033))
+2015-03-23 21:13:05,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 21:13:05,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 21:13:05,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 21:13:05,537 - INFO  - MSGBUS  - send message Temp:19.0
+2015-03-23 21:13:05,589 - INFO  - DISPLA  - received data: Temp:19.0
+2015-03-23 21:13:05,591 - INFO  - DISPLA  - 
+2015-03-23 21:13:05,592 - INFO  - DISPLA  - 
+2015-03-23 21:19:08,191 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-03-23 21:19:08,193 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 21:19:08,197 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58035))
+2015-03-23 21:19:08,199 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 21:19:08,201 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 21:19:08,203 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 21:19:08,207 - INFO  - MSGBUS  - send message Temp:18.9
+2015-03-23 21:19:08,259 - INFO  - DISPLA  - received data: Temp:18.9
+2015-03-23 21:19:08,261 - INFO  - DISPLA  - 
+2015-03-23 21:19:08,263 - INFO  - DISPLA  - 
+2015-03-23 21:49:21,581 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-03-23 21:49:21,583 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 21:49:21,586 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58037))
+2015-03-23 21:49:21,588 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 21:49:21,591 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 21:49:21,593 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 21:49:21,597 - INFO  - MSGBUS  - send message Temp:18.8
+2015-03-23 21:49:21,649 - INFO  - DISPLA  - received data: Temp:18.8
+2015-03-23 21:49:21,651 - INFO  - DISPLA  - 
+2015-03-23 21:49:21,653 - INFO  - DISPLA  - 
+2015-03-23 22:05:28,761 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 25.4
+2015-03-23 22:05:28,765 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:05:28,769 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58039))
+2015-03-23 22:05:28,772 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":25.4}}}
+2015-03-23 22:05:28,776 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":25.4}}}
+2015-03-23 22:05:28,780 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:05:28,786 - INFO  - MSGBUS  - send message Temp:25.4
+2015-03-23 22:05:28,839 - INFO  - DISPLA  - received data: Temp:25.4
+2015-03-23 22:05:28,843 - INFO  - DISPLA  - 
+2015-03-23 22:05:28,846 - INFO  - DISPLA  - 
+2015-03-23 22:07:29,702 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.4
+2015-03-23 22:07:29,706 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:07:29,710 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58042))
+2015-03-23 22:07:29,713 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.4}}}
+2015-03-23 22:07:29,717 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.4}}}
+2015-03-23 22:07:29,720 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:07:29,726 - INFO  - MSGBUS  - send message Temp:21.4
+2015-03-23 22:07:29,778 - INFO  - DISPLA  - received data: Temp:21.4
+2015-03-23 22:07:29,781 - INFO  - DISPLA  - 
+2015-03-23 22:07:29,785 - INFO  - DISPLA  - 
+2015-03-23 22:07:49,532 - INFO  - ONEWIR  - terminate one wire deamon normaly
+2015-03-23 22:07:53,540 - INFO  - ONEWIR  - ======================================================
+2015-03-23 22:07:53,544 - INFO  - ONEWIR  - start one wire deamon
+2015-03-23 22:07:53,547 - INFO  - ONEWIR  - ======================================================
+2015-03-23 22:07:54,386 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:07:54,391 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58044))
+2015-03-23 22:07:54,394 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.1}}}
+2015-03-23 22:07:54,398 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.1}}}
+2015-03-23 22:07:54,402 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:07:54,405 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 21.1
+2015-03-23 22:07:54,411 - INFO  - MSGBUS  - send message Temp:21.1
+2015-03-23 22:07:54,612 - INFO  - DISPLA  - received data: Temp:21.1
+2015-03-23 22:07:54,620 - INFO  - DISPLA  - 
+2015-03-23 22:07:54,622 - INFO  - DISPLA  - 
+2015-03-23 22:08:57,111 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.4
+2015-03-23 22:08:57,115 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:08:57,119 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58046))
+2015-03-23 22:08:57,122 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-23 22:08:57,126 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-23 22:08:57,130 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:08:57,135 - INFO  - MSGBUS  - send message Temp:20.4
+2015-03-23 22:08:57,330 - INFO  - DISPLA  - received data: Temp:20.4
+2015-03-23 22:08:57,334 - INFO  - DISPLA  - 
+2015-03-23 22:08:57,337 - INFO  - DISPLA  - 
+2015-03-23 22:09:58,972 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.0
+2015-03-23 22:09:58,985 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:09:58,989 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58048))
+2015-03-23 22:09:58,992 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-03-23 22:09:59,005 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-03-23 22:09:59,009 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:09:59,014 - INFO  - MSGBUS  - send message Temp:20.0
+2015-03-23 22:09:59,285 - INFO  - DISPLA  - received data: Temp:20.0
+2015-03-23 22:09:59,288 - INFO  - DISPLA  - 
+2015-03-23 22:09:59,295 - INFO  - DISPLA  - 
+2015-03-23 22:11:00,891 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.8
+2015-03-23 22:11:00,899 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:11:00,903 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58050))
+2015-03-23 22:11:00,906 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-23 22:11:00,910 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-23 22:11:00,913 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:11:00,919 - INFO  - MSGBUS  - send message Temp:19.8
+2015-03-23 22:11:01,114 - INFO  - DISPLA  - received data: Temp:19.8
+2015-03-23 22:11:01,117 - INFO  - DISPLA  - 
+2015-03-23 22:11:01,121 - INFO  - DISPLA  - 
+2015-03-23 22:12:02,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.6
+2015-03-23 22:12:02,775 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:12:02,779 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58052))
+2015-03-23 22:12:02,782 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-03-23 22:12:02,786 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-03-23 22:12:02,790 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:12:02,795 - INFO  - MSGBUS  - send message Temp:19.6
+2015-03-23 22:12:02,991 - INFO  - DISPLA  - received data: Temp:19.6
+2015-03-23 22:12:02,995 - INFO  - DISPLA  - 
+2015-03-23 22:12:02,998 - INFO  - DISPLA  - 
+2015-03-23 22:13:04,681 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.4
+2015-03-23 22:13:04,685 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:13:04,689 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58054))
+2015-03-23 22:13:04,692 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-23 22:13:04,696 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-23 22:13:04,700 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:13:04,705 - INFO  - MSGBUS  - send message Temp:19.4
+2015-03-23 22:13:04,901 - INFO  - DISPLA  - received data: Temp:19.4
+2015-03-23 22:13:04,905 - INFO  - DISPLA  - 
+2015-03-23 22:13:04,908 - INFO  - DISPLA  - 
+2015-03-23 22:14:06,591 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.3
+2015-03-23 22:14:06,595 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:14:06,599 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58057))
+2015-03-23 22:14:06,602 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-23 22:14:06,606 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-23 22:14:06,610 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:14:06,615 - INFO  - MSGBUS  - send message Temp:19.3
+2015-03-23 22:14:06,811 - INFO  - DISPLA  - received data: Temp:19.3
+2015-03-23 22:14:06,815 - INFO  - DISPLA  - 
+2015-03-23 22:14:06,818 - INFO  - DISPLA  - 
+2015-03-23 22:17:12,261 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.2
+2015-03-23 22:17:12,265 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:17:12,269 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58059))
+2015-03-23 22:17:12,272 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-23 22:17:12,276 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-23 22:17:12,279 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:17:12,285 - INFO  - MSGBUS  - send message Temp:19.2
+2015-03-23 22:17:12,337 - INFO  - DISPLA  - received data: Temp:19.2
+2015-03-23 22:17:12,341 - INFO  - DISPLA  - 
+2015-03-23 22:17:12,344 - INFO  - DISPLA  - 
+2015-03-23 22:18:14,172 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-03-23 22:18:14,180 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:18:14,184 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58061))
+2015-03-23 22:18:14,188 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 22:18:14,191 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-23 22:18:14,195 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:18:14,200 - INFO  - MSGBUS  - send message Temp:19.1
+2015-03-23 22:18:14,396 - INFO  - DISPLA  - received data: Temp:19.1
+2015-03-23 22:18:14,400 - INFO  - DISPLA  - 
+2015-03-23 22:18:14,403 - INFO  - DISPLA  - 
+2015-03-23 22:26:29,161 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.0
+2015-03-23 22:26:29,165 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:26:29,169 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58063))
+2015-03-23 22:26:29,172 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 22:26:29,176 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-23 22:26:29,180 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:26:29,185 - INFO  - MSGBUS  - send message Temp:19.0
+2015-03-23 22:26:29,238 - INFO  - DISPLA  - received data: Temp:19.0
+2015-03-23 22:26:29,241 - INFO  - DISPLA  - 
+2015-03-23 22:26:29,244 - INFO  - DISPLA  - 
+2015-03-23 22:34:44,151 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-03-23 22:34:44,155 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 22:34:44,159 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58065))
+2015-03-23 22:34:44,162 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 22:34:44,166 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-23 22:34:44,169 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 22:34:44,175 - INFO  - MSGBUS  - send message Temp:18.9
+2015-03-23 22:34:44,227 - INFO  - DISPLA  - received data: Temp:18.9
+2015-03-23 22:34:44,231 - INFO  - DISPLA  - 
+2015-03-23 22:34:44,234 - INFO  - DISPLA  - 
+2015-03-23 23:00:30,991 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-03-23 23:00:30,995 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 23:00:30,999 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58067))
+2015-03-23 23:00:31,002 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 23:00:31,006 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-23 23:00:31,009 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 23:00:31,015 - INFO  - MSGBUS  - send message Temp:18.8
+2015-03-23 23:00:31,068 - INFO  - DISPLA  - received data: Temp:18.8
+2015-03-23 23:00:31,071 - INFO  - DISPLA  - 
+2015-03-23 23:00:31,074 - INFO  - DISPLA  - 
+2015-03-23 23:13:55,401 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-03-23 23:13:55,405 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 23:13:55,409 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58069))
+2015-03-23 23:13:55,412 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 23:13:55,416 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-23 23:13:55,419 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 23:13:55,425 - INFO  - MSGBUS  - send message Temp:18.7
+2015-03-23 23:13:55,479 - INFO  - DISPLA  - received data: Temp:18.7
+2015-03-23 23:13:55,482 - INFO  - DISPLA  - 
+2015-03-23 23:13:55,485 - INFO  - DISPLA  - 
+2015-03-23 23:19:04,772 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-23 23:19:04,785 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 23:19:04,789 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58071))
+2015-03-23 23:19:04,792 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 23:19:04,805 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-23 23:19:04,809 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 23:19:04,814 - INFO  - MSGBUS  - send message Temp:18.6
+2015-03-23 23:19:04,872 - INFO  - DISPLA  - received data: Temp:18.6
+2015-03-23 23:19:04,876 - INFO  - DISPLA  - 
+2015-03-23 23:19:04,885 - INFO  - DISPLA  - 
+2015-03-23 23:32:29,151 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-23 23:32:29,159 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 23:32:29,163 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58073))
+2015-03-23 23:32:29,166 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 23:32:29,170 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-23 23:32:29,173 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 23:32:29,178 - INFO  - MSGBUS  - send message Temp:18.5
+2015-03-23 23:32:29,232 - INFO  - DISPLA  - received data: Temp:18.5
+2015-03-23 23:32:29,235 - INFO  - DISPLA  - 
+2015-03-23 23:32:29,238 - INFO  - DISPLA  - 
+2015-03-23 23:37:38,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-03-23 23:37:38,525 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 23:37:38,529 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58075))
+2015-03-23 23:37:38,532 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 23:37:38,536 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-23 23:37:38,540 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 23:37:38,545 - INFO  - MSGBUS  - send message Temp:18.4
+2015-03-23 23:37:38,598 - INFO  - DISPLA  - received data: Temp:18.4
+2015-03-23 23:37:38,601 - INFO  - DISPLA  - 
+2015-03-23 23:37:38,604 - INFO  - DISPLA  - 
+2015-03-23 23:52:04,781 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.3
+2015-03-23 23:52:04,785 - INFO  - ONEWIR  - open socket to message bus
+2015-03-23 23:52:04,789 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58077))
+2015-03-23 23:52:04,792 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 23:52:04,796 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-23 23:52:04,800 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-23 23:52:04,805 - INFO  - MSGBUS  - send message Temp:18.3
+2015-03-23 23:52:04,857 - INFO  - DISPLA  - received data: Temp:18.3
+2015-03-23 23:52:04,861 - INFO  - DISPLA  - 
+2015-03-23 23:52:04,864 - INFO  - DISPLA  - 
+2015-03-24 00:06:30,981 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.2
+2015-03-24 00:06:30,985 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 00:06:30,989 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58079))
+2015-03-24 00:06:30,992 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-24 00:06:30,996 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-24 00:06:31,000 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 00:06:31,005 - INFO  - MSGBUS  - send message Temp:18.2
+2015-03-24 00:06:31,058 - INFO  - DISPLA  - received data: Temp:18.2
+2015-03-24 00:06:31,061 - INFO  - DISPLA  - 
+2015-03-24 00:06:31,064 - INFO  - DISPLA  - 
+2015-03-24 00:14:45,981 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.1
+2015-03-24 00:14:45,985 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 00:14:45,988 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58081))
+2015-03-24 00:14:45,991 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-24 00:14:45,995 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-24 00:14:45,998 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 00:14:46,003 - INFO  - MSGBUS  - send message Temp:18.1
+2015-03-24 00:14:46,056 - INFO  - DISPLA  - received data: Temp:18.1
+2015-03-24 00:14:46,059 - INFO  - DISPLA  - 
+2015-03-24 00:14:46,062 - INFO  - DISPLA  - 
+2015-03-24 00:27:08,451 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.0
+2015-03-24 00:27:08,454 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 00:27:08,458 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58083))
+2015-03-24 00:27:08,461 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-24 00:27:08,464 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-24 00:27:08,467 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 00:27:08,471 - INFO  - MSGBUS  - send message Temp:18.0
+2015-03-24 00:27:08,524 - INFO  - DISPLA  - received data: Temp:18.0
+2015-03-24 00:27:08,527 - INFO  - DISPLA  - 
+2015-03-24 00:27:08,529 - INFO  - DISPLA  - 
+2015-03-24 00:32:17,871 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.9
+2015-03-24 00:32:17,873 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 00:32:17,877 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58085))
+2015-03-24 00:32:17,879 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-24 00:32:17,881 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-24 00:32:17,883 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 00:32:17,887 - INFO  - MSGBUS  - send message Temp:17.9
+2015-03-24 00:32:17,939 - INFO  - DISPLA  - received data: Temp:17.9
+2015-03-24 00:32:17,941 - INFO  - DISPLA  - 
+2015-03-24 00:32:17,942 - INFO  - DISPLA  - 
+2015-03-24 00:33:19,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.0
+2015-03-24 00:33:19,773 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 00:33:19,776 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58087))
+2015-03-24 00:33:19,779 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-24 00:33:19,781 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.0}}}
+2015-03-24 00:33:19,783 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 00:33:19,787 - INFO  - MSGBUS  - send message Temp:18.0
+2015-03-24 00:33:19,985 - INFO  - DISPLA  - received data: Temp:18.0
+2015-03-24 00:33:19,987 - INFO  - DISPLA  - 
+2015-03-24 00:33:19,989 - INFO  - DISPLA  - 
+2015-03-24 00:35:23,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.9
+2015-03-24 00:35:23,523 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 00:35:23,526 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58089))
+2015-03-24 00:35:23,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-24 00:35:23,531 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.9}}}
+2015-03-24 00:35:23,533 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 00:35:23,537 - INFO  - MSGBUS  - send message Temp:17.9
+2015-03-24 00:35:23,589 - INFO  - DISPLA  - received data: Temp:17.9
+2015-03-24 00:35:23,591 - INFO  - DISPLA  - 
+2015-03-24 00:35:23,593 - INFO  - DISPLA  - 
+2015-03-24 00:48:47,861 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 17.8
+2015-03-24 00:48:47,863 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 00:48:47,867 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58091))
+2015-03-24 00:48:47,869 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":17.8}}}
+2015-03-24 00:48:47,871 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":17.8}}}
+2015-03-24 00:48:47,873 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 00:48:47,877 - INFO  - MSGBUS  - send message Temp:17.8
+2015-03-24 00:48:47,929 - INFO  - DISPLA  - received data: Temp:17.8
+2015-03-24 00:48:47,931 - INFO  - DISPLA  - 
+2015-03-24 00:48:47,933 - INFO  - DISPLA  - 
+2015-03-24 01:00:02,432 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-24 01:00:03,890 - INFO  - DISPLA  - terminate display listener normaly
+2015-03-24 01:00:05,537 - INFO  - ONEWIR  - terminate one wire deamon normaly

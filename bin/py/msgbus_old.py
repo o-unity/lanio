@@ -5,9 +5,6 @@ import sys, getopt, json, os, signal, re, socket
 import inspect
 import logging
 import time
-import threading
-from array import *
-
 
 
 
@@ -40,36 +37,22 @@ def wl(file_level, console_level = None):
   logger.addHandler(fh)
 
   return logger
-  
-  
-# -----------------------------------------------------------------------  
 
-def sendDisplay(params):
-	#print "in postDisplay2Line" + str(params)
-	opensocket(cfg['display']['cfg']['port'],"display deamon",json.dumps(params))
-	
 
-def threadDispatcher(functionName,params):
-	getattr(sys.modules[__name__], "%s" % functionName)(params)
-	
-
-def opensocket(port,name,msg):
+def sendDisplay(msg):
 	#print temp
-	try:
-		HOST = '127.0.0.1'
-		PORT = port 
-		logger.info('open socket to ' + name)
-		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		s.connect((HOST, PORT))
-		
-		logger.info('send message '+msg)
-		s.sendall(msg)
-		s.close()
-		
-	except:  
-		logger.info('could not connect to ' + name)
-		
-# -----------------------------------------------------------------------
+	HOST = '127.0.0.1'
+	PORT = cfg['display']['cfg']['port'] 
+	logger.info('open socket to display deamon')
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	s.connect((HOST, PORT))
+	
+	logger.info('send message '+msg)
+	s.sendall(msg)
+	s.close()
+
+
+# -------------------------------------------------------------------
 
 
 logger = wl(logging.INFO)
@@ -78,45 +61,9 @@ logger.info('start message bus')
 logger.info('======================================================')
 
 
-# -------------------------------------------------------------------
- 
 
-def parseMessage(msg):
-	try:
-	 js = json.loads(msg) 
-	 for domain in js:
-		for instance in js[domain]:
-			
-			try:
-				for (u1, fFunc) in enumerate(cfg['events'][domain][instance]):
-					fDetails = cfg['events'][domain][instance][u1]
-					eventParams = js[domain][instance]
-					params = fDetails['params']
-					functionName = fDetails['function'].encode('ascii','ignore')
-					
-					for (u1, param) in enumerate(params):
-						for (u2, eparam) in enumerate(eventParams):
-							try:
-								params[param] = params[param].replace("##"+eparam+"##", str(eventParams[eparam]))
-							except AttributeError:
-								break
-					
-					logger.info('event found, threading: '+domain+"->"+instance+"-->"+fDetails['function']+"("+str(params)+")")
-					#getattr(sys.modules[__name__], "%s" % fDetails['function'])(params)
-					
-					t = threading.Thread(target=threadDispatcher, args = (functionName, params))
-					t.start()			
-					
-			except KeyError:
-				break
-	
-	except KeyboardInterrupt:  
-		print "keyboard exit"
-			
 # -------------------------------------------------------------------
 
-#msg = '{"onewire": {"28-0314640daeff":{"value":20.4}}}'
-#parseMessage(msg)
 
 HOST = ''                 							# Symbolic name meaning all available interfaces
 PORT = cfg['msgbus']['cfg']['port']              	# Arbitrary non-privileged port
@@ -125,6 +72,7 @@ s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 s.bind((HOST, PORT))
 s.listen(1)
+
 
 
 try:
@@ -140,14 +88,17 @@ try:
       data = data.replace('\r', '')
       logger.info('data received: '+data)
       
+    
       if not data: break
       
-      conn.sendall("ok\n")
-      conn.close() 
-      
       # PARSE NOW DATA STRING
-      parseMessage(data)
-  
+      js = json.loads(data) 
+      sendDisplay("Temp:"+str(js['onewire']['28-0314640daeff']['value']))
+      
+      conn.sendall("ok\n")
+	  
+      # PARSE DATA
+      conn.close() 
       break
 
 

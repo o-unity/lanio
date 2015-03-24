@@ -96,6 +96,9 @@ try:
   			#print sensT
   			logger.info(cfg['onewire']['cfg']['path']+item['id']+': '+sensT)
   			cfg['onewire']['devices'][i]['temp'] = sensT
+  			
+  			logger.info('')
+  			logger.info('EVENT! onewire')
   			sendMsgBus('{"onewire": {"'+item['id']+'":{"value":' + sensT + '}}}')
   		
   		time.sleep(cfg['onewire']['cfg']['wait'])

@@ -2,8 +2,8 @@
 	"winStruct": {
 		"win_configBP": {
 			"id": "win_configBP",
-			"left": 379,
-			"top": 61,
+			"left": 312,
+			"top": 53,
 			"width": 277,
 			"height": 269,
 			"buttonId": "configBP",
@@ -17,7 +17,7 @@
 		}],
 		"cfg": {
 			"path": "/sys/bus/w1/devices/",
-			"wait": 120
+			"wait": 61
 		}
 	},
 	"msgbus": {
@@ -40,28 +40,28 @@
 			"start": "python ./msgbus.py",
 			"name": "message bus"
 		},
-		"onewire": {
-			"lib": "onewire.py",
-			"start": "python ./onewire.py",
-			"name": "one wire deamon"
-		},
 		"display": {
 			"lib": "display.py",
 			"start": "python ./display.py",
 			"name": "display listener"
+		},
+		"onewire": {
+			"lib": "onewire.py",
+			"start": "python ./onewire.py",
+			"name": "one wire deamon"
 		}
 	},
 	"events": {
 		"onewire": {
 			"28-0314640daeff": [{
-				"function": "postDisplay2Line",
+				"function": "sendDisplay",
 				"params": {
-					"text": "##value##"
+					"text2L": "          ##value## C"
 				}
 			}, {
-				"function": "displayOff",
+				"function": "sendDisplay",
 				"params": {
-					"time": 120
+					"displayOff": "120"
 				}
 			}]
 		}
