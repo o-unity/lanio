@@ -43,7 +43,7 @@ if($name == "msgbus"){
 	if($value == "true"){
 		if(!$kill){
 			exec("cd ".$cfg->global->root."; python ./msgbus.py > /dev/null 2>/dev/null &",$out);
-			echo "cd ".$cfg->global->root."; python ./msgbus.py > /dev/null 2>/dev/null &";
+			//echo "cd ".$cfg->global->root."; python ./msgbus.py > /dev/null 2>/dev/null &";
 			$retVal = "message bus started...";
 		}
 		else{
@@ -77,7 +77,7 @@ if($name == "display"){
 		}
 	}
 	else{
-		exec("sudo kill ".$v,$out2);
+		exec("sudo kill -9 ".$v,$out2);
 		$retVal = "display listener stopped!";
 	}
 }

@@ -53,6 +53,8 @@ def text2L(value):
 	#displayOff(5)
 
 def displayOff(tValue):
+	global e1
+	
 	try:
 		scheduler.cancel(e1)
 	except:

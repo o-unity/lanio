@@ -6,6 +6,7 @@ import inspect
 import logging
 import time
 import threading
+import requests
 from array import *
 
 
@@ -14,7 +15,7 @@ from array import *
 realpath = os.path.realpath(__file__)
 direname = os.path.dirname(realpath)
 
-json_data=open(direname + "/../../etc/conf/global.json").read()
+json_data=open(direname + "/../../etc/conf/globalDev.json").read()
 cfg = json.loads(json_data) 
 
 
@@ -45,10 +46,21 @@ def wl(file_level, console_level = None):
 # -----------------------------------------------------------------------  
 
 def sendDisplay(params):
-	print "in postDisplay2Line" + str(params)
-	opensocket(cfg['display']['cfg']['port'],"display deamon",json.dumps(params))
-	
+	print "in sendDisplay\n" + str(params) + "\n\n"
+	#opensocket(cfg['display']['cfg']['port'],"display deamon",json.dumps(params))
 
+
+def JSONcall(params):
+	print "in JSONcall\n" + str(params) + "\n\n"
+	
+	logger.info('call REST API ' + params['eurl'])
+	r = requests.post(params['eurl'], params['data'], auth=(params['usr'], params['pass']))
+
+	logger.info('response: ' + str(r.json))	
+	if "Response [200]" in str(r.json): 
+		logger.info('REST call successful')	
+	
+	
 def threadDispatcher(functionName,params):
 	getattr(sys.modules[__name__], "%s" % functionName)(params)
 	
@@ -79,7 +91,8 @@ logger.info('======================================================')
 
 
 # -------------------------------------------------------------------
- 
+
+print "start application...."
 
 def parseMessage(msg):
 	try:
@@ -115,48 +128,8 @@ def parseMessage(msg):
 			
 # -------------------------------------------------------------------
 
-#msg = '{"onewire": {"28-0314640daeff":{"value":20.4}}}'
-#parseMessage(msg)
-
-HOST = ''                 							# Symbolic name meaning all available interfaces
-PORT = cfg['msgbus']['cfg']['port']              	# Arbitrary non-privileged port
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-
-s.bind((HOST, PORT))
-s.listen(1)
-
-
-try:
-  while 1:
-    conn, addr = s.accept()
-    data = ""
-    connSTR = 'Connected by', addr
-    logger.info(connSTR)
-    
-    while 1:
-      data = conn.recv(1024)
-      data = data.replace('\n', '')
-      data = data.replace('\r', '')
-      logger.info('data received: '+data)
-      
-      if not data: break
-      
-      conn.sendall("ok\n")
-      conn.close() 
-      
-      # PARSE NOW DATA STRING
-      parseMessage(data)
-  
-      break
-
-
-except KeyboardInterrupt:  
-    logger.info('terminate message bus by keyboard') 
-
-
-
-
+msg = '{"onewire": {"28-0314640daeff":{"value":20.4}}}'
+parseMessage(msg)
 
 
 

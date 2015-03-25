@@ -6,6 +6,7 @@ import inspect
 import logging
 import time
 import threading
+import requests
 from array import *
 
 
@@ -48,6 +49,16 @@ def sendDisplay(params):
 	#print "in postDisplay2Line" + str(params)
 	opensocket(cfg['display']['cfg']['port'],"display deamon",json.dumps(params))
 	
+
+def JSONcall(params):
+	#print "in JSONcall\n" + str(params) + "\n\n"
+	logger.info('call REST API ' + params['eurl'])
+	r = requests.post(params['eurl'], params['data'], auth=(params['usr'], params['pass']))
+
+	logger.info('response: ' + str(r.json))	
+	if "Response [200]" in str(r.json): 
+		logger.info('REST call successful')	
+
 
 def threadDispatcher(functionName,params):
 	getattr(sys.modules[__name__], "%s" % functionName)(params)
@@ -147,6 +158,10 @@ try:
       
       # PARSE NOW DATA STRING
       parseMessage(data)
+      
+      # RELOAD CONFIG
+      json_data=open(direname + "/../../etc/conf/global.json").read()
+      cfg = json.loads(json_data) 
   
       break
 

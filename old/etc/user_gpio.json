@@ -1,0 +1,44 @@
+{
+	"16": {
+		"active": "0"
+	},
+	"17": {
+		"active": "0",
+		"ETYPE": "BOTH",
+		"EURL": "htpp:\/\/wwww",
+		"PORT": "777",
+		"REQUESTTYPE": "GET",
+		"DATA": "sfdsfsssfsf",
+		"AUTH": "1",
+		"USR": "user",
+		"PASS": "password"
+	},
+	"18": {
+		"active": "0",
+		"ETYPE": "FE",
+		"EURL": "http:\/\/192.168.1.70:82\/api\/",
+		"REQUESTTYPE": "POST",
+		"DATA": "{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueInteger\",\"params\":[30393,##value##],\"id\":1}",
+		"AUTH": "1",
+		"USR": "andi.zaugg@port80.ch",
+		"PASS": "service",
+		"CONTENTTYPE": "application\/json"
+	},
+	"4": {
+		"active": "0"
+	},
+	"24": {
+		"active": "0"
+	},
+	"23": {
+		"ETYPE": "FE",
+		"EURL": "http:\/\/192.168.1.70:82\/api\/",
+		"REQUESTTYPE": "POST",
+		"DATA": "{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueInteger\",\"params\":[30393,##value##],\"id\":1}",
+		"AUTH": "1",
+		"USR": "andi.zaugg@port80.ch",
+		"PASS": "service",
+		"CONTENTTYPE": "application\/json",
+		"active": "1"
+	}
+}

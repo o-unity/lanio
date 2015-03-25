@@ -967,3 +967,1451 @@
 2015-03-24 21:03:16,734 - INFO  - DISPLA  - received data: {"displayOff": "60"}
 2015-03-24 21:03:16,738 - INFO  - DISPLA  - call private function displayOff(60)
 2015-03-24 21:04:16,801 - INFO  - DISPLA  - display off
+2015-03-24 21:06:23,071 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.9
+2015-03-24 21:06:23,075 - INFO  - ONEWIR  - 
+2015-03-24 21:06:23,078 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:06:23,081 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:06:23,085 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58427))
+2015-03-24 21:06:23,088 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 21:06:23,092 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 21:06:23,096 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.7 C'})
+2015-03-24 21:06:23,102 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'60'})
+2015-03-24 21:06:23,108 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:06:23,112 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50768)
+2015-03-24 21:06:23,116 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:06:23,119 - INFO  - MSGBUS  - send message {"text2L": "          19.7 C"}
+2015-03-24 21:06:23,124 - INFO  - DISPLA  - received data: {"text2L": "          19.7 C"}
+2015-03-24 21:06:23,128 - INFO  - DISPLA  - call private function text2L(          19.7 C)
+2015-03-24 21:06:23,132 - INFO  - MSGBUS  - send message {"displayOff": "60"}
+2015-03-24 21:06:23,220 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50769)
+2015-03-24 21:06:23,224 - INFO  - DISPLA  - received data: {"displayOff": "60"}
+2015-03-24 21:06:23,227 - INFO  - DISPLA  - call private function displayOff(60)
+2015-03-24 21:07:23,291 - INFO  - DISPLA  - display off
+2015-03-24 21:08:01,783 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-24 21:08:02,932 - INFO  - MSGBUS  - ======================================================
+2015-03-24 21:08:02,936 - INFO  - MSGBUS  - start message bus
+2015-03-24 21:08:02,939 - INFO  - MSGBUS  - ======================================================
+2015-03-24 21:08:03,267 - INFO  - DISPLA  - terminate display listener normaly
+2015-03-24 21:08:04,860 - INFO  - DISPLA  - ======================================================
+2015-03-24 21:08:04,872 - INFO  - DISPLA  - start display listener
+2015-03-24 21:08:04,875 - INFO  - DISPLA  - ======================================================
+2015-03-24 21:08:04,895 - INFO  - ONEWIR  - terminate one wire deamon normaly
+2015-03-24 21:08:06,056 - INFO  - ONEWIR  - ======================================================
+2015-03-24 21:08:06,059 - INFO  - ONEWIR  - start one wire deamon
+2015-03-24 21:08:06,062 - INFO  - ONEWIR  - ======================================================
+2015-03-24 21:08:06,906 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:08:06,910 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58437))
+2015-03-24 21:08:06,914 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 21:08:06,918 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 21:08:06,926 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 19.9
+2015-03-24 21:08:06,923 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.9 C'})
+2015-03-24 21:08:06,935 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'120'})
+2015-03-24 21:08:06,940 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:08:06,949 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:08:06,953 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50778)
+2015-03-24 21:08:06,956 - INFO  - MSGBUS  - send message {"text2L": "          19.9 C"}
+2015-03-24 21:08:06,960 - INFO  - DISPLA  - received data: {"text2L": "          19.9 C"}
+2015-03-24 21:08:06,966 - INFO  - DISPLA  - call private function text2L(          19.9 C)
+2015-03-24 21:08:06,971 - INFO  - MSGBUS  - send message {"displayOff": "120"}
+2015-03-24 21:08:07,059 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50779)
+2015-03-24 21:08:07,062 - INFO  - DISPLA  - received data: {"displayOff": "120"}
+2015-03-24 21:08:07,066 - INFO  - DISPLA  - call private function displayOff(120)
+2015-03-24 21:10:07,159 - INFO  - DISPLA  - display off
+2015-03-24 21:10:11,491 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 22.1
+2015-03-24 21:10:11,495 - INFO  - ONEWIR  - 
+2015-03-24 21:10:11,498 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:10:11,501 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:10:11,505 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58443))
+2015-03-24 21:10:11,508 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":22.1}}}
+2015-03-24 21:10:11,512 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":22.1}}}
+2015-03-24 21:10:11,516 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.9 C'})
+2015-03-24 21:10:11,522 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'120'})
+2015-03-24 21:10:11,527 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:10:11,531 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50784)
+2015-03-24 21:10:11,536 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:10:11,539 - INFO  - MSGBUS  - send message {"text2L": "          19.9 C"}
+2015-03-24 21:10:11,543 - INFO  - DISPLA  - received data: {"text2L": "          19.9 C"}
+2015-03-24 21:10:11,547 - INFO  - DISPLA  - call private function text2L(          19.9 C)
+2015-03-24 21:10:11,550 - INFO  - MSGBUS  - send message {"displayOff": "120"}
+2015-03-24 21:10:11,640 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50785)
+2015-03-24 21:10:11,643 - INFO  - DISPLA  - received data: {"displayOff": "120"}
+2015-03-24 21:10:11,647 - INFO  - DISPLA  - call private function displayOff(120)
+2015-03-24 21:10:16,807 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-24 21:10:18,012 - INFO  - MSGBUS  - ======================================================
+2015-03-24 21:10:18,016 - INFO  - MSGBUS  - start message bus
+2015-03-24 21:10:18,019 - INFO  - MSGBUS  - ======================================================
+2015-03-24 21:10:18,319 - INFO  - DISPLA  - terminate display listener normaly
+2015-03-24 21:10:19,731 - INFO  - ONEWIR  - terminate one wire deamon normaly
+2015-03-24 21:10:20,877 - INFO  - ONEWIR  - ======================================================
+2015-03-24 21:10:20,880 - INFO  - ONEWIR  - start one wire deamon
+2015-03-24 21:10:20,883 - INFO  - ONEWIR  - ======================================================
+2015-03-24 21:10:21,726 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:10:21,730 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58453))
+2015-03-24 21:10:21,734 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.9}}}
+2015-03-24 21:10:21,738 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.9}}}
+2015-03-24 21:10:21,746 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 21.9
+2015-03-24 21:10:21,743 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:10:21,755 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:10:21,760 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:10:21,770 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:10:21,773 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:10:21,778 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:11:24,451 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.9
+2015-03-24 21:11:24,455 - INFO  - ONEWIR  - 
+2015-03-24 21:11:24,458 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:11:24,461 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:11:24,465 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58457))
+2015-03-24 21:11:24,468 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.9}}}
+2015-03-24 21:11:24,472 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.9}}}
+2015-03-24 21:11:24,476 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:11:24,482 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:11:24,488 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:11:24,493 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:11:24,496 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:11:24,501 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:12:11,698 - INFO  - DISPLA  - display off
+2015-03-24 21:12:26,361 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.5
+2015-03-24 21:12:26,365 - INFO  - ONEWIR  - 
+2015-03-24 21:12:26,368 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:12:26,371 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:12:26,375 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58461))
+2015-03-24 21:12:26,378 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.5}}}
+2015-03-24 21:12:26,382 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.5}}}
+2015-03-24 21:12:26,386 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:12:26,392 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:12:26,398 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:12:26,403 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:12:26,406 - INFO  - MSGBUS  - could not connect to display deamon
+2015-03-24 21:12:26,411 - INFO  - MSGBUS  - could not connect to display deamon
+2015-03-24 21:13:28,231 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.4
+2015-03-24 21:13:28,235 - INFO  - ONEWIR  - 
+2015-03-24 21:13:28,238 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:13:28,241 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:13:28,245 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58464))
+2015-03-24 21:13:28,248 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 21:13:28,252 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 21:13:28,256 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:13:28,262 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:13:28,268 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:13:28,272 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:13:28,275 - INFO  - MSGBUS  - could not connect to display deamon
+2015-03-24 21:13:28,280 - INFO  - MSGBUS  - could not connect to display deamon
+2015-03-24 21:13:37,548 - INFO  - DISPLA  - ======================================================
+2015-03-24 21:13:37,551 - INFO  - DISPLA  - start display listener
+2015-03-24 21:13:37,554 - INFO  - DISPLA  - ======================================================
+2015-03-24 21:14:30,141 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 23.9
+2015-03-24 21:14:30,145 - INFO  - ONEWIR  - 
+2015-03-24 21:14:30,148 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:14:30,151 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:14:30,155 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58467))
+2015-03-24 21:14:30,158 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":23.9}}}
+2015-03-24 21:14:30,162 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":23.9}}}
+2015-03-24 21:14:30,166 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:14:30,172 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:14:30,178 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:14:30,183 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50808)
+2015-03-24 21:14:30,186 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:14:30,189 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:14:30,194 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:14:30,198 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:14:30,203 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:14:30,293 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50809)
+2015-03-24 21:14:30,296 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:14:30,300 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:15:32,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 23.3
+2015-03-24 21:15:32,025 - INFO  - ONEWIR  - 
+2015-03-24 21:15:32,028 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:15:32,031 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:15:32,035 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58470))
+2015-03-24 21:15:32,038 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":23.3}}}
+2015-03-24 21:15:32,042 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":23.3}}}
+2015-03-24 21:15:32,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:15:32,052 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:15:32,058 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:15:32,063 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50811)
+2015-03-24 21:15:32,066 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:15:32,069 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:15:32,074 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:15:32,078 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:15:32,080 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:15:32,172 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50812)
+2015-03-24 21:15:32,176 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:15:32,179 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:16:33,931 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.9
+2015-03-24 21:16:33,935 - INFO  - ONEWIR  - 
+2015-03-24 21:16:33,938 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:16:33,941 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:16:33,945 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58473))
+2015-03-24 21:16:33,948 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.9}}}
+2015-03-24 21:16:33,952 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.9}}}
+2015-03-24 21:16:33,956 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:16:33,962 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:16:33,968 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:16:33,972 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50814)
+2015-03-24 21:16:33,976 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:16:33,979 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:16:33,984 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:16:33,988 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:16:33,990 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:16:34,080 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50815)
+2015-03-24 21:16:34,084 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:16:34,088 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:16:40,310 - INFO  - DISPLA  - display off
+2015-03-24 21:17:35,841 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.2
+2015-03-24 21:17:35,845 - INFO  - ONEWIR  - 
+2015-03-24 21:17:35,848 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:17:35,851 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:17:35,855 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58476))
+2015-03-24 21:17:35,858 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.2}}}
+2015-03-24 21:17:35,862 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.2}}}
+2015-03-24 21:17:35,866 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:17:35,873 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:17:35,878 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:17:35,883 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50817)
+2015-03-24 21:17:35,886 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:17:35,889 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:17:35,894 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:17:35,897 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:17:35,901 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:17:35,991 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50818)
+2015-03-24 21:17:35,995 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:17:35,998 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:17:42,189 - INFO  - DISPLA  - display off
+2015-03-24 21:18:37,751 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.8
+2015-03-24 21:18:37,755 - INFO  - ONEWIR  - 
+2015-03-24 21:18:37,758 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:18:37,761 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:18:37,765 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58479))
+2015-03-24 21:18:37,768 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.8}}}
+2015-03-24 21:18:37,772 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.8}}}
+2015-03-24 21:18:37,776 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:18:37,782 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:18:37,788 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:18:37,792 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50820)
+2015-03-24 21:18:37,796 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:18:37,799 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:18:37,804 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:18:37,807 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:18:37,812 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:18:37,901 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50821)
+2015-03-24 21:18:37,905 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:18:37,908 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:18:44,098 - INFO  - DISPLA  - display off
+2015-03-24 21:19:39,601 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.4
+2015-03-24 21:19:39,605 - INFO  - ONEWIR  - 
+2015-03-24 21:19:39,608 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:19:39,611 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:19:39,615 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58482))
+2015-03-24 21:19:39,618 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 21:19:39,622 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 21:19:39,626 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:19:39,633 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:19:39,638 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:19:39,643 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50823)
+2015-03-24 21:19:39,655 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:19:39,658 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:19:39,663 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:19:39,666 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:19:39,670 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:19:39,770 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50824)
+2015-03-24 21:19:39,774 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:19:39,789 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:19:46,008 - INFO  - DISPLA  - display off
+2015-03-24 21:20:41,511 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.3
+2015-03-24 21:20:41,515 - INFO  - ONEWIR  - 
+2015-03-24 21:20:41,518 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:20:41,521 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:20:41,525 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58485))
+2015-03-24 21:20:41,528 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-03-24 21:20:41,532 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-03-24 21:20:41,536 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:20:41,542 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:20:41,548 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:20:41,553 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50826)
+2015-03-24 21:20:41,556 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:20:41,559 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:20:41,564 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:20:41,568 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:20:41,570 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:20:41,661 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50827)
+2015-03-24 21:20:41,665 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:20:41,668 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:20:47,918 - INFO  - DISPLA  - display off
+2015-03-24 21:21:43,421 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.2
+2015-03-24 21:21:43,425 - INFO  - ONEWIR  - 
+2015-03-24 21:21:43,428 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:21:43,431 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:21:43,435 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58488))
+2015-03-24 21:21:43,438 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-03-24 21:21:43,442 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-03-24 21:21:43,447 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:21:43,453 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:21:43,458 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:21:43,463 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50829)
+2015-03-24 21:21:43,467 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:21:43,470 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:21:43,475 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:21:43,478 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:21:43,481 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:21:43,572 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50830)
+2015-03-24 21:21:43,575 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:21:43,579 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:21:49,799 - INFO  - DISPLA  - display off
+2015-03-24 21:22:45,331 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.1
+2015-03-24 21:22:45,335 - INFO  - ONEWIR  - 
+2015-03-24 21:22:45,338 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:22:45,341 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:22:45,345 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58491))
+2015-03-24 21:22:45,348 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-03-24 21:22:45,352 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-03-24 21:22:45,357 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:22:45,363 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:22:45,368 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:22:45,372 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50832)
+2015-03-24 21:22:45,376 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:22:45,379 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:22:45,384 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:22:45,387 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:22:45,390 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:22:45,480 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50833)
+2015-03-24 21:22:45,483 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:22:45,487 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:22:51,675 - INFO  - DISPLA  - display off
+2015-03-24 21:23:53,627 - INFO  - DISPLA  - display off
+2015-03-24 21:24:49,121 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.0
+2015-03-24 21:24:49,125 - INFO  - ONEWIR  - 
+2015-03-24 21:24:49,128 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:24:49,131 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:24:49,135 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58494))
+2015-03-24 21:24:49,138 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-03-24 21:24:49,142 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-03-24 21:24:49,146 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:24:49,152 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:24:49,158 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:24:49,163 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50835)
+2015-03-24 21:24:49,166 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:24:49,169 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:24:49,174 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:24:49,178 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:24:49,180 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:24:49,271 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50836)
+2015-03-24 21:24:49,274 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:24:49,278 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:24:55,497 - INFO  - DISPLA  - display off
+2015-03-24 21:26:52,901 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.9
+2015-03-24 21:26:52,905 - INFO  - ONEWIR  - 
+2015-03-24 21:26:52,908 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:26:52,911 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:26:52,915 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58497))
+2015-03-24 21:26:52,918 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 21:26:52,922 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 21:26:52,926 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:26:52,932 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:26:52,938 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:26:52,943 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50838)
+2015-03-24 21:26:52,946 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:26:52,949 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:26:52,954 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:26:52,958 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:26:52,961 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:26:53,052 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50839)
+2015-03-24 21:26:53,056 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:26:53,059 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:26:59,287 - INFO  - DISPLA  - display off
+2015-03-24 21:29:03,105 - INFO  - DISPLA  - display off
+2015-03-24 21:32:02,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.8
+2015-03-24 21:32:02,275 - INFO  - ONEWIR  - 
+2015-03-24 21:32:02,278 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:32:02,281 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:32:02,285 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58500))
+2015-03-24 21:32:02,288 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-24 21:32:02,292 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-24 21:32:02,296 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:32:02,302 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:32:02,308 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:32:02,313 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50841)
+2015-03-24 21:32:02,316 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:32:02,319 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:32:02,324 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:32:02,328 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:32:02,330 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:32:02,421 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50842)
+2015-03-24 21:32:02,424 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:32:02,428 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:34:12,445 - INFO  - DISPLA  - display off
+2015-03-24 21:54:43,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.7
+2015-03-24 21:54:43,525 - INFO  - ONEWIR  - 
+2015-03-24 21:54:43,528 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 21:54:43,531 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 21:54:43,535 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58503))
+2015-03-24 21:54:43,538 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.7}}}
+2015-03-24 21:54:43,542 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.7}}}
+2015-03-24 21:54:43,546 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 21:54:43,552 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 21:54:43,558 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:54:43,563 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50844)
+2015-03-24 21:54:43,566 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 21:54:43,569 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 21:54:43,574 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 21:54:43,578 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 21:54:43,580 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 21:54:43,670 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50845)
+2015-03-24 21:54:43,674 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 21:54:43,677 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 21:56:53,781 - INFO  - DISPLA  - display off
+2015-03-24 22:27:43,371 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 24.1
+2015-03-24 22:27:43,375 - INFO  - ONEWIR  - 
+2015-03-24 22:27:43,378 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:27:43,382 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:27:43,387 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58506))
+2015-03-24 22:27:43,390 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":24.1}}}
+2015-03-24 22:27:43,394 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":24.1}}}
+2015-03-24 22:27:43,398 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 22:27:43,404 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:27:43,409 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:27:43,414 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50847)
+2015-03-24 22:27:43,418 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:27:43,421 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 22:27:43,426 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 22:27:43,429 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 22:27:43,432 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:27:43,522 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50848)
+2015-03-24 22:27:43,526 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:27:43,529 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:28:45,272 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 22.3
+2015-03-24 22:28:45,285 - INFO  - ONEWIR  - 
+2015-03-24 22:28:45,288 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:28:45,291 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:28:45,301 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58509))
+2015-03-24 22:28:45,305 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":22.3}}}
+2015-03-24 22:28:45,308 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":22.3}}}
+2015-03-24 22:28:45,313 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 22:28:45,335 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:28:45,339 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:28:45,353 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50850)
+2015-03-24 22:28:45,356 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 22:28:45,362 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 22:28:45,365 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 22:28:45,360 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:28:45,376 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:28:45,470 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50851)
+2015-03-24 22:28:45,474 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:28:45,488 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:29:47,171 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.2
+2015-03-24 22:29:47,175 - INFO  - ONEWIR  - 
+2015-03-24 22:29:47,178 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:29:47,181 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:29:47,185 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58512))
+2015-03-24 22:29:47,188 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.2}}}
+2015-03-24 22:29:47,192 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.2}}}
+2015-03-24 22:29:47,196 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 22:29:47,202 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:29:47,208 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:29:47,213 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50853)
+2015-03-24 22:29:47,216 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:29:47,219 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 22:29:47,224 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 22:29:47,227 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 22:29:47,230 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:29:47,321 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50854)
+2015-03-24 22:29:47,324 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:29:47,328 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:29:53,539 - INFO  - DISPLA  - display off
+2015-03-24 22:30:49,041 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.7
+2015-03-24 22:30:49,045 - INFO  - ONEWIR  - 
+2015-03-24 22:30:49,048 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:30:49,051 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:30:49,055 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58515))
+2015-03-24 22:30:49,058 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.7}}}
+2015-03-24 22:30:49,062 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.7}}}
+2015-03-24 22:30:49,066 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 22:30:49,072 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:30:49,078 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:30:49,083 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50856)
+2015-03-24 22:30:49,086 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:30:49,089 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 22:30:49,094 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 22:30:49,098 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 22:30:49,100 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:30:49,191 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50857)
+2015-03-24 22:30:49,194 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:30:49,198 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:30:55,498 - INFO  - DISPLA  - display off
+2015-03-24 22:31:50,901 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.4
+2015-03-24 22:31:50,905 - INFO  - ONEWIR  - 
+2015-03-24 22:31:50,908 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:31:50,911 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:31:50,915 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58518))
+2015-03-24 22:31:50,918 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 22:31:50,922 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 22:31:50,926 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.9 C'})
+2015-03-24 22:31:50,932 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:31:50,938 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:31:50,943 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50859)
+2015-03-24 22:31:50,946 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:31:50,949 - INFO  - MSGBUS  - send message {"text2L": "          21.9 C"}
+2015-03-24 22:31:50,954 - INFO  - DISPLA  - received data: {"text2L": "          21.9 C"}
+2015-03-24 22:31:50,958 - INFO  - DISPLA  - call private function text2L(          21.9 C)
+2015-03-24 22:31:50,962 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:31:51,051 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50860)
+2015-03-24 22:31:51,055 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:31:51,058 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:31:57,337 - INFO  - DISPLA  - display off
+2015-03-24 22:32:06,840 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-24 22:32:08,035 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:32:08,038 - INFO  - MSGBUS  - start message bus
+2015-03-24 22:32:08,041 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:32:08,334 - INFO  - DISPLA  - terminate display listener normaly
+2015-03-24 22:32:09,743 - INFO  - ONEWIR  - terminate one wire deamon normaly
+2015-03-24 22:32:10,931 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:32:10,935 - INFO  - ONEWIR  - start one wire deamon
+2015-03-24 22:32:10,938 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:32:11,777 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:32:11,781 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58528))
+2015-03-24 22:32:11,784 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-03-24 22:32:11,789 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-03-24 22:32:11,796 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 20.3
+2015-03-24 22:32:11,794 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.3 C'})
+2015-03-24 22:32:11,805 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:32:11,811 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:32:11,820 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:32:11,823 - INFO  - MSGBUS  - send message {"text2L": "          20.3 C"}
+2015-03-24 22:32:11,829 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:32:59,215 - INFO  - DISPLA  - display off
+2015-03-24 22:33:14,502 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.1
+2015-03-24 22:33:14,504 - INFO  - ONEWIR  - 
+2015-03-24 22:33:14,516 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:33:14,518 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:33:14,521 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58534))
+2015-03-24 22:33:14,532 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-03-24 22:33:14,535 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-03-24 22:33:14,538 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.3 C'})
+2015-03-24 22:33:14,543 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:33:14,555 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:33:14,560 - INFO  - MSGBUS  - send message {"text2L": "          20.3 C"}
+2015-03-24 22:33:14,564 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:33:14,567 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:34:01,075 - INFO  - DISPLA  - display off
+2015-03-24 22:34:04,023 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-24 22:34:04,045 - INFO  - ONEWIR  - terminate one wire deamon normaly
+2015-03-24 22:34:16,166 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:34:16,170 - INFO  - MSGBUS  - start message bus
+2015-03-24 22:34:16,173 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:34:21,883 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:34:21,887 - INFO  - DISPLA  - start display listener
+2015-03-24 22:34:21,890 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:34:27,749 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:34:27,769 - INFO  - ONEWIR  - start one wire deamon
+2015-03-24 22:34:27,772 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:34:28,616 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:34:28,620 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58537))
+2015-03-24 22:34:28,624 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-03-24 22:34:28,628 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-03-24 22:34:28,636 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 20.0
+2015-03-24 22:34:28,633 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.0 C'})
+2015-03-24 22:34:28,645 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:34:28,650 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:34:28,660 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50878)
+2015-03-24 22:34:28,663 - INFO  - MSGBUS  - send message {"text2L": "          20.0 C"}
+2015-03-24 22:34:28,669 - INFO  - DISPLA  - received data: {"text2L": "          20.0 C"}
+2015-03-24 22:34:28,666 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:34:28,677 - INFO  - DISPLA  - call private function text2L(          20.0 C)
+2015-03-24 22:34:28,680 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:34:28,769 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50879)
+2015-03-24 22:34:28,773 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:34:28,777 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:35:31,331 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 25.0
+2015-03-24 22:35:31,335 - INFO  - ONEWIR  - 
+2015-03-24 22:35:31,338 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:35:31,341 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:35:31,345 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58540))
+2015-03-24 22:35:31,348 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":25.0}}}
+2015-03-24 22:35:31,352 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":25.0}}}
+2015-03-24 22:35:31,356 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.0 C'})
+2015-03-24 22:35:31,362 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:35:31,367 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:35:31,372 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50881)
+2015-03-24 22:35:31,376 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:35:31,379 - INFO  - MSGBUS  - send message {"text2L": "          20.0 C"}
+2015-03-24 22:35:31,384 - INFO  - DISPLA  - received data: {"text2L": "          20.0 C"}
+2015-03-24 22:35:31,388 - INFO  - DISPLA  - call private function text2L(          20.0 C)
+2015-03-24 22:35:31,392 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:35:31,480 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50882)
+2015-03-24 22:35:31,484 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:35:31,487 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:36:33,241 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 23.4
+2015-03-24 22:36:33,245 - INFO  - ONEWIR  - 
+2015-03-24 22:36:33,248 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:36:33,251 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:36:33,255 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58543))
+2015-03-24 22:36:33,258 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":23.4}}}
+2015-03-24 22:36:33,262 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":23.4}}}
+2015-03-24 22:36:33,266 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.0 C'})
+2015-03-24 22:36:33,273 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:36:33,278 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:36:33,282 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50884)
+2015-03-24 22:36:33,286 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:36:33,289 - INFO  - MSGBUS  - send message {"text2L": "          20.0 C"}
+2015-03-24 22:36:33,295 - INFO  - DISPLA  - received data: {"text2L": "          20.0 C"}
+2015-03-24 22:36:33,298 - INFO  - DISPLA  - call private function text2L(          20.0 C)
+2015-03-24 22:36:33,293 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:36:33,391 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50885)
+2015-03-24 22:36:33,395 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:36:33,398 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:36:38,786 - INFO  - DISPLA  - display off
+2015-03-24 22:37:35,151 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 22.1
+2015-03-24 22:37:35,155 - INFO  - ONEWIR  - 
+2015-03-24 22:37:35,158 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:37:35,161 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:37:35,165 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58546))
+2015-03-24 22:37:35,168 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":22.1}}}
+2015-03-24 22:37:35,172 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":22.1}}}
+2015-03-24 22:37:35,176 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.0 C'})
+2015-03-24 22:37:35,182 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:37:35,187 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:37:35,192 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50887)
+2015-03-24 22:37:35,196 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:37:35,199 - INFO  - MSGBUS  - send message {"text2L": "          20.0 C"}
+2015-03-24 22:37:35,204 - INFO  - DISPLA  - received data: {"text2L": "          20.0 C"}
+2015-03-24 22:37:35,207 - INFO  - DISPLA  - call private function text2L(          20.0 C)
+2015-03-24 22:37:35,210 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:37:35,301 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50888)
+2015-03-24 22:37:35,304 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:37:35,308 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:37:41,497 - INFO  - DISPLA  - display off
+2015-03-24 22:38:22,260 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-24 22:38:23,452 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:38:23,460 - INFO  - MSGBUS  - start message bus
+2015-03-24 22:38:23,463 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:38:23,754 - INFO  - DISPLA  - terminate display listener normaly
+2015-03-24 22:38:25,158 - INFO  - ONEWIR  - terminate one wire deamon normaly
+2015-03-24 22:38:26,769 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:38:26,772 - INFO  - ONEWIR  - start one wire deamon
+2015-03-24 22:38:26,775 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:38:27,617 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:38:27,621 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58556))
+2015-03-24 22:38:27,624 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.3}}}
+2015-03-24 22:38:27,629 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.3}}}
+2015-03-24 22:38:27,636 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 21.3
+2015-03-24 22:38:27,634 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.3 C'})
+2015-03-24 22:38:27,646 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:38:27,651 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:38:27,660 - INFO  - MSGBUS  - send message {"text2L": "          21.3 C"}
+2015-03-24 22:38:27,665 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:38:27,669 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:38:43,445 - INFO  - DISPLA  - display off
+2015-03-24 22:39:30,341 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 22.6
+2015-03-24 22:39:30,345 - INFO  - ONEWIR  - 
+2015-03-24 22:39:30,348 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:39:30,351 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:39:30,355 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58559))
+2015-03-24 22:39:30,358 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":22.6}}}
+2015-03-24 22:39:30,362 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":22.6}}}
+2015-03-24 22:39:30,366 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.3 C'})
+2015-03-24 22:39:30,372 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:39:30,378 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:39:30,382 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:39:30,386 - INFO  - MSGBUS  - send message {"text2L": "          21.3 C"}
+2015-03-24 22:39:30,391 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:39:45,373 - INFO  - DISPLA  - display off
+2015-03-24 22:40:03,616 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:40:03,619 - INFO  - DISPLA  - start display listener
+2015-03-24 22:40:03,622 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:40:32,251 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.6
+2015-03-24 22:40:32,255 - INFO  - ONEWIR  - 
+2015-03-24 22:40:32,258 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:40:32,261 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:40:32,265 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58562))
+2015-03-24 22:40:32,268 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.6}}}
+2015-03-24 22:40:32,272 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.6}}}
+2015-03-24 22:40:32,277 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.3 C'})
+2015-03-24 22:40:32,283 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:40:32,288 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:40:32,292 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50903)
+2015-03-24 22:40:32,296 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:40:32,299 - INFO  - MSGBUS  - send message {"text2L": "          21.3 C"}
+2015-03-24 22:40:32,304 - INFO  - DISPLA  - received data: {"text2L": "          21.3 C"}
+2015-03-24 22:40:32,308 - INFO  - DISPLA  - call private function text2L(          21.3 C)
+2015-03-24 22:40:32,311 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:40:32,401 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50904)
+2015-03-24 22:40:32,404 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:40:32,408 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:41:34,141 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.9
+2015-03-24 22:41:34,145 - INFO  - ONEWIR  - 
+2015-03-24 22:41:34,148 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:41:34,151 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:41:34,155 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58565))
+2015-03-24 22:41:34,158 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.9}}}
+2015-03-24 22:41:34,162 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.9}}}
+2015-03-24 22:41:34,167 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.3 C'})
+2015-03-24 22:41:34,173 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:41:34,178 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:41:34,182 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50906)
+2015-03-24 22:41:34,186 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:41:34,189 - INFO  - MSGBUS  - send message {"text2L": "          21.3 C"}
+2015-03-24 22:41:34,194 - INFO  - DISPLA  - received data: {"text2L": "          21.3 C"}
+2015-03-24 22:41:34,198 - INFO  - DISPLA  - call private function text2L(          21.3 C)
+2015-03-24 22:41:34,200 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:41:34,291 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50907)
+2015-03-24 22:41:34,295 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:41:34,298 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:41:48,166 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-24 22:41:49,866 - INFO  - DISPLA  - terminate display listener normaly
+2015-03-24 22:41:50,225 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:41:50,228 - INFO  - MSGBUS  - start message bus
+2015-03-24 22:41:50,231 - INFO  - MSGBUS  - ======================================================
+2015-03-24 22:41:51,402 - INFO  - ONEWIR  - terminate one wire deamon normaly
+2015-03-24 22:41:52,582 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:41:52,585 - INFO  - ONEWIR  - start one wire deamon
+2015-03-24 22:41:52,588 - INFO  - ONEWIR  - ======================================================
+2015-03-24 22:41:53,426 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:41:53,430 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58575))
+2015-03-24 22:41:53,434 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.8}}}
+2015-03-24 22:41:53,438 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.8}}}
+2015-03-24 22:41:53,446 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 20.8
+2015-03-24 22:41:53,443 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.8 C'})
+2015-03-24 22:41:53,455 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:41:53,460 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:41:53,473 - INFO  - MSGBUS  - send message {"text2L": "          20.8 C"}
+2015-03-24 22:41:53,477 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:41:53,481 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:42:42,435 - INFO  - DISPLA  - display off
+2015-03-24 22:42:56,152 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.4
+2015-03-24 22:42:56,165 - INFO  - ONEWIR  - 
+2015-03-24 22:42:56,168 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:42:56,171 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:42:56,180 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58579))
+2015-03-24 22:42:56,183 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 22:42:56,205 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-03-24 22:42:56,210 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.4 C'})
+2015-03-24 22:42:56,235 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:42:56,239 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:42:56,250 - INFO  - MSGBUS  - could not connect to display deamon
+2015-03-24 22:42:56,253 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:42:56,280 - INFO  - MSGBUS  - could not connect to display deamon
+2015-03-24 22:43:34,401 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:43:34,405 - INFO  - DISPLA  - start display listener
+2015-03-24 22:43:34,408 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:43:58,101 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.2
+2015-03-24 22:43:58,105 - INFO  - ONEWIR  - 
+2015-03-24 22:43:58,108 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:43:58,111 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:43:58,115 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58583))
+2015-03-24 22:43:58,118 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-03-24 22:43:58,122 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-03-24 22:43:58,126 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.2 C'})
+2015-03-24 22:43:58,133 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:43:58,138 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:43:58,142 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50924)
+2015-03-24 22:43:58,149 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:43:58,152 - INFO  - MSGBUS  - send message {"text2L": "          20.2 C"}
+2015-03-24 22:43:58,158 - INFO  - DISPLA  - received data: {"text2L": "          20.2 C"}
+2015-03-24 22:43:58,161 - INFO  - DISPLA  - call private function text2L(          20.2 C)
+2015-03-24 22:43:58,167 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:43:58,254 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50925)
+2015-03-24 22:43:58,258 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:43:58,261 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:44:59,982 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 24.3
+2015-03-24 22:45:00,000 - INFO  - ONEWIR  - 
+2015-03-24 22:45:00,002 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:45:00,012 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:45:00,016 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58586))
+2015-03-24 22:45:00,025 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":24.3}}}
+2015-03-24 22:45:00,045 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":24.3}}}
+2015-03-24 22:45:00,050 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          24.3 C'})
+2015-03-24 22:45:00,069 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:45:00,073 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:45:00,088 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50927)
+2015-03-24 22:45:00,092 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:45:00,098 - INFO  - MSGBUS  - send message {"text2L": "          24.3 C"}
+2015-03-24 22:45:00,103 - INFO  - DISPLA  - received data: {"text2L": "          24.3 C"}
+2015-03-24 22:45:00,106 - INFO  - DISPLA  - call private function text2L(          24.3 C)
+2015-03-24 22:45:00,109 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:45:00,216 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50928)
+2015-03-24 22:45:00,220 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:45:00,225 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:46:01,931 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 22.6
+2015-03-24 22:46:01,935 - INFO  - ONEWIR  - 
+2015-03-24 22:46:01,938 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:46:01,941 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:46:01,945 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58589))
+2015-03-24 22:46:01,948 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":22.6}}}
+2015-03-24 22:46:01,952 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":22.6}}}
+2015-03-24 22:46:01,956 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          22.6 C'})
+2015-03-24 22:46:01,962 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:46:01,968 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:46:01,972 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50930)
+2015-03-24 22:46:01,976 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:46:01,981 - INFO  - MSGBUS  - send message {"text2L": "          22.6 C"}
+2015-03-24 22:46:01,987 - INFO  - DISPLA  - received data: {"text2L": "          22.6 C"}
+2015-03-24 22:46:01,990 - INFO  - DISPLA  - call private function text2L(          22.6 C)
+2015-03-24 22:46:01,993 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:46:02,083 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50931)
+2015-03-24 22:46:02,087 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:46:02,090 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:46:08,271 - INFO  - DISPLA  - display off
+2015-03-24 22:47:03,841 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.4
+2015-03-24 22:47:03,845 - INFO  - ONEWIR  - 
+2015-03-24 22:47:03,848 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:47:03,851 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:47:03,855 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58592))
+2015-03-24 22:47:03,858 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.4}}}
+2015-03-24 22:47:03,862 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.4}}}
+2015-03-24 22:47:03,866 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.4 C'})
+2015-03-24 22:47:03,872 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:47:03,878 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:47:03,885 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:47:03,889 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50933)
+2015-03-24 22:47:03,892 - INFO  - MSGBUS  - send message {"text2L": "          21.4 C"}
+2015-03-24 22:47:03,897 - INFO  - DISPLA  - received data: {"text2L": "          21.4 C"}
+2015-03-24 22:47:03,900 - INFO  - DISPLA  - call private function text2L(          21.4 C)
+2015-03-24 22:47:03,903 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:47:03,993 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50934)
+2015-03-24 22:47:03,997 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:47:04,000 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:47:10,242 - INFO  - DISPLA  - display off
+2015-03-24 22:47:26,535 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:47:26,539 - INFO  - DISPLA  - start display listener
+2015-03-24 22:47:26,541 - INFO  - DISPLA  - ======================================================
+2015-03-24 22:48:05,751 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.9
+2015-03-24 22:48:05,755 - INFO  - ONEWIR  - 
+2015-03-24 22:48:05,758 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:48:05,761 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:48:05,765 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58595))
+2015-03-24 22:48:05,768 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.9}}}
+2015-03-24 22:48:05,772 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.9}}}
+2015-03-24 22:48:05,776 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.9 C'})
+2015-03-24 22:48:05,782 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:48:05,788 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:48:05,795 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50936)
+2015-03-24 22:48:05,799 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:48:05,802 - INFO  - MSGBUS  - send message {"text2L": "          20.9 C"}
+2015-03-24 22:48:05,807 - INFO  - DISPLA  - received data: {"text2L": "          20.9 C"}
+2015-03-24 22:48:05,810 - INFO  - DISPLA  - call private function text2L(          20.9 C)
+2015-03-24 22:48:05,814 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:48:05,905 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50937)
+2015-03-24 22:48:05,908 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:48:05,912 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:49:07,661 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 31.7
+2015-03-24 22:49:07,665 - INFO  - ONEWIR  - 
+2015-03-24 22:49:07,668 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:49:07,671 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:49:07,675 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58598))
+2015-03-24 22:49:07,679 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":31.7}}}
+2015-03-24 22:49:07,682 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":31.7}}}
+2015-03-24 22:49:07,687 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          31.7 C'})
+2015-03-24 22:49:07,693 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:49:07,698 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:49:07,703 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50939)
+2015-03-24 22:49:07,707 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:49:07,712 - INFO  - MSGBUS  - send message {"text2L": "          31.7 C"}
+2015-03-24 22:49:07,717 - INFO  - DISPLA  - received data: {"text2L": "          31.7 C"}
+2015-03-24 22:49:07,721 - INFO  - DISPLA  - call private function text2L(          31.7 C)
+2015-03-24 22:49:07,723 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:49:07,814 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50940)
+2015-03-24 22:49:07,818 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:49:07,821 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:50:09,571 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 27.3
+2015-03-24 22:50:09,575 - INFO  - ONEWIR  - 
+2015-03-24 22:50:09,578 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:50:09,581 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:50:09,585 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58601))
+2015-03-24 22:50:09,588 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":27.3}}}
+2015-03-24 22:50:09,592 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":27.3}}}
+2015-03-24 22:50:09,596 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          27.3 C'})
+2015-03-24 22:50:09,602 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:50:09,608 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:50:09,612 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50942)
+2015-03-24 22:50:09,619 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:50:09,622 - INFO  - MSGBUS  - send message {"text2L": "          27.3 C"}
+2015-03-24 22:50:09,628 - INFO  - DISPLA  - received data: {"text2L": "          27.3 C"}
+2015-03-24 22:50:09,631 - INFO  - DISPLA  - call private function text2L(          27.3 C)
+2015-03-24 22:50:09,626 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:50:09,723 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50943)
+2015-03-24 22:50:09,727 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:50:09,730 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:51:11,481 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 24.9
+2015-03-24 22:51:11,485 - INFO  - ONEWIR  - 
+2015-03-24 22:51:11,488 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:51:11,491 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:51:11,495 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58604))
+2015-03-24 22:51:11,498 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":24.9}}}
+2015-03-24 22:51:11,502 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":24.9}}}
+2015-03-24 22:51:11,506 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          24.9 C'})
+2015-03-24 22:51:11,512 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:51:11,518 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:51:11,522 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50945)
+2015-03-24 22:51:11,529 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:51:11,531 - INFO  - MSGBUS  - send message {"text2L": "          24.9 C"}
+2015-03-24 22:51:11,538 - INFO  - DISPLA  - received data: {"text2L": "          24.9 C"}
+2015-03-24 22:51:11,541 - INFO  - DISPLA  - call private function text2L(          24.9 C)
+2015-03-24 22:51:11,535 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:51:11,633 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50946)
+2015-03-24 22:51:11,637 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:51:11,640 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:52:13,371 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 23.3
+2015-03-24 22:52:13,375 - INFO  - ONEWIR  - 
+2015-03-24 22:52:13,378 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:52:13,381 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:52:13,385 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58607))
+2015-03-24 22:52:13,388 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":23.3}}}
+2015-03-24 22:52:13,392 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":23.3}}}
+2015-03-24 22:52:13,396 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          23.3 C'})
+2015-03-24 22:52:13,402 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:52:13,408 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:52:13,412 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50948)
+2015-03-24 22:52:13,419 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:52:13,422 - INFO  - MSGBUS  - send message {"text2L": "          23.3 C"}
+2015-03-24 22:52:13,427 - INFO  - DISPLA  - received data: {"text2L": "          23.3 C"}
+2015-03-24 22:52:13,430 - INFO  - DISPLA  - call private function text2L(          23.3 C)
+2015-03-24 22:52:13,433 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:52:13,523 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50949)
+2015-03-24 22:52:13,527 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:52:13,530 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:53:15,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 22.3
+2015-03-24 22:53:15,275 - INFO  - ONEWIR  - 
+2015-03-24 22:53:15,278 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:53:15,281 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:53:15,285 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58610))
+2015-03-24 22:53:15,288 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":22.3}}}
+2015-03-24 22:53:15,292 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":22.3}}}
+2015-03-24 22:53:15,296 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          22.3 C'})
+2015-03-24 22:53:15,302 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:53:15,308 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:53:15,316 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50951)
+2015-03-24 22:53:15,319 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:53:15,322 - INFO  - MSGBUS  - send message {"text2L": "          22.3 C"}
+2015-03-24 22:53:15,327 - INFO  - DISPLA  - received data: {"text2L": "          22.3 C"}
+2015-03-24 22:53:15,330 - INFO  - DISPLA  - call private function text2L(          22.3 C)
+2015-03-24 22:53:15,333 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:53:15,424 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50952)
+2015-03-24 22:53:15,428 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:53:15,431 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:54:17,182 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.6
+2015-03-24 22:54:17,200 - INFO  - ONEWIR  - 
+2015-03-24 22:54:17,203 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:54:17,217 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:54:17,221 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58613))
+2015-03-24 22:54:17,224 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.6}}}
+2015-03-24 22:54:17,228 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.6}}}
+2015-03-24 22:54:17,232 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.6 C'})
+2015-03-24 22:54:17,247 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:54:17,250 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:54:17,257 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50954)
+2015-03-24 22:54:17,263 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:54:17,275 - INFO  - MSGBUS  - send message {"text2L": "          21.6 C"}
+2015-03-24 22:54:17,281 - INFO  - DISPLA  - received data: {"text2L": "          21.6 C"}
+2015-03-24 22:54:17,284 - INFO  - DISPLA  - call private function text2L(          21.6 C)
+2015-03-24 22:54:17,289 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:54:17,387 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50955)
+2015-03-24 22:54:17,390 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:54:17,403 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:55:19,121 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 21.0
+2015-03-24 22:55:19,125 - INFO  - ONEWIR  - 
+2015-03-24 22:55:19,128 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:55:19,131 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:55:19,135 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58616))
+2015-03-24 22:55:19,138 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":21.0}}}
+2015-03-24 22:55:19,142 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":21.0}}}
+2015-03-24 22:55:19,146 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          21.0 C'})
+2015-03-24 22:55:19,153 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:55:19,158 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:55:19,166 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50957)
+2015-03-24 22:55:19,169 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:55:19,172 - INFO  - MSGBUS  - send message {"text2L": "          21.0 C"}
+2015-03-24 22:55:19,177 - INFO  - DISPLA  - received data: {"text2L": "          21.0 C"}
+2015-03-24 22:55:19,181 - INFO  - DISPLA  - call private function text2L(          21.0 C)
+2015-03-24 22:55:19,184 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:55:19,275 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50958)
+2015-03-24 22:55:19,278 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:55:19,281 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:56:21,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.6
+2015-03-24 22:56:21,025 - INFO  - ONEWIR  - 
+2015-03-24 22:56:21,028 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:56:21,031 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:56:21,035 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58619))
+2015-03-24 22:56:21,038 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.6}}}
+2015-03-24 22:56:21,042 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.6}}}
+2015-03-24 22:56:21,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.6 C'})
+2015-03-24 22:56:21,052 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:56:21,058 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:56:21,065 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:56:21,069 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50960)
+2015-03-24 22:56:21,072 - INFO  - MSGBUS  - send message {"text2L": "          20.6 C"}
+2015-03-24 22:56:21,077 - INFO  - DISPLA  - received data: {"text2L": "          20.6 C"}
+2015-03-24 22:56:21,080 - INFO  - DISPLA  - call private function text2L(          20.6 C)
+2015-03-24 22:56:21,083 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:56:21,174 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50961)
+2015-03-24 22:56:21,177 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:56:21,181 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:57:22,932 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.3
+2015-03-24 22:57:22,965 - INFO  - ONEWIR  - 
+2015-03-24 22:57:22,967 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:57:22,975 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:57:22,979 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58622))
+2015-03-24 22:57:22,982 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-03-24 22:57:22,995 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-03-24 22:57:22,999 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.3 C'})
+2015-03-24 22:57:23,005 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:57:23,015 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:57:23,021 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50963)
+2015-03-24 22:57:23,028 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:57:23,031 - INFO  - MSGBUS  - send message {"text2L": "          20.3 C"}
+2015-03-24 22:57:23,036 - INFO  - DISPLA  - received data: {"text2L": "          20.3 C"}
+2015-03-24 22:57:23,039 - INFO  - DISPLA  - call private function text2L(          20.3 C)
+2015-03-24 22:57:23,045 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:57:23,147 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50964)
+2015-03-24 22:57:23,150 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:57:23,155 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:58:24,881 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.1
+2015-03-24 22:58:24,885 - INFO  - ONEWIR  - 
+2015-03-24 22:58:24,888 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:58:24,891 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:58:24,895 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58625))
+2015-03-24 22:58:24,898 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-03-24 22:58:24,902 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-03-24 22:58:24,906 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          20.1 C'})
+2015-03-24 22:58:24,912 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:58:24,918 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:58:24,922 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50966)
+2015-03-24 22:58:24,926 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:58:24,932 - INFO  - MSGBUS  - send message {"text2L": "          20.1 C"}
+2015-03-24 22:58:24,937 - INFO  - DISPLA  - received data: {"text2L": "          20.1 C"}
+2015-03-24 22:58:24,940 - INFO  - DISPLA  - call private function text2L(          20.1 C)
+2015-03-24 22:58:24,943 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:58:25,034 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50967)
+2015-03-24 22:58:25,037 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:58:25,041 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 22:59:26,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.9
+2015-03-24 22:59:26,776 - INFO  - ONEWIR  - 
+2015-03-24 22:59:26,779 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 22:59:26,782 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 22:59:26,787 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58628))
+2015-03-24 22:59:26,790 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 22:59:26,793 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-03-24 22:59:26,798 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.9 C'})
+2015-03-24 22:59:26,804 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 22:59:26,809 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:59:26,817 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50969)
+2015-03-24 22:59:26,820 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 22:59:26,823 - INFO  - MSGBUS  - send message {"text2L": "          19.9 C"}
+2015-03-24 22:59:26,829 - INFO  - DISPLA  - received data: {"text2L": "          19.9 C"}
+2015-03-24 22:59:26,832 - INFO  - DISPLA  - call private function text2L(          19.9 C)
+2015-03-24 22:59:26,836 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 22:59:26,935 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50970)
+2015-03-24 22:59:26,939 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 22:59:26,942 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:00:28,681 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.8
+2015-03-24 23:00:28,685 - INFO  - ONEWIR  - 
+2015-03-24 23:00:28,688 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:00:28,691 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:00:28,695 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58631))
+2015-03-24 23:00:28,699 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-24 23:00:28,702 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-24 23:00:28,707 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.8 C'})
+2015-03-24 23:00:28,713 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:00:28,718 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:00:28,722 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50972)
+2015-03-24 23:00:28,726 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:00:28,732 - INFO  - MSGBUS  - send message {"text2L": "          19.8 C"}
+2015-03-24 23:00:28,737 - INFO  - DISPLA  - received data: {"text2L": "          19.8 C"}
+2015-03-24 23:00:28,740 - INFO  - DISPLA  - call private function text2L(          19.8 C)
+2015-03-24 23:00:28,743 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:00:28,833 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50973)
+2015-03-24 23:00:28,837 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:00:28,840 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:01:30,591 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.7
+2015-03-24 23:01:30,595 - INFO  - ONEWIR  - 
+2015-03-24 23:01:30,598 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:01:30,601 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:01:30,605 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58634))
+2015-03-24 23:01:30,608 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.7}}}
+2015-03-24 23:01:30,612 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.7}}}
+2015-03-24 23:01:30,616 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.7 C'})
+2015-03-24 23:01:30,622 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:01:30,628 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:01:30,632 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50975)
+2015-03-24 23:01:30,636 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:01:30,642 - INFO  - MSGBUS  - send message {"text2L": "          19.7 C"}
+2015-03-24 23:01:30,647 - INFO  - DISPLA  - received data: {"text2L": "          19.7 C"}
+2015-03-24 23:01:30,650 - INFO  - DISPLA  - call private function text2L(          19.7 C)
+2015-03-24 23:01:30,653 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:01:30,744 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50976)
+2015-03-24 23:01:30,748 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:01:30,751 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:02:32,472 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.6
+2015-03-24 23:02:32,475 - INFO  - ONEWIR  - 
+2015-03-24 23:02:32,478 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:02:32,481 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:02:32,485 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58637))
+2015-03-24 23:02:32,488 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-03-24 23:02:32,492 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-03-24 23:02:32,496 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.6 C'})
+2015-03-24 23:02:32,502 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:02:32,508 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:02:32,512 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50978)
+2015-03-24 23:02:32,519 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:02:32,522 - INFO  - MSGBUS  - send message {"text2L": "          19.6 C"}
+2015-03-24 23:02:32,527 - INFO  - DISPLA  - received data: {"text2L": "          19.6 C"}
+2015-03-24 23:02:32,530 - INFO  - DISPLA  - call private function text2L(          19.6 C)
+2015-03-24 23:02:32,533 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:02:32,624 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50979)
+2015-03-24 23:02:32,627 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:02:32,631 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:04:36,221 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.5
+2015-03-24 23:04:36,225 - INFO  - ONEWIR  - 
+2015-03-24 23:04:36,228 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:04:36,231 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:04:36,235 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58640))
+2015-03-24 23:04:36,238 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-03-24 23:04:36,242 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-03-24 23:04:36,247 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.5 C'})
+2015-03-24 23:04:36,253 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:04:36,258 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:04:36,262 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50981)
+2015-03-24 23:04:36,266 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:04:36,272 - INFO  - MSGBUS  - send message {"text2L": "          19.5 C"}
+2015-03-24 23:04:36,277 - INFO  - DISPLA  - received data: {"text2L": "          19.5 C"}
+2015-03-24 23:04:36,280 - INFO  - DISPLA  - call private function text2L(          19.5 C)
+2015-03-24 23:04:36,283 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:04:36,374 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50982)
+2015-03-24 23:04:36,377 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:04:36,381 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:05:38,131 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.4
+2015-03-24 23:05:38,135 - INFO  - ONEWIR  - 
+2015-03-24 23:05:38,138 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:05:38,141 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:05:38,145 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58643))
+2015-03-24 23:05:38,148 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-24 23:05:38,152 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-03-24 23:05:38,156 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.4 C'})
+2015-03-24 23:05:38,162 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:05:38,168 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:05:38,172 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50984)
+2015-03-24 23:05:38,179 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:05:38,181 - INFO  - MSGBUS  - send message {"text2L": "          19.4 C"}
+2015-03-24 23:05:38,188 - INFO  - DISPLA  - received data: {"text2L": "          19.4 C"}
+2015-03-24 23:05:38,191 - INFO  - DISPLA  - call private function text2L(          19.4 C)
+2015-03-24 23:05:38,185 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:05:38,284 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50985)
+2015-03-24 23:05:38,288 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:05:38,291 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:07:48,356 - INFO  - DISPLA  - display off
+2015-03-24 23:10:47,521 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.3
+2015-03-24 23:10:47,525 - INFO  - ONEWIR  - 
+2015-03-24 23:10:47,528 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:10:47,531 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:10:47,535 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58646))
+2015-03-24 23:10:47,538 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-24 23:10:47,542 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-24 23:10:47,546 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.3 C'})
+2015-03-24 23:10:47,553 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:10:47,558 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:10:47,562 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50987)
+2015-03-24 23:10:47,566 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:10:47,572 - INFO  - MSGBUS  - send message {"text2L": "          19.3 C"}
+2015-03-24 23:10:47,577 - INFO  - DISPLA  - received data: {"text2L": "          19.3 C"}
+2015-03-24 23:10:47,580 - INFO  - DISPLA  - call private function text2L(          19.3 C)
+2015-03-24 23:10:47,583 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:10:47,673 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50988)
+2015-03-24 23:10:47,677 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:10:47,680 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:12:57,698 - INFO  - DISPLA  - display off
+2015-03-24 23:16:58,771 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.8
+2015-03-24 23:16:58,775 - INFO  - ONEWIR  - 
+2015-03-24 23:16:58,778 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:16:58,781 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:16:58,785 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58649))
+2015-03-24 23:16:58,789 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-24 23:16:58,792 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-03-24 23:16:58,797 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.8 C'})
+2015-03-24 23:16:58,803 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:16:58,808 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:16:58,812 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50990)
+2015-03-24 23:16:58,816 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:16:58,822 - INFO  - MSGBUS  - send message {"text2L": "          19.8 C"}
+2015-03-24 23:16:58,827 - INFO  - DISPLA  - received data: {"text2L": "          19.8 C"}
+2015-03-24 23:16:58,831 - INFO  - DISPLA  - call private function text2L(          19.8 C)
+2015-03-24 23:16:58,833 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:16:58,923 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50991)
+2015-03-24 23:16:58,927 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:16:58,930 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:18:00,681 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.5
+2015-03-24 23:18:00,685 - INFO  - ONEWIR  - 
+2015-03-24 23:18:00,688 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:18:00,691 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:18:00,695 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58652))
+2015-03-24 23:18:00,699 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-03-24 23:18:00,702 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-03-24 23:18:00,707 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.5 C'})
+2015-03-24 23:18:00,713 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:18:00,718 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:18:00,722 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50993)
+2015-03-24 23:18:00,726 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:18:00,732 - INFO  - MSGBUS  - send message {"text2L": "          19.5 C"}
+2015-03-24 23:18:00,737 - INFO  - DISPLA  - received data: {"text2L": "          19.5 C"}
+2015-03-24 23:18:00,741 - INFO  - DISPLA  - call private function text2L(          19.5 C)
+2015-03-24 23:18:00,743 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:18:00,834 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50994)
+2015-03-24 23:18:00,837 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:18:00,841 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:19:02,571 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.3
+2015-03-24 23:19:02,575 - INFO  - ONEWIR  - 
+2015-03-24 23:19:02,578 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:19:02,581 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:19:02,585 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58655))
+2015-03-24 23:19:02,588 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-24 23:19:02,592 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-03-24 23:19:02,596 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.3 C'})
+2015-03-24 23:19:02,603 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:19:02,608 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:19:02,612 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50996)
+2015-03-24 23:19:02,619 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:19:02,622 - INFO  - MSGBUS  - send message {"text2L": "          19.3 C"}
+2015-03-24 23:19:02,627 - INFO  - DISPLA  - received data: {"text2L": "          19.3 C"}
+2015-03-24 23:19:02,631 - INFO  - DISPLA  - call private function text2L(          19.3 C)
+2015-03-24 23:19:02,633 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:19:02,723 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50997)
+2015-03-24 23:19:02,727 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:19:02,730 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:21:12,796 - INFO  - DISPLA  - display off
+2015-03-24 23:22:08,241 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.2
+2015-03-24 23:22:08,245 - INFO  - ONEWIR  - 
+2015-03-24 23:22:08,248 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:22:08,251 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:22:08,255 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58658))
+2015-03-24 23:22:08,258 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-24 23:22:08,262 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-03-24 23:22:08,266 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.2 C'})
+2015-03-24 23:22:08,272 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:22:08,278 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:22:08,282 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 50999)
+2015-03-24 23:22:08,286 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:22:08,292 - INFO  - MSGBUS  - send message {"text2L": "          19.2 C"}
+2015-03-24 23:22:08,297 - INFO  - DISPLA  - received data: {"text2L": "          19.2 C"}
+2015-03-24 23:22:08,300 - INFO  - DISPLA  - call private function text2L(          19.2 C)
+2015-03-24 23:22:08,303 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:22:08,393 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51000)
+2015-03-24 23:22:08,397 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:22:08,400 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:24:12,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-03-24 23:24:12,025 - INFO  - ONEWIR  - 
+2015-03-24 23:24:12,028 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:24:12,031 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:24:12,035 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58661))
+2015-03-24 23:24:12,038 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-24 23:24:12,042 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-03-24 23:24:12,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.1 C'})
+2015-03-24 23:24:12,052 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:24:12,058 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:24:12,062 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51002)
+2015-03-24 23:24:12,069 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:24:12,071 - INFO  - MSGBUS  - send message {"text2L": "          19.1 C"}
+2015-03-24 23:24:12,078 - INFO  - DISPLA  - received data: {"text2L": "          19.1 C"}
+2015-03-24 23:24:12,081 - INFO  - DISPLA  - call private function text2L(          19.1 C)
+2015-03-24 23:24:12,075 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:24:12,174 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51003)
+2015-03-24 23:24:12,178 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:24:12,181 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:26:22,245 - INFO  - DISPLA  - display off
+2015-03-24 23:31:25,151 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.0
+2015-03-24 23:31:25,155 - INFO  - ONEWIR  - 
+2015-03-24 23:31:25,158 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:31:25,161 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:31:25,165 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58664))
+2015-03-24 23:31:25,168 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-24 23:31:25,172 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-03-24 23:31:25,176 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          19.0 C'})
+2015-03-24 23:31:25,182 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:31:25,188 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:31:25,192 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51005)
+2015-03-24 23:31:25,196 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:31:25,202 - INFO  - MSGBUS  - send message {"text2L": "          19.0 C"}
+2015-03-24 23:31:25,209 - INFO  - DISPLA  - received data: {"text2L": "          19.0 C"}
+2015-03-24 23:31:25,212 - INFO  - DISPLA  - call private function text2L(          19.0 C)
+2015-03-24 23:31:25,215 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:31:25,305 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51006)
+2015-03-24 23:31:25,309 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:31:25,312 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:33:35,411 - INFO  - DISPLA  - display off
+2015-03-24 23:35:32,651 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-03-24 23:35:32,655 - INFO  - ONEWIR  - 
+2015-03-24 23:35:32,658 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:35:32,661 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:35:32,665 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58667))
+2015-03-24 23:35:32,668 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-24 23:35:32,672 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-03-24 23:35:32,676 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.9 C'})
+2015-03-24 23:35:32,683 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:35:32,688 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:35:32,692 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51008)
+2015-03-24 23:35:32,699 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:35:32,702 - INFO  - MSGBUS  - send message {"text2L": "          18.9 C"}
+2015-03-24 23:35:32,707 - INFO  - DISPLA  - received data: {"text2L": "          18.9 C"}
+2015-03-24 23:35:32,711 - INFO  - DISPLA  - call private function text2L(          18.9 C)
+2015-03-24 23:35:32,714 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:35:32,804 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51009)
+2015-03-24 23:35:32,808 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:35:32,811 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:37:42,915 - INFO  - DISPLA  - display off
+2015-03-24 23:44:49,531 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-03-24 23:44:49,535 - INFO  - ONEWIR  - 
+2015-03-24 23:44:49,538 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:44:49,541 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:44:49,545 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58670))
+2015-03-24 23:44:49,548 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-24 23:44:49,552 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-03-24 23:44:49,557 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.8 C'})
+2015-03-24 23:44:49,563 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:44:49,568 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:44:49,572 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51011)
+2015-03-24 23:44:49,579 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:44:49,582 - INFO  - MSGBUS  - send message {"text2L": "          18.8 C"}
+2015-03-24 23:44:49,588 - INFO  - DISPLA  - received data: {"text2L": "          18.8 C"}
+2015-03-24 23:44:49,591 - INFO  - DISPLA  - call private function text2L(          18.8 C)
+2015-03-24 23:44:49,586 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:44:49,683 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51012)
+2015-03-24 23:44:49,687 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:44:49,690 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:46:59,698 - INFO  - DISPLA  - display off
+2015-03-24 23:55:08,271 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-03-24 23:55:08,275 - INFO  - ONEWIR  - 
+2015-03-24 23:55:08,278 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-24 23:55:08,281 - INFO  - ONEWIR  - open socket to message bus
+2015-03-24 23:55:08,285 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58673))
+2015-03-24 23:55:08,288 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-24 23:55:08,292 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-03-24 23:55:08,296 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.7 C'})
+2015-03-24 23:55:08,302 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-24 23:55:08,308 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:55:08,312 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51014)
+2015-03-24 23:55:08,319 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-24 23:55:08,322 - INFO  - MSGBUS  - send message {"text2L": "          18.7 C"}
+2015-03-24 23:55:08,327 - INFO  - DISPLA  - received data: {"text2L": "          18.7 C"}
+2015-03-24 23:55:08,330 - INFO  - DISPLA  - call private function text2L(          18.7 C)
+2015-03-24 23:55:08,333 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-24 23:55:08,423 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51015)
+2015-03-24 23:55:08,427 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-24 23:55:08,430 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-24 23:57:18,444 - INFO  - DISPLA  - display off
+2015-03-25 00:00:17,621 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-03-25 00:00:17,625 - INFO  - ONEWIR  - 
+2015-03-25 00:00:17,628 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-25 00:00:17,631 - INFO  - ONEWIR  - open socket to message bus
+2015-03-25 00:00:17,635 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58676))
+2015-03-25 00:00:17,638 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-25 00:00:17,642 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-03-25 00:00:17,646 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.6 C'})
+2015-03-25 00:00:17,652 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-25 00:00:17,658 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:00:17,662 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51017)
+2015-03-25 00:00:17,666 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:00:17,672 - INFO  - MSGBUS  - send message {"text2L": "          18.6 C"}
+2015-03-25 00:00:17,677 - INFO  - DISPLA  - received data: {"text2L": "          18.6 C"}
+2015-03-25 00:00:17,680 - INFO  - DISPLA  - call private function text2L(          18.6 C)
+2015-03-25 00:00:17,683 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-25 00:00:17,774 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51018)
+2015-03-25 00:00:17,777 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-25 00:00:17,781 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-25 00:02:27,884 - INFO  - DISPLA  - display off
+2015-03-25 00:12:40,141 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-03-25 00:12:40,145 - INFO  - ONEWIR  - 
+2015-03-25 00:12:40,148 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-25 00:12:40,151 - INFO  - ONEWIR  - open socket to message bus
+2015-03-25 00:12:40,155 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58679))
+2015-03-25 00:12:40,158 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-25 00:12:40,162 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-03-25 00:12:40,166 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.5 C'})
+2015-03-25 00:12:40,172 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-25 00:12:40,178 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:12:40,185 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:12:40,189 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51020)
+2015-03-25 00:12:40,192 - INFO  - MSGBUS  - send message {"text2L": "          18.5 C"}
+2015-03-25 00:12:40,199 - INFO  - DISPLA  - received data: {"text2L": "          18.5 C"}
+2015-03-25 00:12:40,203 - INFO  - DISPLA  - call private function text2L(          18.5 C)
+2015-03-25 00:12:40,196 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-25 00:12:40,294 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51021)
+2015-03-25 00:12:40,298 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-25 00:12:40,301 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-25 00:14:50,405 - INFO  - DISPLA  - display off
+2015-03-25 00:19:53,281 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-03-25 00:19:53,284 - INFO  - ONEWIR  - 
+2015-03-25 00:19:53,287 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-25 00:19:53,290 - INFO  - ONEWIR  - open socket to message bus
+2015-03-25 00:19:53,294 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58682))
+2015-03-25 00:19:53,297 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-25 00:19:53,300 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-03-25 00:19:53,306 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.4 C'})
+2015-03-25 00:19:53,311 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-25 00:19:53,316 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:19:53,320 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51023)
+2015-03-25 00:19:53,326 - INFO  - MSGBUS  - send message {"text2L": "          18.4 C"}
+2015-03-25 00:19:53,331 - INFO  - DISPLA  - received data: {"text2L": "          18.4 C"}
+2015-03-25 00:19:53,329 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:19:53,333 - INFO  - DISPLA  - call private function text2L(          18.4 C)
+2015-03-25 00:19:53,340 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-25 00:19:53,429 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51024)
+2015-03-25 00:19:53,433 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-25 00:19:53,436 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-25 00:22:03,445 - INFO  - DISPLA  - display off
+2015-03-25 00:38:27,021 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.3
+2015-03-25 00:38:27,023 - INFO  - ONEWIR  - 
+2015-03-25 00:38:27,025 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-25 00:38:27,027 - INFO  - ONEWIR  - open socket to message bus
+2015-03-25 00:38:27,030 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58685))
+2015-03-25 00:38:27,032 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-25 00:38:27,034 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.3}}}
+2015-03-25 00:38:27,038 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.3 C'})
+2015-03-25 00:38:27,042 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:38:27,045 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-25 00:38:27,049 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51026)
+2015-03-25 00:38:27,051 - INFO  - MSGBUS  - send message {"text2L": "          18.3 C"}
+2015-03-25 00:38:27,054 - INFO  - DISPLA  - received data: {"text2L": "          18.3 C"}
+2015-03-25 00:38:27,056 - INFO  - DISPLA  - call private function text2L(          18.3 C)
+2015-03-25 00:38:27,062 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:38:27,066 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-25 00:38:27,151 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51027)
+2015-03-25 00:38:27,153 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-25 00:38:27,155 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-25 00:40:37,195 - INFO  - DISPLA  - display off
+2015-03-25 00:51:51,371 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.2
+2015-03-25 00:51:51,373 - INFO  - ONEWIR  - 
+2015-03-25 00:51:51,375 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-25 00:51:51,377 - INFO  - ONEWIR  - open socket to message bus
+2015-03-25 00:51:51,380 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58688))
+2015-03-25 00:51:51,382 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-25 00:51:51,384 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.2}}}
+2015-03-25 00:51:51,387 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.2 C'})
+2015-03-25 00:51:51,392 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:51:51,395 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-25 00:51:51,399 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51029)
+2015-03-25 00:51:51,401 - INFO  - MSGBUS  - send message {"text2L": "          18.2 C"}
+2015-03-25 00:51:51,404 - INFO  - DISPLA  - received data: {"text2L": "          18.2 C"}
+2015-03-25 00:51:51,406 - INFO  - DISPLA  - call private function text2L(          18.2 C)
+2015-03-25 00:51:51,412 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:51:51,416 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-25 00:51:51,502 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51030)
+2015-03-25 00:51:51,505 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-25 00:51:51,507 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-25 00:54:01,609 - INFO  - DISPLA  - display off
+2015-03-25 00:59:04,481 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.1
+2015-03-25 00:59:04,483 - INFO  - ONEWIR  - 
+2015-03-25 00:59:04,485 - INFO  - ONEWIR  - EVENT! onewire
+2015-03-25 00:59:04,487 - INFO  - ONEWIR  - open socket to message bus
+2015-03-25 00:59:04,490 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 58691))
+2015-03-25 00:59:04,492 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-25 00:59:04,494 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.1}}}
+2015-03-25 00:59:04,497 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'text2L': u'          18.1 C'})
+2015-03-25 00:59:04,502 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:59:04,505 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay({u'displayOff': u'130'})
+2015-03-25 00:59:04,509 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51032)
+2015-03-25 00:59:04,511 - INFO  - MSGBUS  - send message {"text2L": "          18.1 C"}
+2015-03-25 00:59:04,514 - INFO  - DISPLA  - received data: {"text2L": "          18.1 C"}
+2015-03-25 00:59:04,516 - INFO  - DISPLA  - call private function text2L(          18.1 C)
+2015-03-25 00:59:04,522 - INFO  - MSGBUS  - open socket to display deamon
+2015-03-25 00:59:04,526 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-03-25 00:59:04,610 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 51033)
+2015-03-25 00:59:04,612 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-03-25 00:59:04,615 - INFO  - DISPLA  - call private function displayOff(130)
+2015-03-25 01:00:02,564 - INFO  - MSGBUS  - terminate message bus normaly
+2015-03-25 01:00:05,596 - INFO  - ONEWIR  - terminate one wire deamon normaly
