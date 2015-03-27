@@ -48,7 +48,10 @@ def wl(file_level, console_level = None):
 def sendDisplay(params):
 	#print "in postDisplay2Line" + str(params)
 	opensocket(cfg['display']['cfg']['port'],"display deamon",json.dumps(params))
-	
+
+def switchRelay(params):
+	#print "in postDisplay2Line" + str(params)
+	opensocket(cfg['gpo']['cfg']['port'],"gpo deamon",json.dumps(params))	
 
 def JSONcall(params):
 	#print "in JSONcall\n" + str(params) + "\n\n"
@@ -99,20 +102,31 @@ def parseMessage(msg):
 		for instance in js[domain]:
 			
 			try:
-				for (u1, fFunc) in enumerate(cfg['events'][domain][instance]):
-					fDetails = cfg['events'][domain][instance][u1]
+				for (u1, fFunc) in enumerate(cfg['events'][domain][instance]['functions']):
+					fDetails = cfg['events'][domain][instance]['functions'][u1]
 					eventParams = js[domain][instance]
 					params = fDetails['params']
-					functionName = fDetails['function'].encode('ascii','ignore')
+					functionName = fDetails['name'].encode('ascii','ignore')
 					
-					for (u1, param) in enumerate(params):
-						for (u2, eparam) in enumerate(eventParams):
-							try:
-								params[param] = params[param].replace("##"+eparam+"##", str(eventParams[eparam]))
-							except AttributeError:
-								break
+					#print functionName
 					
-					logger.info('event found, threading: '+domain+"->"+instance+"-->"+fDetails['function']+"("+str(params)+")")
+					#for (u1, param) in enumerate(params):
+					#	for (u2, eparam) in enumerate(eventParams):
+					#		try:
+					#			params[param] = params[param].replace("##"+eparam+"##", str(eventParams[eparam]))
+					#		except AttributeError:
+					#			break
+					
+					paramsStr = json.dumps(params)
+					for (u2, eparam) in enumerate(eventParams):
+						try:
+							paramsStr = paramsStr.replace("##"+eparam+"##", str(eventParams[eparam]))
+						except AttributeError:
+							break					
+					params = json.loads(paramsStr) 
+					
+					#logger.info('event found, threading: '+domain+"->"+instance+"-->"+fDetails['function']+"("+str(params)+")")
+					logger.info('event found, threading: '+domain+"->"+instance+"-->"+functionName)
 					#getattr(sys.modules[__name__], "%s" % fDetails['function'])(params)
 					
 					t = threading.Thread(target=threadDispatcher, args = (functionName, params))

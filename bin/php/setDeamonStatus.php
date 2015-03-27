@@ -82,6 +82,58 @@ if($name == "display"){
 	}
 }
 
+// ------------------------------------------------------------------------
+
+
+if($name == "gpi"){
+	
+	$kill = "";
+	exec("ps -ef | grep gpi.py | grep -v grep | awk -F\" \" '{print $2}'",$out);
+	foreach($out as $k => $v){
+		$kill .= $v." ";
+	}	
+	
+	if($value == "true"){
+		if(!$kill){
+			exec("cd ".$cfg->global->root."; sudo python ./gpi.py > /dev/null 2>/dev/null &",$out);
+			$retVal = "gpi deamon started...";
+		}
+		else{
+			$retVal = "gpi deamon already started!";	
+		}
+	}
+	else{
+		exec("sudo kill ".$v,$out2);
+		$retVal = "gpi deamon stopped!";
+	}
+}
+
+// ------------------------------------------------------------------------
+
+
+if($name == "gpo"){
+	
+	$kill = "";
+	exec("ps -ef | grep gpo.py | grep -v grep | awk -F\" \" '{print $2}'",$out);
+	foreach($out as $k => $v){
+		$kill .= $v." ";
+	}	
+	
+	if($value == "true"){
+		if(!$kill){
+			exec("cd ".$cfg->global->root."; sudo python ./gpo.py > /dev/null 2>/dev/null &",$out);
+			$retVal = "gpi listner started...";
+		}
+		else{
+			$retVal = "gpi listner already started!";	
+		}
+	}
+	else{
+		exec("sudo kill ".$v,$out2);
+		$retVal = "gpi listner stopped!";
+	}
+}
+
 
 
 header("Content-Type: application/json");

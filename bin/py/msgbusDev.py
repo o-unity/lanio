@@ -15,7 +15,7 @@ from array import *
 realpath = os.path.realpath(__file__)
 direname = os.path.dirname(realpath)
 
-json_data=open(direname + "/../../etc/conf/globalDev.json").read()
+json_data=open(direname + "/../../etc/conf/global.json").read()
 cfg = json.loads(json_data) 
 
 
@@ -101,11 +101,13 @@ def parseMessage(msg):
 		for instance in js[domain]:
 			
 			try:
-				for (u1, fFunc) in enumerate(cfg['events'][domain][instance]):
-					fDetails = cfg['events'][domain][instance][u1]
+				for (u1, fFunc) in enumerate(cfg['events'][domain][instance]['functions']):
+					fDetails = cfg['events'][domain][instance]['functions'][u1]
 					eventParams = js[domain][instance]
 					params = fDetails['params']
-					functionName = fDetails['function'].encode('ascii','ignore')
+					functionName = fDetails['name'].encode('ascii','ignore')
+					
+					#print functionName
 					
 					for (u1, param) in enumerate(params):
 						for (u2, eparam) in enumerate(eventParams):
@@ -114,11 +116,12 @@ def parseMessage(msg):
 							except AttributeError:
 								break
 					
-					logger.info('event found, threading: '+domain+"->"+instance+"-->"+fDetails['function']+"("+str(params)+")")
+					#logger.info('event found, threading: '+domain+"->"+instance+"-->"+fDetails['function']+"("+str(params)+")")
+					print 'event found, threading: '+domain+"->"+instance+"-->"+functionName
 					#getattr(sys.modules[__name__], "%s" % fDetails['function'])(params)
 					
-					t = threading.Thread(target=threadDispatcher, args = (functionName, params))
-					t.start()			
+					#t = threading.Thread(target=threadDispatcher, args = (functionName, params))
+					#t.start()			
 					
 			except KeyError:
 				break
@@ -127,6 +130,8 @@ def parseMessage(msg):
 		print "keyboard exit"
 			
 # -------------------------------------------------------------------
+
+
 
 msg = '{"onewire": {"28-0314640daeff":{"value":20.4}}}'
 parseMessage(msg)

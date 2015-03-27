@@ -2,8 +2,8 @@
 	"winStruct": {
 		"win_configBP": {
 			"id": "win_configBP",
-			"left": 312,
-			"top": 53,
+			"left": 339,
+			"top": 50,
 			"width": 277,
 			"height": 269,
 			"buttonId": "configBP",
@@ -30,6 +30,11 @@
 			"port": 50009
 		}
 	},
+	"gpo": {
+		"cfg": {
+			"port": 50007
+		}
+	},
 	"global": {
 		"log": "logs/",
 		"root": "/var/www/bin/py"
@@ -49,33 +54,92 @@
 			"lib": "onewire.py",
 			"start": "python ./onewire.py",
 			"name": "one wire deamon"
+		},
+		"gpo": {
+			"lib": "gpo.py",
+			"start": "sudo python ./gpo.py",
+			"name": "gpo listener"
+		},
+		"gpi": {
+			"lib": "gpi.py",
+			"start": "sudo python ./gpi.py",
+			"name": "gpi deamon"
 		}
 	},
 	"events": {
+		"gpi": {
+			"18": {
+				"condition": {
+					"type": "FE",
+					"behavior": "toggle"
+				},
+				"name": "Input 1",
+				"functions": [{
+					"name": "JSONcall",
+					"params": {
+						"eurl": "http://192.168.1.70:82/api/",
+						"data": "{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueInteger\",\"params\":[30393,##value##],\"id\":1}",
+						"auth": "1",
+						"usr": "andi.zaugg@port80.ch",
+						"pass": "service"
+					}
+				}, {
+					"name": "switchRelay",
+					"params": {
+						"relayGPO": {
+							"value": "##value##",
+							"relay": 16
+						}
+					}
+				}, {
+					"name": "sendDisplay",
+					"params": {
+						"text2L": "Input 1, FE / ##value##    "
+					}
+				}, {
+					"name": "sendDisplay",
+					"params": {
+						"displayOff": "10"
+					}
+				}]
+			}
+		},
 		"onewire": {
-			"28-0314640daeff": [{
-				"function": "JSONcall",
-				"params": {
-					"etype": "FE",
-					"eurl": "http://192.168.1.70:82/api/",
-					"requesttype": "POST",
-					"data": "{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueInteger\",\"params\":[57139,##value##],\"id\":1}",
-					"auth": "1",
-					"usr": "andi.zaugg@port80.ch",
-					"pass": "service",
-					"contenttype": "application/json"
-				}
-			}, {
-				"function": "sendDisplay",
-				"params": {
-					"text2L": "          ##value## C"
-				}
-			}, {
-				"function": "sendDisplay",
-				"params": {
-					"displayOff": "130"
-				}
-			}]
+			"28-0314640daeff": {
+				"functions": [{
+					"name": "JSONcall",
+					"params": {
+						"eurl": "http://192.168.1.70:82/api/",
+						"data": "{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueFloat\",\"params\":[57139,##value##],\"id\":1}",
+						"auth": "1",
+						"usr": "andi.zaugg@port80.ch",
+						"pass": "service"
+					}
+				}, {
+					"name": "sendDisplay",
+					"params": {
+						"text2L": "          ##value## C"
+					}
+				}, {
+					"name": "sendDisplay",
+					"params": {
+						"displayOff": "130"
+					}
+				}]
+			}
+		},
+		"api": {
+			"input1": {
+				"functions": [{
+					"name": "switchRelay",
+					"params": {
+						"relayGPO": {
+							"value": "##value##",
+							"relay": 16
+						}
+					}
+				}]
+			}
 		}
 	}
 }

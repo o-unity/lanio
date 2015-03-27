@@ -5,13 +5,13 @@
 	inputHeight: 20
 }, {
 	type: "btn2state",
-	name: "gpiDeamon",
+	name: "gpi",
 	value: "1",
 	label: "GPI Deamon (5001)",
 	checked: false
 }, {
 	type: "btn2state",
-	name: "gpoListener",
+	name: "gpo",
 	value: "1",
 	label: "GPO Listener (5002)",
 	checked: false
