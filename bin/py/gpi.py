@@ -71,7 +71,21 @@ def falling_edge(channel):
   sendMsgBus('{"gpi": {"'+str(channel)+'":{"value":'+str(lv['gpi'][str(channel)]['value'])+'}}}')
   
   
+def rising_edge(channel): 
+  global cfg 
+  global domain 
   
+  logger.info('')
+  logger.info('risign edge detected on channel ['+cfg['events'][domain][str(channel)]['name']+']')
+  
+  if cfg['events'][domain][str(channel)]['condition']['behavior'] == "toggle":
+  	if lv['gpi'][str(channel)]['value'] == 1:
+  		lv['gpi'][str(channel)]['value'] = 0
+  	else:
+  		lv['gpi'][str(channel)]['value'] = 1
+  		
+  
+  sendMsgBus('{"gpi": {"'+str(channel)+'":{"value":'+str(lv['gpi'][str(channel)]['value'])+'}}}')
 
     
 
@@ -137,8 +151,12 @@ try:
 			
 			if portConfig == "FE":
 				GPIO.setup(int(port), GPIO.IN, pull_up_down=GPIO.PUD_UP)
-				GPIO.add_event_detect(int(port), GPIO.FALLING, callback=falling_edge, bouncetime=1000) 
+				GPIO.add_event_detect(int(port), GPIO.FALLING, callback=falling_edge, bouncetime=500) 
 				setJsonPointer(str(port))
+			elif portConfig == "RE":
+				GPIO.setup(int(port), GPIO.IN, pull_up_down=GPIO.PUD_UP)
+				GPIO.add_event_detect(int(port), GPIO.RISING, callback=rising_edge, bouncetime=500) 
+				setJsonPointer(str(port))				
 			else:
 				logger.info('could not enable config type: ' + portConfig)
 		except:

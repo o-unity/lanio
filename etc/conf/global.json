@@ -1,145 +1,191 @@
 {
-	"winStruct": {
-		"win_configBP": {
-			"id": "win_configBP",
-			"left": 339,
-			"top": 50,
-			"width": 277,
-			"height": 269,
-			"buttonId": "configBP",
-			"active": "true"
-		}
-	},
-	"onewire": {
-		"devices": [{
-			"id": "28-0314640daeff",
-			"name": "28-0314640daeff"
-		}],
-		"cfg": {
-			"path": "/sys/bus/w1/devices/",
-			"wait": 61
-		}
-	},
-	"msgbus": {
-		"cfg": {
-			"port": 50008
-		}
-	},
-	"display": {
-		"cfg": {
-			"port": 50009
-		}
-	},
-	"gpo": {
-		"cfg": {
-			"port": 50007
-		}
-	},
-	"global": {
-		"log": "logs/",
-		"root": "/var/www/bin/py"
-	},
-	"bgp": {
-		"msgbus": {
-			"lib": "msgbus.py",
-			"start": "python ./msgbus.py",
-			"name": "message bus"
-		},
-		"display": {
-			"lib": "display.py",
-			"start": "python ./display.py",
-			"name": "display listener"
-		},
-		"onewire": {
-			"lib": "onewire.py",
-			"start": "python ./onewire.py",
-			"name": "one wire deamon"
-		},
-		"gpo": {
-			"lib": "gpo.py",
-			"start": "sudo python ./gpo.py",
-			"name": "gpo listener"
-		},
-		"gpi": {
-			"lib": "gpi.py",
-			"start": "sudo python ./gpi.py",
-			"name": "gpi deamon"
-		}
-	},
-	"events": {
-		"gpi": {
-			"18": {
-				"condition": {
-					"type": "FE",
-					"behavior": "toggle"
-				},
-				"name": "Input 1",
-				"functions": [{
-					"name": "JSONcall",
-					"params": {
-						"eurl": "http://192.168.1.70:82/api/",
-						"data": "{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueInteger\",\"params\":[30393,##value##],\"id\":1}",
-						"auth": "1",
-						"usr": "andi.zaugg@port80.ch",
-						"pass": "service"
-					}
-				}, {
-					"name": "switchRelay",
-					"params": {
-						"relayGPO": {
-							"value": "##value##",
-							"relay": 16
-						}
-					}
-				}, {
-					"name": "sendDisplay",
-					"params": {
-						"text2L": "Input 1, FE / ##value##    "
-					}
-				}, {
-					"name": "sendDisplay",
-					"params": {
-						"displayOff": "10"
-					}
-				}]
-			}
-		},
-		"onewire": {
-			"28-0314640daeff": {
-				"functions": [{
-					"name": "JSONcall",
-					"params": {
-						"eurl": "http://192.168.1.70:82/api/",
-						"data": "{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueFloat\",\"params\":[57139,##value##],\"id\":1}",
-						"auth": "1",
-						"usr": "andi.zaugg@port80.ch",
-						"pass": "service"
-					}
-				}, {
-					"name": "sendDisplay",
-					"params": {
-						"text2L": "          ##value## C"
-					}
-				}, {
-					"name": "sendDisplay",
-					"params": {
-						"displayOff": "130"
-					}
-				}]
-			}
-		},
-		"api": {
-			"input1": {
-				"functions": [{
-					"name": "switchRelay",
-					"params": {
-						"relayGPO": {
-							"value": "##value##",
-							"relay": 16
-						}
-					}
-				}]
-			}
-		}
-	}
+  "winStruct":{
+    "win_configBP":{
+      "id":"win_configBP",
+      "left":0,
+      "top":0,
+      "width":277,
+      "height":269,
+      "buttonId":"configBP",
+      "active":"true"
+    }
+  },
+  "onewire":{
+    "devices":[
+      {
+        "id":"28-0314640daeff",
+        "name":"28-0314640daeff"
+      }
+    ],
+    "cfg":{
+      "path":"/sys/bus/w1/devices/",
+      "wait":61
+    }
+  },
+  "msgbus":{
+    "cfg":{
+      "port":50008
+    }
+  },
+  "display":{
+    "cfg":{
+      "port":50009
+    }
+  },
+  "gpo":{
+    "cfg":{
+      "port":50007
+    }
+  },
+  "global":{
+    "log":"logs/",
+    "root":"/var/www/bin/py"
+  },
+  "bgp":{
+    "msgbus":{
+      "lib":"msgbus.py",
+      "start":"python ./msgbus.py",
+      "name":"message bus"
+    },
+    "display":{
+      "lib":"display.py",
+      "start":"python ./display.py",
+      "name":"display listener"
+    },
+    "onewire":{
+      "lib":"onewire.py",
+      "start":"python ./onewire.py",
+      "name":"one wire deamon"
+    },
+    "gpo":{
+      "lib":"gpo.py",
+      "start":"sudo python ./gpo.py",
+      "name":"gpo listener"
+    },
+    "gpi":{
+      "lib":"gpi.py",
+      "start":"sudo python ./gpi.py",
+      "name":"gpi deamon"
+    }
+  },
+  "events":{
+    "gpi":{
+      "18":{
+        "condition":{
+          "type":"FE",
+          "behavior":"toggle"
+        },
+        "name":"Input 1",
+        "functions":[
+          {
+            "name":"JSONcall",
+            "params":{
+              "eurl":"http://192.168.1.70:82/api/",
+              "data":"{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueInteger\",\"params\":[30393,##value##],\"id\":1}",
+              "auth":"1",
+              "usr":"andi.zaugg@port80.ch",
+              "pass":"service"
+            }
+          },
+          {
+            "name":"switchRelay",
+            "params":{
+              "relayGPO":{
+                "value":"##value##",
+                "relay":16
+              }
+            }
+          },
+          {
+            "name":"sendDisplay",
+            "params":{
+              "text2L":"Input 1, FE / ##value##    "
+            }
+          },
+          {
+            "name":"sendDisplay",
+            "params":{
+              "displayOff":"10"
+            }
+          }
+        ]
+      },
+      "27":{
+        "condition":{
+          "type":"RE",
+          "behavior":"toggle"
+        },
+        "name":"Input 3",
+        "functions":[
+          {
+            "name":"sendDisplay",
+            "params":{
+              "text2L":"Input 3, FE / ##value##    "
+            }
+          },
+          {
+            "name":"sendDisplay",
+            "params":{
+              "displayOff":"10"
+            }
+          }
+        ]
+      }
+    },
+    "onewire":{
+      "28-0314640daeff":{
+        "functions":[
+          {
+            "name":"JSONcall",
+            "params":{
+              "eurl":"http://192.168.1.70:82/api/",
+              "data":"{ \"jsonrpc\":\"2.0\",\"method\":\"SetValueFloat\",\"params\":[57139,##value##],\"id\":1}",
+              "auth":"1",
+              "usr":"andi.zaugg@port80.ch",
+              "pass":"service"
+            }
+          },
+          {
+            "name":"sendDisplay",
+            "params":{
+              "text2L":"          ##value## C"
+            }
+          },
+          {
+            "name":"sendDisplay",
+            "params":{
+              "displayOff":"130"
+            }
+          }
+        ]
+      }
+    },
+    "api":{
+      "input1":{
+        "functions":[
+          {
+            "name":"switchRelay",
+            "params":{
+              "relayGPO":{
+                "value":"##value##",
+                "relay":16
+              }
+            }
+          },
+          {
+            "name":"sendDisplay",
+            "params":{
+              "text2L":"API call!            "
+            }
+          },
+          {
+            "name":"sendDisplay",
+            "params":{
+              "displayOff":"10"
+            }
+          }
+        ]
+      }
+    }
+  }
 }

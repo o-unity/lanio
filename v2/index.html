@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="stylesheet" href="js/webix/codebase/webix.css" type="text/css">
+	<script src="js/webix/codebase/webix.js" type="text/javascript"></script>
+	<!--<script type="text/javascript" src="json/static/menu.js"></script>-->
+	<style>
+		.logo {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			z-index: 100;addData
+			padding: 30px;
+		}
+		.imgEvent {
+			padding-top:3px; 
+			padding-right:5px; 
+			padding-left:5px;
+		}
+	
+	</style>
+</head>
+
+
+
+<body>
+	<script type="text/javascript" charset="utf-8">
+	
+	
+		var form1 = [
+			{ view:"text", name:"eurl", value:'', label:"Request URL", width:500, labelWidth:130 },
+			{ view:"textarea", name:"data", height:200, value:'', label:"Data to Submit", width:500, labelWidth:130 },
+			{ view:"checkbox", name:"auth", label:"Authentification", labelWidth:130, relatedView:"authframe" },
+			{ hidden:true, id:"authframe", rows:[
+				{ view:"text", value:'', label:"User Name", width:500, labelWidth:130, name:"username" },
+				{ view:"text", value:'', label:"Password", width:500, labelWidth:130, name:"password" }
+			]},	
+			{ margin:5, cols:[
+				{ view:"button", value:"Save" , type:"form", width:495 }
+			]}		
+		];	
+
+
+		var form2 = [
+			{ view:"text", name:"eurl2", value:'', label:"Request URLXXX", width:500, labelWidth:130 },
+			{ view:"textarea", name:"data2", height:200, value:'', label:"Data to Submit", width:500, labelWidth:130 },
+			{ view:"checkbox", name:"auth2", label:"Authentification", labelWidth:130, relatedView:"authframe2" },
+			{ hidden:true, id:"authframe2", rows:[
+				{ view:"text", value:'', label:"User Name", width:500, labelWidth:130, name:"username2" },
+				{ view:"text", value:'', label:"Password", width:500, labelWidth:130, name:"password2" }
+			]},	
+			{ margin:5, cols:[
+				{ view:"button", value:"Save" , type:"form", width:495 }
+			]}		
+		];
+		
+	var bgp = [
+			{ view:"segmented", value:"GPI_1", inputWidth:350, label:"GPI Deamon",labelWidth:200, options:[
+				{ id:"GPI_1", value:"ON" },
+				{ id:"GPI_0", value:"OFF" }
+			]},
+			{ view:"segmented", value:"GPO_1", inputWidth:350, label:"GPO Listener",labelWidth:200, options:[
+				{ id:"GPO_1", value:"ON" },
+				{ id:"GPO_0", value:"OFF" }
+			]},
+			{ view:"segmented", value:"ONE_1", inputWidth:350, label:"One-Wire Deamon",labelWidth:200, options:[
+				{ id:"ONE_1", value:"ON" },
+				{ id:"ONE_0", value:"OFF" }
+			]},
+			{ view:"segmented", value:"DIS_1", inputWidth:350, label:"Display Listener",labelWidth:200, options:[
+				{ id:"DIS_1", value:"ON" },
+				{ id:"DIS_0", value:"OFF" }
+			]},
+			{ view:"segmented", value:"MSG_1", inputWidth:350, label:"Message Bus",labelWidth:200, options:[
+				{ id:"MSG_1", value:"ON" },
+				{ id:"MSG_0", value:"OFF" }
+			]},
+			{ margin:5, cols:[
+				{ view:"button", value:"Restart All" , type:"form", width:350 }
+			]}
+		];		
+		
+		
+		var json_TextForm = "<strong>JSON Call</strong><br>You can use the tag ##value## in "
+		
+		
+		var menudata = [{
+			id: "1",
+			value: "Authorization",
+			open: 1
+		}, {
+			id: "2",
+			value: "Background Processes"
+		}, {
+			id: "3",
+			value: "Network Settings"
+		}];
+
+		var menu = {
+			id: "top_menu",
+			view: "menu",
+			type: {
+				subsign: true
+			},
+			data: [{
+				id: "1",
+				value: "Authorization"
+			}, {
+				id: "2",
+				value: "Background Processes"
+			}, {
+				id: "3",
+				value: "Network Settings"
+			}]
+		};
+		
+		
+			webix.protoUI({
+				name:"grouplist"
+			}, webix.EditAbility, webix.ui.grouplist);
+		
+			
+		webix.ui({
+			type: "space",
+			cols: [{
+				type: "clean",
+				width: 400,
+				rows: [{
+					template: "<i>Device List</i>",
+					height: 30
+				}, {
+					container: "listA",
+					id: "deviceController",
+					view: "grouplist",
+					width: 400,
+					height: 600,
+					scroll: false,
+					editable:true,
+					editor:"richselect", 
+					options:[
+							{id: "json", value: "<img class='imgEvent' src='img/json.png' width='28px' align='top' style='padding-top:0px;'> Json Web Request"},
+							{id: "relay", value: "<img class='imgEvent' src='img/switch.png' width='22px' align='top'> Switch Relay"}, 
+							{id: "sdisplay", value: "<img class='imgEvent' src='img/display.png' width='25px' align='top'> Show Display"}, 
+							{id: "hdisplay", value: "<img class='imgEvent' src='img/displayoff.png' width='25px' align='top'> Display Off"}
+						],
+					url: "json/static/menu.json?jjj",
+					template: function(obj){ 
+						
+						addEvent = "";
+						if ( obj.type == "input" ){ 
+							addEvent = "<img onClick='addData(\""+obj.id+"\")' src='img/add.png' width='22px' style='float: right; margin: 3px 30px 0px 0px;'>";
+						}
+						
+						if ( obj.type == "event" ){
+							//addEvent = "<img onClick='editEvent(\""+obj.id+"\")' src='img/change.png' width='22px' style='float: right;padding-right:10px'>";
+							addEvent = "<img onClick='editEvent(\""+obj.id+"\")' src='img/edit.png' width='22px' style='float: right;padding-right:10px'>";
+							addEvent += "<img onClick='deleteEvent(\""+obj.id+"\")' src='img/delete.png' width='22px' style='float: right;padding-right:10px'>";
+							return obj.value+" "+addEvent 
+						}						
+						
+    					return "<img src='img/"+obj.icon+"' width='22px'  align='texttop'> "+obj.value+" "+addEvent
+					}
+				}, {
+					view: "template"
+				}]
+			}, {
+				type: "wide",
+				width:"100%",
+				rows: [
+					{ 
+						type:"clean", 
+						cols:[ 
+							menu 
+						] 
+					},{ 
+						type:"clean",
+						rows: [
+							{
+								id: "json_TextForm",
+								template:json_TextForm,
+								autoheight: true,
+								hidden:true
+							},{
+								id: "json_EditForm",
+								view:"form", 
+								scroll:false, 
+								elements: form1,
+								hidden:true
+							},{
+								id: "bgpID",
+								view:"form", 
+								scroll:false, 
+								elements: bgp,
+								hidden:false
+							},{
+								id: "textTemplate",
+								template:"<br>",
+								hidden:false,
+							}
+							
+							
+						]
+					}
+				]
+			}]
+		});
+		
+		
+		function editClick(id, e){
+			var item_id = $$('mylist').locate(e);
+			webix.message("Edit "+item_id);
+		}
+		
+		
+		$$('deviceController').attachEvent("onBeforeEditStart", function(id){
+			
+			if(window.inputEvent){
+				return true;
+			}
+			else{
+				return false;
+			}
+
+		});
+		
+		//
+		$$('deviceController').attachEvent("onAfterEditStop", function(currValue,state){
+			var currId = state.id;
+			
+			state.config.options.forEach(function(entry) {
+    			if(entry.id == $$('deviceController').getItem(currId).value){
+    				
+    				// CHANGE VALUE
+    				$$('deviceController').getItem(currId).value = entry.value;
+    				$$('deviceController').getItem(currId).subtype = entry.id;
+    				$$('deviceController').refresh();
+					
+    				// SUBMIT DATA TO STORE
+    				console.log("to do: store (parentid: "+$$('deviceController').getItem(currId).$parent+",id:"+$$('deviceController').getItem(currId).id+",subtype:"+entry.id)
+    			}
+			});
+			
+		});	
+		
+		$$('deviceController').attachEvent("onItemClick", function(id,value){
+
+			if(!window.inputEvent && !window.delEvent){
+				if (this.getItem(id).editParams == "event"){
+					
+					var subtype = this.getItem(id).subtype;
+					console.log("to do: open window " + this.getItem(id).id);
+					$$(subtype + "_EditForm").load("json/static/" + subtype + "_EditForm.json");
+					
+					$$(subtype + '_EditForm').show();
+					$$(subtype + '_TextForm').show();
+					
+					
+					
+					// WORKS! SHOW OTHER FORM					
+					//$$('jsonCallForm').config.elements = form2;
+					//$$('jsonCallForm').reconstruct();
+
+					//loads new data to the list
+					//$$("mylist").define("url", "new_data.xml");
+					//$$('myform').clear();
+					
+				}
+			}
+			
+			
+			window.inputEvent = false;
+			window.delEvent = false;
+		});	
+		
+	
+		window.inputEvent = false;
+		function editEvent(id){
+			window.inputEvent = true;
+		}
+		window.delEvent = false;
+		function deleteEvent(id){
+			window.delEvent = true;
+		}		
+		
+        function addData(parentId) {
+        	//console.log(genHash(parentId)); 
+        	//new Date().getTime()
+        	$$('deviceController').add( {value:"<i>no event defined</i>", icon: "events_icon.png", id: genHash(parentId), type: "event", editParams: "event" }, 0, parentId);
+		}		
+		
+		function genHash(id){
+  			var t = String(new Date().getTime());
+  			return id + "_" + t.substring(8); 
+		}
+		
+		
+		
+	</script>
+
+	<!--<img class="logo" src="img/ebrixx2.png">-->
+</body>
+
+
+
+
+
+
+</html>

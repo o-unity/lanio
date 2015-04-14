@@ -12,7 +12,7 @@
 			echo file_get_contents("http://localhost?l=setDeamonStatus&name=".$v->id."&value=false");
 			echo "\n";
 			flush();
-			//sleep(6);
+			sleep(5);
 			
 			echo "start ".$v->id;
 			echo "\n";
@@ -20,7 +20,7 @@
 			echo file_get_contents("http://localhost?l=setDeamonStatus&name=".$v->id."&value=true");
 			echo "\n";
 			flush();
-			sleep(1);
+			sleep(10);
 			echo "\n";
 			echo "\n";
 		}	

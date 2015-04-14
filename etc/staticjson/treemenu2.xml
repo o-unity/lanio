@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+<menu id="0">
+		<item text="YES!" img="red.gif"  id="edit_Red"/>	
+		<item text="YES" img="green.gif"  id="edit_Green"/>	
+		<item text="YES" img="blue.gif"  id="edit_Blue"/>	
+</menu>

@@ -38,9 +38,77 @@ function doOnLoad() {
 			});
 		}
 	});
+	
+	// ---------------------------------------------
+	// INIT TREE
+	
+
+
+	
+	tree=new dhtmlXTreeObject("treeDiv","100%","100%",0);
+	tree.setImagePath("ext/dhtmlx/skins/terrace/imgs/dhxtree_terrace/");
+	tree.setXMLAutoLoading("etc/staticjson/rootTree.json"); 
+	tree.setDataMode("json");
+	//load first level of tree
+	tree.loadJSON("etc/staticjson/rootTree.json?id=0"); 
+	myLayout.cells("a").attachObject("treeDiv");
+	
+	/*
+	tree.attachEvent("onRightClick",function(itemId){
+
+
+	})
+	*/
+	
+	/*
+			myContextMenu = new dhtmlXMenuObject({
+				parent: "treeDiv",
+				context: true,
+				icons_path: "etc/dhtmlx/samples/dhtmlxMenu/common",
+				dynamic: "etc/staticjson/treemenu.json"
+			});	
+	*/
+	
+	
+	//alert("hold....");
+	
+	/*
+	menu = new dhtmlXMenuObject();
+	menu.setIconsPath("etc/dhtmlx/samples/dhtmlxMenu/common");
+	menu.renderAsContextMenu();
+	menu.attachEvent("onClick",onMenuClick);
+	menu.loadStruct("etc/staticjson/treemenu.xml");		
+	*/
+	
+	//tree.enableContextMenu(menu);
+	
+	/*
+	tree.attachEvent("onBeforeContextMenu",function(itemId){
+
+	    if(tree.getLevel(itemId)==1){
+	          return false
+	     }
+	     
+	   
+	     menu.clearAll();
+		 //menu = new dhtmlXMenuObject();
+		 menu.setIconsPath("etc/dhtmlx/samples/dhtmlxMenu/common");
+		 menu.renderAsContextMenu();
+		 menu.attachEvent("onClick",onMenuClick);
+		 menu.loadStruct("etc/staticjson/treemenu2.xml");	
+		
+		//alert("ssssss");
+	     return true
+	})	
+	//menu.hideItem('edit_Red');	
+	*/
 
 }
 
+
+function onMenuClick(){
+	alert("click!");
+}
 
 // header
 function attachHeader() {

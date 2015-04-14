@@ -59,7 +59,7 @@
 <body onload="doOnLoad();">
 	<div id="my_logo" class="my_hdr"><div class="text"><img src="ext/img/ebrixx.png" align="right" height="70px"></div></div>
 	
-	<div id="treeboxbox_tree"></div>
+	<div id="treeDiv" style="padding:20px;padding-top:40px"></div>
 	<div id="workspace" style="padding:20px"><div id="myForm"></div></div>
 	<div id="accObj"></div>
 	<div id="toolbarObj"></div>

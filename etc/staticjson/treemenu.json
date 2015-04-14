@@ -1,0 +1,9 @@
+[{
+	id: "navigation",
+	text: "Navigation",
+	complex: false
+}, {
+	id: "help",
+	text: "Help",
+	complex: false
+}]

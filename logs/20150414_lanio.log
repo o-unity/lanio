@@ -1,0 +1,2206 @@
+2015-04-14 00:00:09,704 - INFO  - MSGBUS  - ======================================================
+2015-04-14 00:00:09,706 - INFO  - MSGBUS  - start message bus
+2015-04-14 00:00:09,708 - INFO  - MSGBUS  - ======================================================
+2015-04-14 00:00:24,200 - INFO  - DISPLA  - ======================================================
+2015-04-14 00:00:24,202 - INFO  - DISPLA  - start display listener
+2015-04-14 00:00:24,203 - INFO  - DISPLA  - ======================================================
+2015-04-14 00:00:39,349 - INFO  - ONEWIR  - ======================================================
+2015-04-14 00:00:39,351 - INFO  - ONEWIR  - start one wire deamon
+2015-04-14 00:00:39,352 - INFO  - ONEWIR  - ======================================================
+2015-04-14 00:00:40,198 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 00:00:40,201 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48813))
+2015-04-14 00:00:40,203 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-04-14 00:00:40,206 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-04-14 00:00:40,210 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 00:00:40,215 - INFO  - ONEWIR  - init sensor: /sys/bus/w1/devices/28-0314640daeff: 19.6
+2015-04-14 00:00:40,218 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 00:00:40,238 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:00:40,243 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:00:40,246 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:00:40,250 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41154)
+2015-04-14 00:00:40,252 - INFO  - MSGBUS  - send message {"text2L": "          19.6 C"}
+2015-04-14 00:00:40,256 - INFO  - DISPLA  - received data: {"text2L": "          19.6 C"}
+2015-04-14 00:00:40,258 - INFO  - DISPLA  - call private function text2L(          19.6 C)
+2015-04-14 00:00:40,262 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:00:40,280 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 00:00:40,381 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41155)
+2015-04-14 00:00:40,383 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 00:00:40,396 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 00:00:40,479 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 00:00:40,481 - INFO  - MSGBUS  - REST call successful
+2015-04-14 00:00:54,857 - INFO  - GPOUTP  - ======================================================
+2015-04-14 00:00:54,859 - INFO  - GPOUTP  - start gpo listener
+2015-04-14 00:00:54,861 - INFO  - GPOUTP  - ======================================================
+2015-04-14 00:01:10,266 - INFO  - GPINPU  -  
+2015-04-14 00:01:10,268 - INFO  - GPINPU  -  
+2015-04-14 00:01:10,272 - INFO  - GPINPU  - ======================================================
+2015-04-14 00:01:10,273 - INFO  - GPINPU  - start GPI Listener
+2015-04-14 00:01:10,275 - INFO  - GPINPU  - ======================================================
+2015-04-14 00:01:10,278 - INFO  - GPINPU  - create interrupt for Input 1 / FE
+2015-04-14 00:01:10,286 - INFO  - GPINPU  - create interrupt for Input 3 / RE
+2015-04-14 00:01:10,296 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:02:50,445 - INFO  - DISPLA  - display off
+2015-04-14 00:06:10,398 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:07:54,151 - INFO  - ONEWIR  - 
+2015-04-14 00:07:54,153 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 00:07:54,155 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.5
+2015-04-14 00:07:54,157 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 00:07:54,160 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48821))
+2015-04-14 00:07:54,162 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-04-14 00:07:54,164 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-04-14 00:07:54,168 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 00:07:54,173 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 00:07:54,176 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:07:54,195 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:07:54,198 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41162)
+2015-04-14 00:07:54,201 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:07:54,212 - INFO  - MSGBUS  - send message {"text2L": "          19.5 C"}
+2015-04-14 00:07:54,224 - INFO  - DISPLA  - received data: {"text2L": "          19.5 C"}
+2015-04-14 00:07:54,226 - INFO  - DISPLA  - call private function text2L(          19.5 C)
+2015-04-14 00:07:54,216 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:07:54,231 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 00:07:54,266 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 00:07:54,270 - INFO  - MSGBUS  - REST call successful
+2015-04-14 00:07:54,323 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41164)
+2015-04-14 00:07:54,325 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 00:07:54,327 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 00:10:04,429 - INFO  - DISPLA  - display off
+2015-04-14 00:11:10,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:16:10,497 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:20:16,641 - INFO  - ONEWIR  - 
+2015-04-14 00:20:16,643 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 00:20:16,645 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.4
+2015-04-14 00:20:16,647 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 00:20:16,650 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48825))
+2015-04-14 00:20:16,652 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-04-14 00:20:16,654 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-04-14 00:20:16,658 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 00:20:16,662 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 00:20:16,666 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:20:16,675 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:20:16,678 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41166)
+2015-04-14 00:20:16,681 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:20:16,695 - INFO  - MSGBUS  - send message {"text2L": "          19.4 C"}
+2015-04-14 00:20:16,699 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:20:16,702 - INFO  - DISPLA  - received data: {"text2L": "          19.4 C"}
+2015-04-14 00:20:16,704 - INFO  - DISPLA  - call private function text2L(          19.4 C)
+2015-04-14 00:20:16,717 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 00:20:16,761 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 00:20:16,765 - INFO  - MSGBUS  - REST call successful
+2015-04-14 00:20:16,810 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41167)
+2015-04-14 00:20:16,812 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 00:20:16,814 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 00:21:10,599 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:22:26,917 - INFO  - DISPLA  - display off
+2015-04-14 00:26:10,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:31:10,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:36:10,893 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:41:10,934 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:46:11,036 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:47:05,251 - INFO  - ONEWIR  - 
+2015-04-14 00:47:05,253 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 00:47:05,255 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.3
+2015-04-14 00:47:05,257 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 00:47:05,260 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48829))
+2015-04-14 00:47:05,262 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-04-14 00:47:05,264 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-04-14 00:47:05,268 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 00:47:05,272 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 00:47:05,276 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:47:05,286 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:47:05,289 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41170)
+2015-04-14 00:47:05,291 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 00:47:05,305 - INFO  - MSGBUS  - send message {"text2L": "          19.3 C"}
+2015-04-14 00:47:05,307 - INFO  - DISPLA  - received data: {"text2L": "          19.3 C"}
+2015-04-14 00:47:05,309 - INFO  - DISPLA  - call private function text2L(          19.3 C)
+2015-04-14 00:47:05,329 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 00:47:05,332 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 00:47:05,370 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 00:47:05,375 - INFO  - MSGBUS  - REST call successful
+2015-04-14 00:47:05,421 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41172)
+2015-04-14 00:47:05,423 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 00:47:05,425 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 00:49:15,445 - INFO  - DISPLA  - display off
+2015-04-14 00:51:11,138 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 00:56:11,219 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:01:11,321 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:06:11,423 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:11:11,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:16:11,546 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:17:00,401 - INFO  - ONEWIR  - 
+2015-04-14 01:17:00,403 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 01:17:00,405 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.2
+2015-04-14 01:17:00,407 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 01:17:00,410 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48833))
+2015-04-14 01:17:00,412 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-04-14 01:17:00,414 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-04-14 01:17:00,418 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 01:17:00,422 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 01:17:00,425 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:17:00,436 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:17:00,439 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41174)
+2015-04-14 01:17:00,441 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:17:00,455 - INFO  - MSGBUS  - send message {"text2L": "          19.2 C"}
+2015-04-14 01:17:00,458 - INFO  - DISPLA  - received data: {"text2L": "          19.2 C"}
+2015-04-14 01:17:00,460 - INFO  - DISPLA  - call private function text2L(          19.2 C)
+2015-04-14 01:17:00,463 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:17:00,475 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 01:17:00,517 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 01:17:00,521 - INFO  - MSGBUS  - REST call successful
+2015-04-14 01:17:00,573 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41175)
+2015-04-14 01:17:00,575 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 01:17:00,577 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 01:19:10,680 - INFO  - DISPLA  - display off
+2015-04-14 01:21:11,648 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:26:11,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:31:11,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:31:26,521 - INFO  - ONEWIR  - 
+2015-04-14 01:31:26,523 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 01:31:26,525 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-04-14 01:31:26,527 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 01:31:26,530 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48837))
+2015-04-14 01:31:26,532 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-04-14 01:31:26,534 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-04-14 01:31:26,538 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 01:31:26,542 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 01:31:26,546 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:31:26,556 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:31:26,558 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41178)
+2015-04-14 01:31:26,561 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:31:26,574 - INFO  - MSGBUS  - send message {"text2L": "          19.1 C"}
+2015-04-14 01:31:26,577 - INFO  - DISPLA  - received data: {"text2L": "          19.1 C"}
+2015-04-14 01:31:26,579 - INFO  - DISPLA  - call private function text2L(          19.1 C)
+2015-04-14 01:31:26,582 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:31:26,595 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 01:31:26,648 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 01:31:26,652 - INFO  - MSGBUS  - REST call successful
+2015-04-14 01:31:26,699 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41179)
+2015-04-14 01:31:26,701 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 01:31:26,703 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 01:32:28,421 - INFO  - ONEWIR  - 
+2015-04-14 01:32:28,423 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 01:32:28,425 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.2
+2015-04-14 01:32:28,427 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 01:32:28,430 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48841))
+2015-04-14 01:32:28,432 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-04-14 01:32:28,434 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-04-14 01:32:28,438 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 01:32:28,442 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 01:32:28,446 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:32:28,456 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:32:28,461 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:32:28,465 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41182)
+2015-04-14 01:32:28,475 - INFO  - MSGBUS  - send message {"text2L": "          19.2 C"}
+2015-04-14 01:32:28,477 - INFO  - DISPLA  - received data: {"text2L": "          19.2 C"}
+2015-04-14 01:32:28,479 - INFO  - DISPLA  - call private function text2L(          19.2 C)
+2015-04-14 01:32:28,482 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:32:28,495 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 01:32:28,540 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 01:32:28,544 - INFO  - MSGBUS  - REST call successful
+2015-04-14 01:32:28,594 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41183)
+2015-04-14 01:32:28,597 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 01:32:28,599 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 01:33:30,271 - INFO  - ONEWIR  - 
+2015-04-14 01:33:30,273 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 01:33:30,275 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-04-14 01:33:30,277 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 01:33:30,280 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48845))
+2015-04-14 01:33:30,282 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-04-14 01:33:30,284 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-04-14 01:33:30,288 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 01:33:30,292 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 01:33:30,296 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:33:30,305 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:33:30,308 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41186)
+2015-04-14 01:33:30,311 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 01:33:30,325 - INFO  - MSGBUS  - send message {"text2L": "          19.1 C"}
+2015-04-14 01:33:30,328 - INFO  - DISPLA  - received data: {"text2L": "          19.1 C"}
+2015-04-14 01:33:30,330 - INFO  - DISPLA  - call private function text2L(          19.1 C)
+2015-04-14 01:33:30,333 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 01:33:30,345 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 01:33:30,387 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 01:33:30,391 - INFO  - MSGBUS  - REST call successful
+2015-04-14 01:33:30,443 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41187)
+2015-04-14 01:33:30,445 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 01:33:30,447 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 01:35:40,511 - INFO  - DISPLA  - display off
+2015-04-14 01:36:11,891 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:41:11,992 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:46:12,094 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:51:12,194 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 01:56:12,223 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:01:12,325 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:06:12,427 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:09:35,901 - INFO  - ONEWIR  - 
+2015-04-14 02:09:35,903 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 02:09:35,905 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.0
+2015-04-14 02:09:35,907 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 02:09:35,910 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48849))
+2015-04-14 02:09:35,912 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-04-14 02:09:35,914 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-04-14 02:09:35,918 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 02:09:35,922 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 02:09:35,925 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 02:09:35,936 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 02:09:35,939 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41190)
+2015-04-14 02:09:35,941 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 02:09:35,955 - INFO  - MSGBUS  - send message {"text2L": "          19.0 C"}
+2015-04-14 02:09:35,957 - INFO  - DISPLA  - received data: {"text2L": "          19.0 C"}
+2015-04-14 02:09:35,959 - INFO  - DISPLA  - call private function text2L(          19.0 C)
+2015-04-14 02:09:35,962 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 02:09:35,976 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 02:09:36,062 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41191)
+2015-04-14 02:09:36,065 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 02:09:36,067 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 02:10:39,200 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 02:10:39,202 - INFO  - MSGBUS  - REST call successful
+2015-04-14 02:11:12,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:11:46,127 - INFO  - DISPLA  - display off
+2015-04-14 02:16:12,460 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:21:12,562 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:26:12,601 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:31:12,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:34:20,871 - INFO  - ONEWIR  - 
+2015-04-14 02:34:20,873 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 02:34:20,875 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-04-14 02:34:20,877 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 02:34:20,880 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48853))
+2015-04-14 02:34:20,882 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-04-14 02:34:20,884 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-04-14 02:34:20,888 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 02:34:20,892 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 02:34:20,896 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 02:34:20,906 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 02:34:20,909 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41194)
+2015-04-14 02:34:20,911 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 02:34:20,925 - INFO  - MSGBUS  - send message {"text2L": "          18.9 C"}
+2015-04-14 02:34:20,927 - INFO  - DISPLA  - received data: {"text2L": "          18.9 C"}
+2015-04-14 02:34:20,930 - INFO  - DISPLA  - call private function text2L(          18.9 C)
+2015-04-14 02:34:20,933 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 02:34:20,945 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 02:34:20,990 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 02:34:20,993 - INFO  - MSGBUS  - REST call successful
+2015-04-14 02:34:21,043 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41195)
+2015-04-14 02:34:21,046 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 02:34:21,048 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 02:36:12,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:36:31,150 - INFO  - DISPLA  - display off
+2015-04-14 02:41:12,902 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:46:12,973 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:51:13,075 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 02:56:13,177 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:01:13,195 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:06:13,267 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:11:13,369 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:13:32,971 - INFO  - ONEWIR  - 
+2015-04-14 03:13:32,973 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 03:13:32,975 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-04-14 03:13:32,977 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 03:13:32,980 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48857))
+2015-04-14 03:13:32,982 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 03:13:32,984 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 03:13:32,988 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 03:13:32,992 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 03:13:32,996 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:13:33,005 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:13:33,009 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41198)
+2015-04-14 03:13:33,011 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:13:33,025 - INFO  - MSGBUS  - send message {"text2L": "          18.8 C"}
+2015-04-14 03:13:33,028 - INFO  - DISPLA  - received data: {"text2L": "          18.8 C"}
+2015-04-14 03:13:33,030 - INFO  - DISPLA  - call private function text2L(          18.8 C)
+2015-04-14 03:13:33,033 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:13:33,045 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 03:13:33,085 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 03:13:33,089 - INFO  - MSGBUS  - REST call successful
+2015-04-14 03:13:33,149 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41199)
+2015-04-14 03:13:33,151 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 03:13:33,153 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 03:15:43,195 - INFO  - DISPLA  - display off
+2015-04-14 03:16:13,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:16:38,631 - INFO  - ONEWIR  - 
+2015-04-14 03:16:38,633 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 03:16:38,635 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-04-14 03:16:38,637 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 03:16:38,640 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48861))
+2015-04-14 03:16:38,642 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-04-14 03:16:38,644 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-04-14 03:16:38,648 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 03:16:38,652 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 03:16:38,656 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:16:38,666 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:16:38,669 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41202)
+2015-04-14 03:16:38,671 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:16:38,685 - INFO  - MSGBUS  - send message {"text2L": "          18.9 C"}
+2015-04-14 03:16:38,688 - INFO  - DISPLA  - received data: {"text2L": "          18.9 C"}
+2015-04-14 03:16:38,690 - INFO  - DISPLA  - call private function text2L(          18.9 C)
+2015-04-14 03:16:38,693 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:16:38,711 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 03:16:38,748 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 03:16:38,752 - INFO  - MSGBUS  - REST call successful
+2015-04-14 03:16:38,803 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41203)
+2015-04-14 03:16:38,805 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 03:16:38,807 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 03:17:40,521 - INFO  - ONEWIR  - 
+2015-04-14 03:17:40,523 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 03:17:40,525 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-04-14 03:17:40,527 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 03:17:40,530 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48865))
+2015-04-14 03:17:40,532 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 03:17:40,534 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 03:17:40,538 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 03:17:40,542 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 03:17:40,546 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:17:40,555 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:17:40,559 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41206)
+2015-04-14 03:17:40,561 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:17:40,575 - INFO  - MSGBUS  - send message {"text2L": "          18.8 C"}
+2015-04-14 03:17:40,577 - INFO  - DISPLA  - received data: {"text2L": "          18.8 C"}
+2015-04-14 03:17:40,579 - INFO  - DISPLA  - call private function text2L(          18.8 C)
+2015-04-14 03:17:40,582 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:17:40,595 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 03:17:40,643 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 03:17:40,647 - INFO  - MSGBUS  - REST call successful
+2015-04-14 03:17:40,688 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41207)
+2015-04-14 03:17:40,690 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 03:17:40,692 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 03:19:50,698 - INFO  - DISPLA  - display off
+2015-04-14 03:21:13,546 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:26:13,604 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:31:13,704 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:36:13,806 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:41:13,908 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:46:14,010 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:51:14,013 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:55:49,901 - INFO  - ONEWIR  - 
+2015-04-14 03:55:49,903 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 03:55:49,905 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-04-14 03:55:49,907 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 03:55:49,910 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48869))
+2015-04-14 03:55:49,912 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 03:55:49,914 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 03:55:49,918 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 03:55:49,922 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 03:55:49,926 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:55:49,936 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:55:49,939 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41210)
+2015-04-14 03:55:49,941 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:55:49,955 - INFO  - MSGBUS  - send message {"text2L": "          18.7 C"}
+2015-04-14 03:55:49,957 - INFO  - DISPLA  - received data: {"text2L": "          18.7 C"}
+2015-04-14 03:55:49,960 - INFO  - DISPLA  - call private function text2L(          18.7 C)
+2015-04-14 03:55:49,962 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:55:49,975 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 03:55:50,017 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 03:55:50,020 - INFO  - MSGBUS  - REST call successful
+2015-04-14 03:55:50,073 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41211)
+2015-04-14 03:55:50,075 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 03:55:50,077 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 03:56:14,115 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 03:56:51,791 - INFO  - ONEWIR  - 
+2015-04-14 03:56:51,793 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 03:56:51,795 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-04-14 03:56:51,797 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 03:56:51,800 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48873))
+2015-04-14 03:56:51,802 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 03:56:51,804 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 03:56:51,808 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 03:56:51,812 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 03:56:51,816 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:56:51,826 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:56:51,829 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41214)
+2015-04-14 03:56:51,832 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:56:51,845 - INFO  - MSGBUS  - send message {"text2L": "          18.8 C"}
+2015-04-14 03:56:51,847 - INFO  - DISPLA  - received data: {"text2L": "          18.8 C"}
+2015-04-14 03:56:51,850 - INFO  - DISPLA  - call private function text2L(          18.8 C)
+2015-04-14 03:56:51,852 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:56:51,866 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 03:56:51,912 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 03:56:51,916 - INFO  - MSGBUS  - REST call successful
+2015-04-14 03:56:51,959 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41215)
+2015-04-14 03:56:51,962 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 03:56:51,964 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 03:57:53,691 - INFO  - ONEWIR  - 
+2015-04-14 03:57:53,693 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 03:57:53,695 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-04-14 03:57:53,697 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 03:57:53,700 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48877))
+2015-04-14 03:57:53,702 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 03:57:53,705 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 03:57:53,708 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 03:57:53,713 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 03:57:53,716 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:57:53,726 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:57:53,729 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41218)
+2015-04-14 03:57:53,732 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 03:57:53,745 - INFO  - MSGBUS  - send message {"text2L": "          18.7 C"}
+2015-04-14 03:57:53,747 - INFO  - DISPLA  - received data: {"text2L": "          18.7 C"}
+2015-04-14 03:57:53,749 - INFO  - DISPLA  - call private function text2L(          18.7 C)
+2015-04-14 03:57:53,752 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 03:57:53,765 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 03:57:53,819 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 03:57:53,823 - INFO  - MSGBUS  - REST call successful
+2015-04-14 03:57:53,893 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41219)
+2015-04-14 03:57:53,896 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 03:57:53,898 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 04:00:03,935 - INFO  - DISPLA  - display off
+2015-04-14 04:01:14,174 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:06:14,232 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:11:14,335 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:12:19,881 - INFO  - ONEWIR  - 
+2015-04-14 04:12:19,883 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 04:12:19,885 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-04-14 04:12:19,887 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 04:12:19,890 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48881))
+2015-04-14 04:12:19,892 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-04-14 04:12:19,894 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-04-14 04:12:19,898 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 04:12:19,902 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 04:12:19,906 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 04:12:19,915 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 04:12:19,918 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41222)
+2015-04-14 04:12:19,921 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 04:12:19,935 - INFO  - MSGBUS  - send message {"text2L": "          18.6 C"}
+2015-04-14 04:12:19,938 - INFO  - DISPLA  - received data: {"text2L": "          18.6 C"}
+2015-04-14 04:12:19,940 - INFO  - DISPLA  - call private function text2L(          18.6 C)
+2015-04-14 04:12:19,943 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 04:12:19,955 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 04:12:19,996 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 04:12:20,000 - INFO  - MSGBUS  - REST call successful
+2015-04-14 04:12:20,052 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41223)
+2015-04-14 04:12:20,054 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 04:12:20,056 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 04:13:21,761 - INFO  - ONEWIR  - 
+2015-04-14 04:13:21,763 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 04:13:21,765 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-04-14 04:13:21,767 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 04:13:21,770 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48885))
+2015-04-14 04:13:21,772 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 04:13:21,776 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 04:13:21,779 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 04:13:21,784 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 04:13:21,796 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 04:13:21,805 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 04:13:21,808 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41226)
+2015-04-14 04:13:21,811 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 04:13:21,825 - INFO  - MSGBUS  - send message {"text2L": "          18.7 C"}
+2015-04-14 04:13:21,827 - INFO  - DISPLA  - received data: {"text2L": "          18.7 C"}
+2015-04-14 04:13:21,830 - INFO  - DISPLA  - call private function text2L(          18.7 C)
+2015-04-14 04:13:21,833 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 04:13:21,843 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 04:13:21,881 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 04:13:21,886 - INFO  - MSGBUS  - REST call successful
+2015-04-14 04:13:21,931 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41228)
+2015-04-14 04:13:21,933 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 04:13:21,936 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 04:15:32,000 - INFO  - DISPLA  - display off
+2015-04-14 04:16:14,437 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:16:27,421 - INFO  - ONEWIR  - 
+2015-04-14 04:16:27,423 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 04:16:27,425 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-04-14 04:16:27,427 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 04:16:27,430 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48889))
+2015-04-14 04:16:27,432 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-04-14 04:16:27,434 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-04-14 04:16:27,438 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 04:16:27,442 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 04:16:27,446 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 04:16:27,455 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 04:16:27,458 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41230)
+2015-04-14 04:16:27,461 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 04:16:27,475 - INFO  - MSGBUS  - send message {"text2L": "          18.6 C"}
+2015-04-14 04:16:27,478 - INFO  - DISPLA  - received data: {"text2L": "          18.6 C"}
+2015-04-14 04:16:27,480 - INFO  - DISPLA  - call private function text2L(          18.6 C)
+2015-04-14 04:16:27,482 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 04:16:27,496 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 04:16:27,542 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 04:16:27,546 - INFO  - MSGBUS  - REST call successful
+2015-04-14 04:16:27,589 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41231)
+2015-04-14 04:16:27,591 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 04:16:27,593 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 04:18:37,695 - INFO  - DISPLA  - display off
+2015-04-14 04:21:14,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:26:14,546 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:31:14,648 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:36:14,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:41:14,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:46:14,902 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:51:14,934 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 04:56:15,037 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:00:48,021 - INFO  - ONEWIR  - 
+2015-04-14 05:00:48,023 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:00:48,025 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-04-14 05:00:48,027 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:00:48,030 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48893))
+2015-04-14 05:00:48,032 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-04-14 05:00:48,034 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-04-14 05:00:48,038 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:00:48,042 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:00:48,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:00:48,055 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:00:48,058 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41234)
+2015-04-14 05:00:48,061 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:00:48,075 - INFO  - MSGBUS  - send message {"text2L": "          18.5 C"}
+2015-04-14 05:00:48,078 - INFO  - DISPLA  - received data: {"text2L": "          18.5 C"}
+2015-04-14 05:00:48,080 - INFO  - DISPLA  - call private function text2L(          18.5 C)
+2015-04-14 05:00:48,082 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:00:48,095 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:00:48,137 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:00:48,141 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:00:48,191 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41235)
+2015-04-14 05:00:48,193 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:00:48,196 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:01:15,138 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:02:58,298 - INFO  - DISPLA  - display off
+2015-04-14 05:06:15,194 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:11:15,296 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:16:15,344 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:21:15,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:22:27,321 - INFO  - ONEWIR  - 
+2015-04-14 05:22:27,323 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:22:27,325 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-04-14 05:22:27,327 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:22:27,330 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48897))
+2015-04-14 05:22:27,332 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-04-14 05:22:27,334 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-04-14 05:22:27,338 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:22:27,342 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:22:27,346 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:22:27,356 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:22:27,359 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41238)
+2015-04-14 05:22:27,361 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:22:27,375 - INFO  - MSGBUS  - send message {"text2L": "          18.4 C"}
+2015-04-14 05:22:27,377 - INFO  - DISPLA  - received data: {"text2L": "          18.4 C"}
+2015-04-14 05:22:27,379 - INFO  - DISPLA  - call private function text2L(          18.4 C)
+2015-04-14 05:22:27,382 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:22:27,395 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:22:27,437 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:22:27,441 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:22:27,492 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41239)
+2015-04-14 05:22:27,494 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:22:27,496 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:24:31,021 - INFO  - ONEWIR  - 
+2015-04-14 05:24:31,023 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:24:31,025 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-04-14 05:24:31,027 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:24:31,030 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48901))
+2015-04-14 05:24:31,032 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-04-14 05:24:31,034 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-04-14 05:24:31,038 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:24:31,042 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:24:31,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:24:31,056 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:24:31,061 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41242)
+2015-04-14 05:24:31,058 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:24:31,075 - INFO  - MSGBUS  - send message {"text2L": "          18.5 C"}
+2015-04-14 05:24:31,077 - INFO  - DISPLA  - received data: {"text2L": "          18.5 C"}
+2015-04-14 05:24:31,079 - INFO  - DISPLA  - call private function text2L(          18.5 C)
+2015-04-14 05:24:31,082 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:24:31,095 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:24:31,144 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:24:31,147 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:24:31,188 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41243)
+2015-04-14 05:24:31,190 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:24:31,192 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:25:32,921 - INFO  - ONEWIR  - 
+2015-04-14 05:25:32,923 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:25:32,925 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.4
+2015-04-14 05:25:32,927 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:25:32,930 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48905))
+2015-04-14 05:25:32,932 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-04-14 05:25:32,934 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.4}}}
+2015-04-14 05:25:32,938 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:25:32,942 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:25:32,946 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:25:32,956 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:25:32,959 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41246)
+2015-04-14 05:25:32,961 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:25:32,975 - INFO  - MSGBUS  - send message {"text2L": "          18.4 C"}
+2015-04-14 05:25:32,977 - INFO  - DISPLA  - received data: {"text2L": "          18.4 C"}
+2015-04-14 05:25:32,980 - INFO  - DISPLA  - call private function text2L(          18.4 C)
+2015-04-14 05:25:32,983 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:25:32,995 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:25:33,038 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:25:33,042 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:25:33,095 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41247)
+2015-04-14 05:25:33,097 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:25:33,099 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:26:15,546 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:27:43,163 - INFO  - DISPLA  - display off
+2015-04-14 05:31:15,648 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:36:15,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:41:01,021 - INFO  - ONEWIR  - 
+2015-04-14 05:41:01,023 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:41:01,025 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.5
+2015-04-14 05:41:01,027 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:41:01,030 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48909))
+2015-04-14 05:41:01,032 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-04-14 05:41:01,034 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.5}}}
+2015-04-14 05:41:01,038 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:41:01,042 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:41:01,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:41:01,056 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:41:01,059 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41250)
+2015-04-14 05:41:01,061 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:41:01,074 - INFO  - MSGBUS  - send message {"text2L": "          18.5 C"}
+2015-04-14 05:41:01,077 - INFO  - DISPLA  - received data: {"text2L": "          18.5 C"}
+2015-04-14 05:41:01,079 - INFO  - DISPLA  - call private function text2L(          18.5 C)
+2015-04-14 05:41:01,090 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:41:01,093 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:41:01,152 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:41:01,156 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:41:01,183 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41251)
+2015-04-14 05:41:01,185 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:41:01,188 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:41:15,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:43:11,195 - INFO  - DISPLA  - display off
+2015-04-14 05:45:08,521 - INFO  - ONEWIR  - 
+2015-04-14 05:45:08,523 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:45:08,525 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.6
+2015-04-14 05:45:08,527 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:45:08,530 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48913))
+2015-04-14 05:45:08,532 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-04-14 05:45:08,534 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.6}}}
+2015-04-14 05:45:08,538 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:45:08,542 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:45:08,546 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:45:08,556 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:45:08,559 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41254)
+2015-04-14 05:45:08,561 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:45:08,575 - INFO  - MSGBUS  - send message {"text2L": "          18.6 C"}
+2015-04-14 05:45:08,577 - INFO  - DISPLA  - received data: {"text2L": "          18.6 C"}
+2015-04-14 05:45:08,579 - INFO  - DISPLA  - call private function text2L(          18.6 C)
+2015-04-14 05:45:08,599 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:45:08,602 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:45:08,640 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:45:08,644 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:45:08,690 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41256)
+2015-04-14 05:45:08,692 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:45:08,694 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:46:15,897 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:47:18,720 - INFO  - DISPLA  - display off
+2015-04-14 05:51:15,944 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:51:19,771 - INFO  - ONEWIR  - 
+2015-04-14 05:51:19,773 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:51:19,775 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.7
+2015-04-14 05:51:19,777 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:51:19,780 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48917))
+2015-04-14 05:51:19,782 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 05:51:19,784 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.7}}}
+2015-04-14 05:51:19,788 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:51:19,792 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:51:19,796 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:51:19,806 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:51:19,809 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41258)
+2015-04-14 05:51:19,811 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:51:19,825 - INFO  - MSGBUS  - send message {"text2L": "          18.7 C"}
+2015-04-14 05:51:19,828 - INFO  - DISPLA  - received data: {"text2L": "          18.7 C"}
+2015-04-14 05:51:19,830 - INFO  - DISPLA  - call private function text2L(          18.7 C)
+2015-04-14 05:51:19,833 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:51:19,845 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:51:19,888 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:51:19,891 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:51:19,942 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41259)
+2015-04-14 05:51:19,944 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:51:19,947 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:53:29,989 - INFO  - DISPLA  - display off
+2015-04-14 05:54:25,401 - INFO  - ONEWIR  - 
+2015-04-14 05:54:25,403 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 05:54:25,405 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.8
+2015-04-14 05:54:25,407 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 05:54:25,410 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48921))
+2015-04-14 05:54:25,412 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 05:54:25,414 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.8}}}
+2015-04-14 05:54:25,418 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 05:54:25,422 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 05:54:25,426 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:54:25,435 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:54:25,438 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41262)
+2015-04-14 05:54:25,441 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 05:54:25,455 - INFO  - MSGBUS  - send message {"text2L": "          18.8 C"}
+2015-04-14 05:54:25,458 - INFO  - DISPLA  - received data: {"text2L": "          18.8 C"}
+2015-04-14 05:54:25,460 - INFO  - DISPLA  - call private function text2L(          18.8 C)
+2015-04-14 05:54:25,479 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 05:54:25,482 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 05:54:25,535 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 05:54:25,539 - INFO  - MSGBUS  - REST call successful
+2015-04-14 05:54:25,585 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41264)
+2015-04-14 05:54:25,587 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 05:54:25,589 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 05:56:16,047 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 05:56:35,692 - INFO  - DISPLA  - display off
+2015-04-14 06:00:36,621 - INFO  - ONEWIR  - 
+2015-04-14 06:00:36,623 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:00:36,625 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 18.9
+2015-04-14 06:00:36,627 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:00:36,630 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48925))
+2015-04-14 06:00:36,632 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-04-14 06:00:36,634 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":18.9}}}
+2015-04-14 06:00:36,638 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:00:36,642 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:00:36,646 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:00:36,656 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:00:36,659 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41266)
+2015-04-14 06:00:36,662 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:00:36,685 - INFO  - MSGBUS  - send message {"text2L": "          18.9 C"}
+2015-04-14 06:00:36,688 - INFO  - DISPLA  - received data: {"text2L": "          18.9 C"}
+2015-04-14 06:00:36,690 - INFO  - DISPLA  - call private function text2L(          18.9 C)
+2015-04-14 06:00:36,693 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:00:36,712 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:00:36,776 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:00:36,780 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:00:36,858 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41267)
+2015-04-14 06:00:36,860 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:00:36,862 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:01:16,146 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:02:46,945 - INFO  - DISPLA  - display off
+2015-04-14 06:06:16,236 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:07:49,731 - INFO  - ONEWIR  - 
+2015-04-14 06:07:49,733 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:07:49,735 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.0
+2015-04-14 06:07:49,737 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:07:49,740 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48929))
+2015-04-14 06:07:49,742 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-04-14 06:07:49,744 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.0}}}
+2015-04-14 06:07:49,748 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:07:49,752 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:07:49,756 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:07:49,766 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:07:49,769 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41270)
+2015-04-14 06:07:49,771 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:07:49,785 - INFO  - MSGBUS  - send message {"text2L": "          19.0 C"}
+2015-04-14 06:07:49,787 - INFO  - DISPLA  - received data: {"text2L": "          19.0 C"}
+2015-04-14 06:07:49,790 - INFO  - DISPLA  - call private function text2L(          19.0 C)
+2015-04-14 06:07:49,792 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:07:49,806 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:07:49,852 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:07:49,856 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:07:49,899 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41271)
+2015-04-14 06:07:49,901 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:07:49,903 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:09:59,945 - INFO  - DISPLA  - display off
+2015-04-14 06:11:16,338 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:11:57,241 - INFO  - ONEWIR  - 
+2015-04-14 06:11:57,243 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:11:57,245 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.1
+2015-04-14 06:11:57,247 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:11:57,250 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48933))
+2015-04-14 06:11:57,252 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-04-14 06:11:57,254 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.1}}}
+2015-04-14 06:11:57,258 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:11:57,262 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:11:57,266 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:11:57,275 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:11:57,278 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41274)
+2015-04-14 06:11:57,281 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:11:57,295 - INFO  - MSGBUS  - send message {"text2L": "          19.1 C"}
+2015-04-14 06:11:57,298 - INFO  - DISPLA  - received data: {"text2L": "          19.1 C"}
+2015-04-14 06:11:57,300 - INFO  - DISPLA  - call private function text2L(          19.1 C)
+2015-04-14 06:11:57,303 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:11:57,315 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:11:57,356 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:11:57,360 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:11:57,412 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41275)
+2015-04-14 06:11:57,415 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:11:57,417 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:14:07,445 - INFO  - DISPLA  - display off
+2015-04-14 06:16:16,440 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:21:14,061 - INFO  - ONEWIR  - 
+2015-04-14 06:21:14,063 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:21:14,065 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.2
+2015-04-14 06:21:14,067 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:21:14,070 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48937))
+2015-04-14 06:21:14,072 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-04-14 06:21:14,074 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.2}}}
+2015-04-14 06:21:14,078 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:21:14,082 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:21:14,086 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:21:14,095 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:21:14,098 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41278)
+2015-04-14 06:21:14,101 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:21:14,115 - INFO  - MSGBUS  - send message {"text2L": "          19.2 C"}
+2015-04-14 06:21:14,118 - INFO  - DISPLA  - received data: {"text2L": "          19.2 C"}
+2015-04-14 06:21:14,120 - INFO  - DISPLA  - call private function text2L(          19.2 C)
+2015-04-14 06:21:14,123 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:21:14,135 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:21:14,178 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:21:14,181 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:21:14,232 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41279)
+2015-04-14 06:21:14,234 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:21:14,237 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:21:16,497 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:23:24,339 - INFO  - DISPLA  - display off
+2015-04-14 06:26:16,573 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:27:25,271 - INFO  - ONEWIR  - 
+2015-04-14 06:27:25,273 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:27:25,275 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.3
+2015-04-14 06:27:25,277 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:27:25,280 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48941))
+2015-04-14 06:27:25,282 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-04-14 06:27:25,284 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.3}}}
+2015-04-14 06:27:25,288 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:27:25,292 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:27:25,296 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:27:25,306 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:27:25,309 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41282)
+2015-04-14 06:27:25,311 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:27:25,325 - INFO  - MSGBUS  - send message {"text2L": "          19.3 C"}
+2015-04-14 06:27:25,327 - INFO  - DISPLA  - received data: {"text2L": "          19.3 C"}
+2015-04-14 06:27:25,330 - INFO  - DISPLA  - call private function text2L(          19.3 C)
+2015-04-14 06:27:25,332 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:27:25,346 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:27:25,393 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:27:25,397 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:27:25,438 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41283)
+2015-04-14 06:27:25,440 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:27:25,442 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:29:35,444 - INFO  - DISPLA  - display off
+2015-04-14 06:31:16,675 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:36:16,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:36:42,091 - INFO  - ONEWIR  - 
+2015-04-14 06:36:42,093 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:36:42,095 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.4
+2015-04-14 06:36:42,097 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:36:42,100 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48945))
+2015-04-14 06:36:42,102 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-04-14 06:36:42,104 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.4}}}
+2015-04-14 06:36:42,108 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:36:42,112 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:36:42,116 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:36:42,126 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:36:42,129 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41286)
+2015-04-14 06:36:42,132 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:36:42,145 - INFO  - MSGBUS  - send message {"text2L": "          19.4 C"}
+2015-04-14 06:36:42,147 - INFO  - DISPLA  - received data: {"text2L": "          19.4 C"}
+2015-04-14 06:36:42,149 - INFO  - DISPLA  - call private function text2L(          19.4 C)
+2015-04-14 06:36:42,171 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:36:42,174 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:36:42,212 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:36:42,216 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:36:42,262 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41288)
+2015-04-14 06:36:42,265 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:36:42,267 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:38:52,370 - INFO  - DISPLA  - display off
+2015-04-14 06:41:16,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:46:16,891 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:47:00,781 - INFO  - ONEWIR  - 
+2015-04-14 06:47:00,783 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:47:00,785 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.5
+2015-04-14 06:47:00,787 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:47:00,790 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48949))
+2015-04-14 06:47:00,792 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-04-14 06:47:00,794 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.5}}}
+2015-04-14 06:47:00,798 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:47:00,802 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:47:00,806 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:47:00,815 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:47:00,818 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41290)
+2015-04-14 06:47:00,821 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:47:00,835 - INFO  - MSGBUS  - send message {"text2L": "          19.5 C"}
+2015-04-14 06:47:00,838 - INFO  - DISPLA  - received data: {"text2L": "          19.5 C"}
+2015-04-14 06:47:00,840 - INFO  - DISPLA  - call private function text2L(          19.5 C)
+2015-04-14 06:47:00,843 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:47:00,855 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:47:00,899 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:47:00,902 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:47:00,953 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41291)
+2015-04-14 06:47:00,956 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:47:00,958 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:49:11,060 - INFO  - DISPLA  - display off
+2015-04-14 06:51:16,945 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:54:13,861 - INFO  - ONEWIR  - 
+2015-04-14 06:54:13,863 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 06:54:13,865 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.6
+2015-04-14 06:54:13,867 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 06:54:13,870 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48953))
+2015-04-14 06:54:13,872 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-04-14 06:54:13,874 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.6}}}
+2015-04-14 06:54:13,878 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 06:54:13,882 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 06:54:13,886 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:54:13,895 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:54:13,898 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41294)
+2015-04-14 06:54:13,901 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 06:54:13,915 - INFO  - MSGBUS  - send message {"text2L": "          19.6 C"}
+2015-04-14 06:54:13,918 - INFO  - DISPLA  - received data: {"text2L": "          19.6 C"}
+2015-04-14 06:54:13,920 - INFO  - DISPLA  - call private function text2L(          19.6 C)
+2015-04-14 06:54:13,923 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 06:54:13,940 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 06:54:13,977 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 06:54:13,981 - INFO  - MSGBUS  - REST call successful
+2015-04-14 06:54:14,033 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41295)
+2015-04-14 06:54:14,035 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 06:54:14,038 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 06:56:17,047 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 06:56:24,140 - INFO  - DISPLA  - display off
+2015-04-14 07:01:17,149 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:04:32,651 - INFO  - ONEWIR  - 
+2015-04-14 07:04:32,653 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 07:04:32,655 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.7
+2015-04-14 07:04:32,657 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 07:04:32,660 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48957))
+2015-04-14 07:04:32,662 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.7}}}
+2015-04-14 07:04:32,664 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.7}}}
+2015-04-14 07:04:32,668 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 07:04:32,672 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 07:04:32,676 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:04:32,686 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:04:32,689 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41298)
+2015-04-14 07:04:32,691 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:04:32,698 - INFO  - MSGBUS  - send message {"text2L": "          19.7 C"}
+2015-04-14 07:04:32,701 - INFO  - DISPLA  - received data: {"text2L": "          19.7 C"}
+2015-04-14 07:04:32,703 - INFO  - DISPLA  - call private function text2L(          19.7 C)
+2015-04-14 07:04:32,716 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:04:32,733 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 07:04:32,772 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 07:04:32,776 - INFO  - MSGBUS  - REST call successful
+2015-04-14 07:04:32,819 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41299)
+2015-04-14 07:04:32,822 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 07:04:32,824 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 07:05:24,590 - INFO  - GPINPU  - 
+2015-04-14 07:05:24,593 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 07:05:24,595 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 07:05:24,598 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48961))
+2015-04-14 07:05:24,600 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 07:05:24,602 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 07:05:24,606 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:05:24,610 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:05:24,613 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41302)
+2015-04-14 07:05:24,616 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:05:24,620 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 07:05:24,622 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 07:05:24,624 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 07:05:24,635 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:05:24,638 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 07:05:24,737 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41303)
+2015-04-14 07:05:24,740 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 07:05:24,742 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 07:05:34,754 - INFO  - DISPLA  - display off
+2015-04-14 07:06:17,227 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:09:08,534 - INFO  - GPINPU  - 
+2015-04-14 07:09:08,536 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 07:09:08,538 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 07:09:08,541 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48964))
+2015-04-14 07:09:08,543 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 07:09:08,545 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 07:09:08,549 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:09:08,553 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:09:08,558 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41305)
+2015-04-14 07:09:08,556 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:09:08,563 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 07:09:08,565 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 07:09:08,567 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 07:09:08,579 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:09:08,583 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 07:09:08,679 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41306)
+2015-04-14 07:09:08,682 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 07:09:08,684 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 07:09:18,695 - INFO  - DISPLA  - display off
+2015-04-14 07:10:43,901 - INFO  - ONEWIR  - 
+2015-04-14 07:10:43,905 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 07:10:43,907 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.8
+2015-04-14 07:10:43,909 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 07:10:43,911 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48967))
+2015-04-14 07:10:43,913 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-04-14 07:10:43,916 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.8}}}
+2015-04-14 07:10:43,920 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 07:10:43,924 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 07:10:43,936 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:10:43,946 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:10:43,949 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41308)
+2015-04-14 07:10:43,952 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:10:43,965 - INFO  - MSGBUS  - send message {"text2L": "          19.8 C"}
+2015-04-14 07:10:43,968 - INFO  - DISPLA  - received data: {"text2L": "          19.8 C"}
+2015-04-14 07:10:43,970 - INFO  - DISPLA  - call private function text2L(          19.8 C)
+2015-04-14 07:10:43,980 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:10:43,983 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 07:10:44,022 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 07:10:44,026 - INFO  - MSGBUS  - REST call successful
+2015-04-14 07:10:44,071 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41310)
+2015-04-14 07:10:44,073 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 07:10:44,076 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 07:11:17,329 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:12:54,178 - INFO  - DISPLA  - display off
+2015-04-14 07:16:17,431 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:21:17,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:25:59,401 - INFO  - GPINPU  - 
+2015-04-14 07:25:59,403 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 07:25:59,405 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 07:25:59,408 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48971))
+2015-04-14 07:25:59,410 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 07:25:59,412 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 07:25:59,416 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:25:59,421 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:25:59,424 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41312)
+2015-04-14 07:25:59,427 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:25:59,430 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 07:25:59,432 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 07:25:59,435 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 07:25:59,445 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:25:59,448 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 07:25:59,548 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41313)
+2015-04-14 07:25:59,551 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 07:25:59,553 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 07:26:09,565 - INFO  - DISPLA  - display off
+2015-04-14 07:26:17,546 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:27:13,861 - INFO  - ONEWIR  - 
+2015-04-14 07:27:13,863 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 07:27:13,865 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 19.9
+2015-04-14 07:27:13,867 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 07:27:13,870 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48974))
+2015-04-14 07:27:13,872 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-04-14 07:27:13,874 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":19.9}}}
+2015-04-14 07:27:13,878 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 07:27:13,882 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 07:27:13,886 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:27:13,896 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:27:13,899 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41315)
+2015-04-14 07:27:13,902 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:27:13,915 - INFO  - MSGBUS  - send message {"text2L": "          19.9 C"}
+2015-04-14 07:27:13,918 - INFO  - DISPLA  - received data: {"text2L": "          19.9 C"}
+2015-04-14 07:27:13,920 - INFO  - DISPLA  - call private function text2L(          19.9 C)
+2015-04-14 07:27:13,939 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:27:13,942 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 07:27:13,986 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 07:27:13,990 - INFO  - MSGBUS  - REST call successful
+2015-04-14 07:27:14,030 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41317)
+2015-04-14 07:27:14,032 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 07:27:14,035 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 07:29:24,077 - INFO  - DISPLA  - display off
+2015-04-14 07:29:43,244 - INFO  - GPINPU  - 
+2015-04-14 07:29:43,246 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 07:29:43,248 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 07:29:43,251 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48978))
+2015-04-14 07:29:43,253 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 07:29:43,255 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 07:29:43,259 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:29:43,263 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:29:43,268 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41319)
+2015-04-14 07:29:43,266 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 07:29:43,273 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 07:29:43,276 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 07:29:43,278 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 07:29:43,288 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:29:43,291 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 07:29:43,389 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41320)
+2015-04-14 07:29:43,391 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 07:29:43,393 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 07:29:53,406 - INFO  - DISPLA  - display off
+2015-04-14 07:31:17,648 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:36:17,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:41:17,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:46:17,898 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:51:17,945 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:55:04,271 - INFO  - ONEWIR  - 
+2015-04-14 07:55:04,273 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 07:55:04,275 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.0
+2015-04-14 07:55:04,277 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 07:55:04,280 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48981))
+2015-04-14 07:55:04,282 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-04-14 07:55:04,284 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.0}}}
+2015-04-14 07:55:04,288 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 07:55:04,292 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 07:55:04,296 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:55:04,305 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:55:04,308 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41322)
+2015-04-14 07:55:04,311 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 07:55:04,325 - INFO  - MSGBUS  - send message {"text2L": "          20.0 C"}
+2015-04-14 07:55:04,328 - INFO  - DISPLA  - received data: {"text2L": "          20.0 C"}
+2015-04-14 07:55:04,330 - INFO  - DISPLA  - call private function text2L(          20.0 C)
+2015-04-14 07:55:04,333 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 07:55:04,345 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 07:55:04,388 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 07:55:04,391 - INFO  - MSGBUS  - REST call successful
+2015-04-14 07:55:04,443 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41323)
+2015-04-14 07:55:04,446 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 07:55:04,448 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 07:56:18,047 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 07:57:14,551 - INFO  - DISPLA  - display off
+2015-04-14 08:01:18,149 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:06:18,198 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:06:24,901 - INFO  - ONEWIR  - 
+2015-04-14 08:06:24,903 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 08:06:24,905 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.1
+2015-04-14 08:06:24,907 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 08:06:24,910 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48985))
+2015-04-14 08:06:24,912 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-04-14 08:06:24,914 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-04-14 08:06:24,918 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 08:06:24,922 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 08:06:24,926 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:06:24,935 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:06:24,938 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41326)
+2015-04-14 08:06:24,941 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:06:24,955 - INFO  - MSGBUS  - send message {"text2L": "          20.1 C"}
+2015-04-14 08:06:24,958 - INFO  - DISPLA  - received data: {"text2L": "          20.1 C"}
+2015-04-14 08:06:24,960 - INFO  - DISPLA  - call private function text2L(          20.1 C)
+2015-04-14 08:06:24,963 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:06:24,975 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 08:06:25,017 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 08:06:25,021 - INFO  - MSGBUS  - REST call successful
+2015-04-14 08:06:25,078 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41327)
+2015-04-14 08:06:25,081 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 08:06:25,083 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 08:08:35,185 - INFO  - DISPLA  - display off
+2015-04-14 08:11:18,300 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:16:18,402 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:21:18,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:24:58,651 - INFO  - ONEWIR  - 
+2015-04-14 08:24:58,653 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 08:24:58,655 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.2
+2015-04-14 08:24:58,657 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 08:24:58,660 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48989))
+2015-04-14 08:24:58,662 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-04-14 08:24:58,664 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-04-14 08:24:58,668 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 08:24:58,672 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 08:24:58,676 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:24:58,685 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:24:58,688 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41330)
+2015-04-14 08:24:58,691 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:24:58,698 - INFO  - MSGBUS  - send message {"text2L": "          20.2 C"}
+2015-04-14 08:24:58,701 - INFO  - DISPLA  - received data: {"text2L": "          20.2 C"}
+2015-04-14 08:24:58,703 - INFO  - DISPLA  - call private function text2L(          20.2 C)
+2015-04-14 08:24:58,705 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:24:58,725 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 08:24:58,772 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 08:24:58,776 - INFO  - MSGBUS  - REST call successful
+2015-04-14 08:24:58,818 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41331)
+2015-04-14 08:24:58,821 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 08:24:58,823 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 08:26:18,534 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:27:08,888 - INFO  - DISPLA  - display off
+2015-04-14 08:29:06,151 - INFO  - ONEWIR  - 
+2015-04-14 08:29:06,153 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 08:29:06,155 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.1
+2015-04-14 08:29:06,157 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 08:29:06,160 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48993))
+2015-04-14 08:29:06,162 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-04-14 08:29:06,164 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.1}}}
+2015-04-14 08:29:06,168 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 08:29:06,172 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 08:29:06,176 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:29:06,186 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:29:06,188 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41334)
+2015-04-14 08:29:06,191 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:29:06,205 - INFO  - MSGBUS  - send message {"text2L": "          20.1 C"}
+2015-04-14 08:29:06,207 - INFO  - DISPLA  - received data: {"text2L": "          20.1 C"}
+2015-04-14 08:29:06,209 - INFO  - DISPLA  - call private function text2L(          20.1 C)
+2015-04-14 08:29:06,212 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:29:06,225 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 08:29:06,269 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 08:29:06,273 - INFO  - MSGBUS  - REST call successful
+2015-04-14 08:29:06,323 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41335)
+2015-04-14 08:29:06,325 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 08:29:06,327 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 08:30:08,021 - INFO  - ONEWIR  - 
+2015-04-14 08:30:08,023 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 08:30:08,025 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.2
+2015-04-14 08:30:08,027 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 08:30:08,030 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 48997))
+2015-04-14 08:30:08,032 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-04-14 08:30:08,034 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.2}}}
+2015-04-14 08:30:08,038 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 08:30:08,042 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 08:30:08,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:30:08,056 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:30:08,059 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41338)
+2015-04-14 08:30:08,062 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:30:08,075 - INFO  - MSGBUS  - send message {"text2L": "          20.2 C"}
+2015-04-14 08:30:08,078 - INFO  - DISPLA  - received data: {"text2L": "          20.2 C"}
+2015-04-14 08:30:08,080 - INFO  - DISPLA  - call private function text2L(          20.2 C)
+2015-04-14 08:30:08,083 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:30:08,095 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 08:30:08,137 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 08:30:08,141 - INFO  - MSGBUS  - REST call successful
+2015-04-14 08:30:08,192 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41339)
+2015-04-14 08:30:08,194 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 08:30:08,196 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 08:31:18,597 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:32:18,260 - INFO  - DISPLA  - display off
+2015-04-14 08:36:18,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:38:23,021 - INFO  - ONEWIR  - 
+2015-04-14 08:38:23,023 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 08:38:23,025 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.3
+2015-04-14 08:38:23,027 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 08:38:23,030 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49001))
+2015-04-14 08:38:23,032 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-04-14 08:38:23,034 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.3}}}
+2015-04-14 08:38:23,038 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 08:38:23,042 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 08:38:23,046 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:38:23,056 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:38:23,059 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41342)
+2015-04-14 08:38:23,061 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 08:38:23,075 - INFO  - MSGBUS  - send message {"text2L": "          20.3 C"}
+2015-04-14 08:38:23,077 - INFO  - DISPLA  - received data: {"text2L": "          20.3 C"}
+2015-04-14 08:38:23,079 - INFO  - DISPLA  - call private function text2L(          20.3 C)
+2015-04-14 08:38:23,082 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 08:38:23,095 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 08:38:23,138 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 08:38:23,141 - INFO  - MSGBUS  - REST call successful
+2015-04-14 08:38:23,192 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41343)
+2015-04-14 08:38:23,194 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 08:38:23,196 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 08:40:33,299 - INFO  - DISPLA  - display off
+2015-04-14 08:41:18,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:46:18,871 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:51:18,944 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 08:56:19,046 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:01:19,148 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:06:19,207 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:06:25,385 - INFO  - GPINPU  - 
+2015-04-14 09:06:25,386 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:06:25,388 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:06:25,391 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49005))
+2015-04-14 09:06:25,393 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:06:25,396 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:06:25,399 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:06:25,406 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:06:25,404 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:06:25,411 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41346)
+2015-04-14 09:06:25,413 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:06:25,423 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:06:25,425 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:06:25,415 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:06:25,431 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:06:25,532 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41347)
+2015-04-14 09:06:25,535 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:06:25,537 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:06:35,549 - INFO  - DISPLA  - display off
+2015-04-14 09:08:17,381 - INFO  - ONEWIR  - 
+2015-04-14 09:08:17,383 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 09:08:17,385 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.4
+2015-04-14 09:08:17,387 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 09:08:17,390 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49008))
+2015-04-14 09:08:17,392 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-04-14 09:08:17,394 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-04-14 09:08:17,398 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 09:08:17,402 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 09:08:17,406 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 09:08:17,416 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:08:17,419 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41349)
+2015-04-14 09:08:17,422 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 09:08:17,435 - INFO  - MSGBUS  - send message {"text2L": "          20.4 C"}
+2015-04-14 09:08:17,438 - INFO  - DISPLA  - received data: {"text2L": "          20.4 C"}
+2015-04-14 09:08:17,440 - INFO  - DISPLA  - call private function text2L(          20.4 C)
+2015-04-14 09:08:17,442 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:08:17,456 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 09:08:17,502 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 09:08:17,506 - INFO  - MSGBUS  - REST call successful
+2015-04-14 09:08:17,549 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41350)
+2015-04-14 09:08:17,551 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 09:08:17,553 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 09:10:09,603 - INFO  - GPINPU  - 
+2015-04-14 09:10:09,605 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:10:09,607 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:10:09,609 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49012))
+2015-04-14 09:10:09,612 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:10:09,614 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:10:09,617 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:10:09,622 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:10:09,625 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41353)
+2015-04-14 09:10:09,628 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:10:09,631 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:10:09,633 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:10:09,636 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:10:09,647 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:10:09,650 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:10:09,747 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41354)
+2015-04-14 09:10:09,750 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:10:09,752 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:10:19,764 - INFO  - DISPLA  - display off
+2015-04-14 09:10:53,855 - INFO  - GPINPU  - 
+2015-04-14 09:10:53,857 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:10:53,859 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:10:53,862 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49015))
+2015-04-14 09:10:53,864 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:10:53,866 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:10:53,870 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:10:53,876 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:10:53,874 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:10:53,882 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41356)
+2015-04-14 09:10:53,884 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:10:53,886 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:10:53,888 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:10:53,891 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:10:53,901 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:10:54,002 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41357)
+2015-04-14 09:10:54,005 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:10:54,007 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:11:04,019 - INFO  - DISPLA  - display off
+2015-04-14 09:11:19,309 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:14:37,237 - INFO  - GPINPU  - 
+2015-04-14 09:14:37,239 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:14:37,241 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:14:37,244 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49018))
+2015-04-14 09:14:37,246 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:14:37,248 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:14:37,251 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:14:37,256 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:14:37,259 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41359)
+2015-04-14 09:14:37,262 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:14:37,266 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:14:37,268 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:14:37,270 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:14:37,280 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:14:37,283 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:14:37,382 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41360)
+2015-04-14 09:14:37,385 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:14:37,387 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:14:47,390 - INFO  - DISPLA  - display off
+2015-04-14 09:15:17,965 - INFO  - GPINPU  - 
+2015-04-14 09:15:17,966 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:15:17,968 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:15:17,971 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49021))
+2015-04-14 09:15:17,973 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:15:17,975 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:15:17,979 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:15:17,986 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:15:17,984 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:15:17,991 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41362)
+2015-04-14 09:15:17,993 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:15:17,996 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:15:17,998 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:15:18,001 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:15:18,011 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:15:18,113 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41363)
+2015-04-14 09:15:18,116 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:15:18,118 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:15:28,130 - INFO  - DISPLA  - display off
+2015-04-14 09:16:19,411 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:19:01,069 - INFO  - GPINPU  - 
+2015-04-14 09:19:01,071 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:19:01,073 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:19:01,076 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49024))
+2015-04-14 09:19:01,078 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:19:01,080 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:19:01,083 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:19:01,089 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:19:01,093 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:19:01,102 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41365)
+2015-04-14 09:19:01,105 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:19:01,107 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:19:01,110 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:19:01,112 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:19:01,116 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:19:01,217 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41366)
+2015-04-14 09:19:01,220 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:19:01,222 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:19:06,192 - INFO  - GPINPU  - 
+2015-04-14 09:19:06,199 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:19:06,201 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:19:06,204 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49027))
+2015-04-14 09:19:06,206 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:19:06,208 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:19:06,211 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:19:06,217 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:19:06,221 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:19:06,224 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41368)
+2015-04-14 09:19:06,232 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:19:06,235 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:19:06,237 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:19:06,239 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:19:06,243 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:19:06,345 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41369)
+2015-04-14 09:19:06,348 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:19:06,350 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:19:16,357 - INFO  - DISPLA  - display off
+2015-04-14 09:21:19,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:22:48,850 - INFO  - GPINPU  - 
+2015-04-14 09:22:48,852 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:22:48,854 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:22:48,857 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49030))
+2015-04-14 09:22:48,859 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:22:48,861 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:22:48,865 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:22:48,870 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:22:48,873 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:22:48,877 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41371)
+2015-04-14 09:22:48,885 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:22:48,888 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:22:48,891 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:22:48,893 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:22:48,896 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:22:48,998 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41372)
+2015-04-14 09:22:49,000 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:22:49,002 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:22:59,014 - INFO  - DISPLA  - display off
+2015-04-14 09:23:21,096 - INFO  - GPINPU  - 
+2015-04-14 09:23:21,098 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:23:21,099 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:23:21,102 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49033))
+2015-04-14 09:23:21,105 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:23:21,107 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:23:21,110 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:23:21,115 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:23:21,118 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41374)
+2015-04-14 09:23:21,121 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:23:21,124 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:23:21,127 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:23:21,129 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:23:21,139 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:23:21,143 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:23:21,241 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41375)
+2015-04-14 09:23:21,243 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:23:21,245 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:23:31,258 - INFO  - DISPLA  - display off
+2015-04-14 09:25:49,271 - INFO  - ONEWIR  - 
+2015-04-14 09:25:49,273 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 09:25:49,275 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.5
+2015-04-14 09:25:49,277 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 09:25:49,280 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49036))
+2015-04-14 09:25:49,282 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.5}}}
+2015-04-14 09:25:49,284 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.5}}}
+2015-04-14 09:25:49,288 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 09:25:49,292 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 09:25:49,296 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 09:25:49,306 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:25:49,309 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41377)
+2015-04-14 09:25:49,312 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 09:25:49,325 - INFO  - MSGBUS  - send message {"text2L": "          20.5 C"}
+2015-04-14 09:25:49,328 - INFO  - DISPLA  - received data: {"text2L": "          20.5 C"}
+2015-04-14 09:25:49,330 - INFO  - DISPLA  - call private function text2L(          20.5 C)
+2015-04-14 09:25:49,349 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:25:49,352 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 09:25:49,391 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 09:25:49,395 - INFO  - MSGBUS  - REST call successful
+2015-04-14 09:25:49,440 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41379)
+2015-04-14 09:25:49,442 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 09:25:49,445 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 09:26:19,545 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:27:03,838 - INFO  - GPINPU  - 
+2015-04-14 09:27:03,840 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:27:03,842 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:27:03,845 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49040))
+2015-04-14 09:27:03,847 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:27:03,849 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:27:03,853 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:27:03,859 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:27:03,862 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:27:03,871 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:27:03,874 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41381)
+2015-04-14 09:27:03,877 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:27:03,880 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:27:03,882 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:27:03,884 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:27:03,890 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41382)
+2015-04-14 09:27:03,892 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:27:03,895 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:27:06,708 - INFO  - GPINPU  - 
+2015-04-14 09:27:06,710 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:27:06,712 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:27:06,714 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49043))
+2015-04-14 09:27:06,717 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:27:06,719 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:27:06,722 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:27:06,728 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:27:06,732 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:27:06,735 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41384)
+2015-04-14 09:27:06,743 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:27:06,745 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:27:06,749 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:27:06,751 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:27:06,754 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:27:06,856 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41385)
+2015-04-14 09:27:06,859 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:27:06,861 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:27:16,866 - INFO  - DISPLA  - display off
+2015-04-14 09:30:49,120 - INFO  - GPINPU  - 
+2015-04-14 09:30:49,122 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:30:49,124 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:30:49,127 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49046))
+2015-04-14 09:30:49,129 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:30:49,132 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:30:49,136 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:30:49,141 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:30:49,145 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:30:49,147 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41387)
+2015-04-14 09:30:49,156 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:30:49,159 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:30:49,162 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:30:49,166 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:30:49,164 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:30:49,270 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41388)
+2015-04-14 09:30:49,272 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:30:49,274 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:30:57,493 - INFO  - GPINPU  - 
+2015-04-14 09:30:57,495 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:30:57,497 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:30:57,500 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49049))
+2015-04-14 09:30:57,502 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:30:57,504 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:30:57,508 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:30:57,512 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:30:57,516 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:30:57,520 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41390)
+2015-04-14 09:30:57,522 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:30:57,524 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:30:57,526 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:30:57,535 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:30:57,540 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:30:57,638 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41391)
+2015-04-14 09:30:57,641 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:30:57,643 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:31:07,653 - INFO  - DISPLA  - display off
+2015-04-14 09:31:19,647 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:32:00,521 - INFO  - ONEWIR  - 
+2015-04-14 09:32:00,523 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 09:32:00,525 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.6
+2015-04-14 09:32:00,527 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 09:32:00,530 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49052))
+2015-04-14 09:32:00,532 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.6}}}
+2015-04-14 09:32:00,534 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.6}}}
+2015-04-14 09:32:00,539 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 09:32:00,543 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 09:32:00,547 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 09:32:00,555 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:32:00,558 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41393)
+2015-04-14 09:32:00,561 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 09:32:00,575 - INFO  - MSGBUS  - send message {"text2L": "          20.6 C"}
+2015-04-14 09:32:00,578 - INFO  - DISPLA  - received data: {"text2L": "          20.6 C"}
+2015-04-14 09:32:00,580 - INFO  - DISPLA  - call private function text2L(          20.6 C)
+2015-04-14 09:32:00,583 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:32:00,595 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 09:32:00,639 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 09:32:00,642 - INFO  - MSGBUS  - REST call successful
+2015-04-14 09:32:00,698 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41394)
+2015-04-14 09:32:00,700 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 09:32:00,702 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 09:34:10,755 - INFO  - DISPLA  - display off
+2015-04-14 09:34:39,865 - INFO  - GPINPU  - 
+2015-04-14 09:34:39,866 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:34:39,868 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:34:39,871 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49056))
+2015-04-14 09:34:39,873 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:34:39,876 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:34:39,879 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:34:39,886 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:34:39,884 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:34:39,891 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41397)
+2015-04-14 09:34:39,893 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:34:39,903 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:34:39,905 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:34:39,895 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:34:39,911 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:34:40,012 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41398)
+2015-04-14 09:34:40,015 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:34:40,017 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:34:50,029 - INFO  - DISPLA  - display off
+2015-04-14 09:34:57,962 - INFO  - GPINPU  - 
+2015-04-14 09:34:57,964 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:34:57,966 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:34:57,969 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49059))
+2015-04-14 09:34:57,971 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 09:34:57,973 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 09:34:57,976 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:34:57,981 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:34:57,984 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41400)
+2015-04-14 09:34:57,987 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:34:57,990 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:34:57,993 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 09:34:57,995 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 09:34:58,005 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:34:58,008 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:34:58,107 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41401)
+2015-04-14 09:34:58,109 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:34:58,111 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:35:08,124 - INFO  - DISPLA  - display off
+2015-04-14 09:36:19,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:38:40,363 - INFO  - GPINPU  - 
+2015-04-14 09:38:40,365 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 09:38:40,367 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 09:38:40,370 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49062))
+2015-04-14 09:38:40,372 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 09:38:40,374 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 09:38:40,377 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:38:40,382 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:38:40,385 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 09:38:40,389 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41403)
+2015-04-14 09:38:40,391 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:38:40,394 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 09:38:40,396 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 09:38:40,405 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 09:38:40,410 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 09:38:40,508 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41404)
+2015-04-14 09:38:40,510 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 09:38:40,512 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 09:38:50,525 - INFO  - DISPLA  - display off
+2015-04-14 09:41:19,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:46:19,860 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:51:19,944 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 09:56:20,015 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:01:20,117 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:03:04,407 - INFO  - GPINPU  - 
+2015-04-14 10:03:04,409 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:03:04,411 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:03:04,414 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49065))
+2015-04-14 10:03:04,416 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:03:04,418 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:03:04,421 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:03:04,427 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:03:04,429 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41406)
+2015-04-14 10:03:04,432 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:03:04,436 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:03:04,438 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:03:04,440 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:03:04,450 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:03:04,453 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:03:04,552 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41407)
+2015-04-14 10:03:04,554 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:03:04,557 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:03:14,564 - INFO  - DISPLA  - display off
+2015-04-14 10:06:20,197 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:06:48,303 - INFO  - GPINPU  - 
+2015-04-14 10:06:48,305 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:06:48,307 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:06:48,310 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49068))
+2015-04-14 10:06:48,311 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:06:48,314 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:06:48,317 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:06:48,322 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:06:48,325 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41409)
+2015-04-14 10:06:48,328 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:06:48,331 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:06:48,333 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:06:48,336 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:06:48,346 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:06:48,350 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:06:48,447 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41410)
+2015-04-14 10:06:48,449 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:06:48,451 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:06:58,464 - INFO  - DISPLA  - display off
+2015-04-14 10:09:06,370 - INFO  - GPINPU  - 
+2015-04-14 10:09:06,372 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:09:06,374 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:09:06,377 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49071))
+2015-04-14 10:09:06,380 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:09:06,382 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:09:06,386 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:09:06,390 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:09:06,393 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41412)
+2015-04-14 10:09:06,396 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:09:06,400 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:09:06,402 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:09:06,404 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:09:06,414 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:09:06,417 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:09:06,517 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41413)
+2015-04-14 10:09:06,519 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:09:06,521 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:09:16,533 - INFO  - DISPLA  - display off
+2015-04-14 10:11:20,299 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:12:49,815 - INFO  - GPINPU  - 
+2015-04-14 10:12:49,817 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:12:49,819 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:12:49,822 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49074))
+2015-04-14 10:12:49,824 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:12:49,827 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:12:49,830 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:12:49,835 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:12:49,838 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41415)
+2015-04-14 10:12:49,840 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:12:49,844 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:12:49,846 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:12:49,850 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:12:49,861 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:12:49,864 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:12:49,963 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41416)
+2015-04-14 10:12:49,965 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:12:49,967 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:12:59,979 - INFO  - DISPLA  - display off
+2015-04-14 10:13:03,448 - INFO  - GPINPU  - 
+2015-04-14 10:13:03,450 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:13:03,452 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:13:03,455 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49077))
+2015-04-14 10:13:03,457 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:13:03,459 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:13:03,463 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:13:03,468 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:13:03,472 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:13:03,475 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41418)
+2015-04-14 10:13:03,483 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:13:03,485 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:13:03,488 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:13:03,490 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:13:03,494 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:13:03,596 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41419)
+2015-04-14 10:13:03,598 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:13:03,600 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:13:13,612 - INFO  - DISPLA  - display off
+2015-04-14 10:16:20,401 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:16:46,202 - INFO  - GPINPU  - 
+2015-04-14 10:16:46,204 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:16:46,206 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:16:46,209 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49080))
+2015-04-14 10:16:46,211 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:16:46,213 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:16:46,217 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:16:46,221 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:16:46,224 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41421)
+2015-04-14 10:16:46,227 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:16:46,230 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:16:46,233 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:16:46,235 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:16:46,245 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:16:46,248 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:16:46,347 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41422)
+2015-04-14 10:16:46,350 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:16:46,352 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:16:55,815 - INFO  - GPINPU  - 
+2015-04-14 10:16:55,817 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:16:55,819 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:16:55,822 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49083))
+2015-04-14 10:16:55,824 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:16:55,826 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:16:55,829 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:16:55,836 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:16:55,834 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:16:55,841 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41424)
+2015-04-14 10:16:55,843 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:16:55,846 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:16:55,848 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:16:55,851 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:16:55,861 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:16:55,963 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41425)
+2015-04-14 10:16:55,965 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:16:55,967 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:17:05,979 - INFO  - DISPLA  - display off
+2015-04-14 10:19:26,491 - INFO  - ONEWIR  - 
+2015-04-14 10:19:26,493 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 10:19:26,495 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.7
+2015-04-14 10:19:26,497 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 10:19:26,500 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49086))
+2015-04-14 10:19:26,502 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.7}}}
+2015-04-14 10:19:26,504 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.7}}}
+2015-04-14 10:19:26,508 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 10:19:26,512 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 10:19:26,516 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:19:26,525 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:19:26,528 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41427)
+2015-04-14 10:19:26,531 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:19:26,545 - INFO  - MSGBUS  - send message {"text2L": "          20.7 C"}
+2015-04-14 10:19:26,547 - INFO  - DISPLA  - received data: {"text2L": "          20.7 C"}
+2015-04-14 10:19:26,549 - INFO  - DISPLA  - call private function text2L(          20.7 C)
+2015-04-14 10:19:26,552 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:19:26,565 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 10:19:26,608 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 10:19:26,611 - INFO  - MSGBUS  - REST call successful
+2015-04-14 10:19:26,662 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41428)
+2015-04-14 10:19:26,664 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 10:19:26,666 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 10:20:38,297 - INFO  - GPINPU  - 
+2015-04-14 10:20:38,299 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:20:38,301 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:20:38,304 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49090))
+2015-04-14 10:20:38,306 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:20:38,308 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:20:38,311 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:20:38,316 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:20:38,319 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41431)
+2015-04-14 10:20:38,322 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:20:38,326 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:20:38,328 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:20:38,330 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:20:38,340 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:20:38,343 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:20:38,442 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41432)
+2015-04-14 10:20:38,445 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:20:38,447 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:20:48,459 - INFO  - DISPLA  - display off
+2015-04-14 10:21:04,715 - INFO  - GPINPU  - 
+2015-04-14 10:21:04,717 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:21:04,719 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:21:04,721 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49093))
+2015-04-14 10:21:04,723 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:21:04,726 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:21:04,729 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:21:04,735 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:21:04,734 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:21:04,741 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41434)
+2015-04-14 10:21:04,743 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:21:04,753 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:21:04,755 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:21:04,745 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:21:04,761 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:21:04,862 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41435)
+2015-04-14 10:21:04,865 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:21:04,867 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:21:14,879 - INFO  - DISPLA  - display off
+2015-04-14 10:21:20,444 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:24:47,200 - INFO  - GPINPU  - 
+2015-04-14 10:24:47,201 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:24:47,203 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:24:47,206 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49096))
+2015-04-14 10:24:47,208 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:24:47,210 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:24:47,214 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:24:47,219 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:24:47,223 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:24:47,226 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41437)
+2015-04-14 10:24:47,235 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:24:47,237 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:24:47,240 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:24:47,242 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:24:47,245 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:24:47,347 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41438)
+2015-04-14 10:24:47,349 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:24:47,352 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:24:49,691 - INFO  - GPINPU  - 
+2015-04-14 10:24:49,693 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:24:49,695 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:24:49,699 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49099))
+2015-04-14 10:24:49,701 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:24:49,703 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:24:49,706 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:24:49,711 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:24:49,714 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41440)
+2015-04-14 10:24:49,717 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:24:49,720 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:24:49,723 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:24:49,725 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:24:49,735 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:24:49,738 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:24:49,837 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41441)
+2015-04-14 10:24:49,840 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:24:49,842 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:24:59,846 - INFO  - DISPLA  - display off
+2015-04-14 10:26:20,526 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:28:31,876 - INFO  - GPINPU  - 
+2015-04-14 10:28:31,878 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:28:31,880 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:28:31,882 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49102))
+2015-04-14 10:28:31,885 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:28:31,887 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:28:31,890 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:28:31,895 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:28:31,898 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41443)
+2015-04-14 10:28:31,901 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:28:31,904 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:28:31,907 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:28:31,909 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:28:31,919 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:28:31,923 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:28:32,021 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41444)
+2015-04-14 10:28:32,024 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:28:32,026 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:28:34,246 - INFO  - GPINPU  - 
+2015-04-14 10:28:34,247 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:28:34,249 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:28:34,252 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49105))
+2015-04-14 10:28:34,254 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:28:34,257 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:28:34,260 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:28:34,265 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:28:34,268 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41446)
+2015-04-14 10:28:34,271 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:28:34,274 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:28:34,276 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:28:34,279 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:28:34,289 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:28:34,292 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:28:34,391 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41447)
+2015-04-14 10:28:34,394 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:28:34,396 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:28:44,401 - INFO  - DISPLA  - display off
+2015-04-14 10:30:47,091 - INFO  - ONEWIR  - 
+2015-04-14 10:30:47,093 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 10:30:47,095 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.8
+2015-04-14 10:30:47,097 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 10:30:47,100 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49108))
+2015-04-14 10:30:47,102 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.8}}}
+2015-04-14 10:30:47,104 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.8}}}
+2015-04-14 10:30:47,108 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 10:30:47,112 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 10:30:47,116 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:30:47,126 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:30:47,128 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41449)
+2015-04-14 10:30:47,131 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:30:47,145 - INFO  - MSGBUS  - send message {"text2L": "          20.8 C"}
+2015-04-14 10:30:47,148 - INFO  - DISPLA  - received data: {"text2L": "          20.8 C"}
+2015-04-14 10:30:47,150 - INFO  - DISPLA  - call private function text2L(          20.8 C)
+2015-04-14 10:30:47,153 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:30:47,165 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 10:30:47,207 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 10:30:47,211 - INFO  - MSGBUS  - REST call successful
+2015-04-14 10:30:47,262 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41450)
+2015-04-14 10:30:47,265 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 10:30:47,267 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 10:31:20,628 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:31:48,991 - INFO  - ONEWIR  - 
+2015-04-14 10:31:48,993 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 10:31:48,995 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.7
+2015-04-14 10:31:48,997 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 10:31:49,000 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49112))
+2015-04-14 10:31:49,002 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.7}}}
+2015-04-14 10:31:49,004 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.7}}}
+2015-04-14 10:31:49,008 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 10:31:49,012 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 10:31:49,016 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:31:49,026 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:31:49,029 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41453)
+2015-04-14 10:31:49,031 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:31:49,045 - INFO  - MSGBUS  - send message {"text2L": "          20.7 C"}
+2015-04-14 10:31:49,047 - INFO  - DISPLA  - received data: {"text2L": "          20.7 C"}
+2015-04-14 10:31:49,050 - INFO  - DISPLA  - call private function text2L(          20.7 C)
+2015-04-14 10:31:49,053 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:31:49,065 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 10:31:49,115 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 10:31:49,119 - INFO  - MSGBUS  - REST call successful
+2015-04-14 10:31:49,166 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41454)
+2015-04-14 10:31:49,169 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 10:31:49,171 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 10:32:16,299 - INFO  - GPINPU  - 
+2015-04-14 10:32:16,301 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:32:16,303 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:32:16,306 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49116))
+2015-04-14 10:32:16,308 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:32:16,310 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:32:16,313 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:32:16,319 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:32:16,322 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:32:16,326 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41457)
+2015-04-14 10:32:16,334 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:32:16,337 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:32:16,339 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:32:16,342 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:32:16,345 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:32:16,447 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41458)
+2015-04-14 10:32:16,449 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:32:16,451 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:32:26,463 - INFO  - DISPLA  - display off
+2015-04-14 10:36:20,698 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:41:20,800 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:41:37,085 - INFO  - GPINPU  - 
+2015-04-14 10:41:37,087 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:41:37,089 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:41:37,092 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49119))
+2015-04-14 10:41:37,094 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 10:41:37,096 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 10:41:37,100 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:41:37,105 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:41:37,108 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41460)
+2015-04-14 10:41:37,110 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:41:37,114 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:41:37,116 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 10:41:37,118 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 10:41:37,129 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:41:37,132 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:41:37,230 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41461)
+2015-04-14 10:41:37,232 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:41:37,235 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:41:47,244 - INFO  - DISPLA  - display off
+2015-04-14 10:45:20,441 - INFO  - GPINPU  - 
+2015-04-14 10:45:20,443 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 10:45:20,445 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 10:45:20,448 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49122))
+2015-04-14 10:45:20,450 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 10:45:20,452 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 10:45:20,456 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:45:20,460 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:45:20,463 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41463)
+2015-04-14 10:45:20,466 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 10:45:20,470 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:45:20,472 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 10:45:20,474 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 10:45:20,485 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:45:20,488 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 10:45:20,587 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41464)
+2015-04-14 10:45:20,589 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 10:45:20,591 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 10:45:30,603 - INFO  - DISPLA  - display off
+2015-04-14 10:46:20,862 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:51:20,945 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 10:52:26,341 - INFO  - ONEWIR  - 
+2015-04-14 10:52:26,343 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 10:52:26,345 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.6
+2015-04-14 10:52:26,347 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 10:52:26,350 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49125))
+2015-04-14 10:52:26,352 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.6}}}
+2015-04-14 10:52:26,354 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.6}}}
+2015-04-14 10:52:26,358 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 10:52:26,362 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 10:52:26,366 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:52:26,375 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:52:26,378 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41466)
+2015-04-14 10:52:26,381 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 10:52:26,395 - INFO  - MSGBUS  - send message {"text2L": "          20.6 C"}
+2015-04-14 10:52:26,398 - INFO  - DISPLA  - received data: {"text2L": "          20.6 C"}
+2015-04-14 10:52:26,400 - INFO  - DISPLA  - call private function text2L(          20.6 C)
+2015-04-14 10:52:26,403 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 10:52:26,415 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 10:52:26,456 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 10:52:26,460 - INFO  - MSGBUS  - REST call successful
+2015-04-14 10:52:26,512 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41467)
+2015-04-14 10:52:26,515 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 10:52:26,517 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 10:54:36,619 - INFO  - DISPLA  - display off
+2015-04-14 10:56:21,025 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:01:21,093 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:06:21,194 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:11:21,297 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:16:21,362 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:21:21,445 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:22:20,651 - INFO  - ONEWIR  - 
+2015-04-14 11:22:20,653 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 11:22:20,655 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.5
+2015-04-14 11:22:20,657 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 11:22:20,660 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49167))
+2015-04-14 11:22:20,664 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.5}}}
+2015-04-14 11:22:20,666 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.5}}}
+2015-04-14 11:22:20,670 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 11:22:20,675 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 11:22:20,686 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 11:22:20,695 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:22:20,699 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 11:22:20,703 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41508)
+2015-04-14 11:22:20,715 - INFO  - MSGBUS  - send message {"text2L": "          20.5 C"}
+2015-04-14 11:22:20,718 - INFO  - DISPLA  - received data: {"text2L": "          20.5 C"}
+2015-04-14 11:22:20,720 - INFO  - DISPLA  - call private function text2L(          20.5 C)
+2015-04-14 11:22:20,723 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:22:20,733 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 11:22:20,772 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 11:22:20,776 - INFO  - MSGBUS  - REST call successful
+2015-04-14 11:22:20,822 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41510)
+2015-04-14 11:22:20,824 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 11:22:20,826 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 11:23:01,241 - INFO  - GPINPU  - 
+2015-04-14 11:23:01,242 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 11:23:01,245 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 11:23:01,247 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49171))
+2015-04-14 11:23:01,249 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 11:23:01,252 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 11:23:01,256 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:23:01,261 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:23:01,264 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:23:01,268 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41512)
+2015-04-14 11:23:01,276 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:23:01,279 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 11:23:01,282 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 11:23:01,286 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 11:23:01,284 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 11:23:01,389 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41513)
+2015-04-14 11:23:01,392 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 11:23:01,394 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 11:23:11,406 - INFO  - DISPLA  - display off
+2015-04-14 11:26:21,544 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:26:45,044 - INFO  - GPINPU  - 
+2015-04-14 11:26:45,046 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 11:26:45,048 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 11:26:45,051 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49174))
+2015-04-14 11:26:45,053 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 11:26:45,056 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 11:26:45,059 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:26:45,063 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:26:45,068 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41515)
+2015-04-14 11:26:45,066 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:26:45,073 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 11:26:45,076 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 11:26:45,078 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 11:26:45,090 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:26:45,094 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 11:26:45,188 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41516)
+2015-04-14 11:26:45,190 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 11:26:45,192 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 11:26:55,205 - INFO  - DISPLA  - display off
+2015-04-14 11:31:21,565 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:34:43,131 - INFO  - ONEWIR  - 
+2015-04-14 11:34:43,133 - INFO  - ONEWIR  - EVENT! onewire
+2015-04-14 11:34:43,135 - INFO  - ONEWIR  - /sys/bus/w1/devices/28-0314640daeff: 20.4
+2015-04-14 11:34:43,137 - INFO  - ONEWIR  - open socket to message bus
+2015-04-14 11:34:43,140 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49177))
+2015-04-14 11:34:43,142 - INFO  - ONEWIR  - send message {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-04-14 11:34:43,144 - INFO  - MSGBUS  - data received: {"onewire": {"28-0314640daeff":{"value":20.4}}}
+2015-04-14 11:34:43,148 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->JSONcall
+2015-04-14 11:34:43,152 - INFO  - MSGBUS  - call REST API http://192.168.1.70:82/api/
+2015-04-14 11:34:43,155 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 11:34:43,166 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:34:43,169 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41518)
+2015-04-14 11:34:43,172 - INFO  - MSGBUS  - event found, threading: onewire->28-0314640daeff-->sendDisplay
+2015-04-14 11:34:43,185 - INFO  - MSGBUS  - send message {"text2L": "          20.4 C"}
+2015-04-14 11:34:43,188 - INFO  - DISPLA  - received data: {"text2L": "          20.4 C"}
+2015-04-14 11:34:43,190 - INFO  - DISPLA  - call private function text2L(          20.4 C)
+2015-04-14 11:34:43,193 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:34:43,205 - INFO  - MSGBUS  - send message {"displayOff": "130"}
+2015-04-14 11:34:43,248 - INFO  - MSGBUS  - response: <bound method Response.json of <Response [200]>>
+2015-04-14 11:34:43,252 - INFO  - MSGBUS  - REST call successful
+2015-04-14 11:34:43,302 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41519)
+2015-04-14 11:34:43,304 - INFO  - DISPLA  - received data: {"displayOff": "130"}
+2015-04-14 11:34:43,307 - INFO  - DISPLA  - call private function displayOff(130)
+2015-04-14 11:35:48,852 - INFO  - GPINPU  - 
+2015-04-14 11:35:48,854 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 11:35:48,856 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 11:35:48,859 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49181))
+2015-04-14 11:35:48,861 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 11:35:48,863 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 11:35:48,866 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:35:48,871 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:35:48,874 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41522)
+2015-04-14 11:35:48,877 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:35:48,880 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 11:35:48,882 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 11:35:48,885 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 11:35:48,895 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:35:48,898 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 11:35:48,998 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41523)
+2015-04-14 11:35:49,001 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 11:35:49,003 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 11:35:59,015 - INFO  - DISPLA  - display off
+2015-04-14 11:36:21,667 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:39:32,440 - INFO  - GPINPU  - 
+2015-04-14 11:39:32,442 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 11:39:32,444 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 11:39:32,447 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49184))
+2015-04-14 11:39:32,449 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 11:39:32,451 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 11:39:32,456 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:39:32,460 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:39:32,464 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:39:32,467 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41525)
+2015-04-14 11:39:32,476 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:39:32,478 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 11:39:32,481 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 11:39:32,483 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 11:39:32,486 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 11:39:32,590 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41526)
+2015-04-14 11:39:32,592 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 11:39:32,595 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 11:39:42,608 - INFO  - DISPLA  - display off
+2015-04-14 11:41:14,600 - INFO  - GPINPU  - 
+2015-04-14 11:41:14,602 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 11:41:14,604 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 11:41:14,607 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49187))
+2015-04-14 11:41:14,609 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":0}}}
+2015-04-14 11:41:14,611 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":0}}}
+2015-04-14 11:41:14,616 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:41:14,620 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:41:14,624 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:41:14,627 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41528)
+2015-04-14 11:41:14,636 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:41:14,639 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 0    "}
+2015-04-14 11:41:14,641 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 0    "}
+2015-04-14 11:41:14,646 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 11:41:14,644 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 0    )
+2015-04-14 11:41:14,749 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41529)
+2015-04-14 11:41:14,751 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 11:41:14,753 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 11:41:21,768 - INFO  - GPINPU  - service up and running, waiting for interrupts
+2015-04-14 11:41:24,766 - INFO  - DISPLA  - display off
+2015-04-14 11:44:57,680 - INFO  - GPINPU  - 
+2015-04-14 11:44:57,682 - INFO  - GPINPU  - risign edge detected on channel [Input 3]
+2015-04-14 11:44:57,684 - INFO  - GPINPU  - open socket to message bus
+2015-04-14 11:44:57,687 - INFO  - MSGBUS  - ('Connected by', ('127.0.0.1', 49190))
+2015-04-14 11:44:57,689 - INFO  - GPINPU  - send message {"gpi": {"27":{"value":1}}}
+2015-04-14 11:44:57,691 - INFO  - MSGBUS  - data received: {"gpi": {"27":{"value":1}}}
+2015-04-14 11:44:57,696 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:44:57,701 - INFO  - MSGBUS  - event found, threading: gpi->27-->sendDisplay
+2015-04-14 11:44:57,705 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:44:57,708 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41531)
+2015-04-14 11:44:57,716 - INFO  - MSGBUS  - open socket to display deamon
+2015-04-14 11:44:57,719 - INFO  - MSGBUS  - send message {"text2L": "Input 3, FE / 1    "}
+2015-04-14 11:44:57,721 - INFO  - DISPLA  - received data: {"text2L": "Input 3, FE / 1    "}
+2015-04-14 11:44:57,726 - INFO  - MSGBUS  - send message {"displayOff": "10"}
+2015-04-14 11:44:57,723 - INFO  - DISPLA  - call private function text2L(Input 3, FE / 1    )
+2015-04-14 11:44:57,829 - INFO  - DISPLA  - Connected by: ('127.0.0.1', 41532)
+2015-04-14 11:44:57,832 - INFO  - DISPLA  - received data: {"displayOff": "10"}
+2015-04-14 11:44:57,834 - INFO  - DISPLA  - call private function displayOff(10)
+2015-04-14 11:45:07,846 - INFO  - DISPLA  - display off
+2015-04-14 11:46:21,795 - INFO  - GPINPU  - service up and running, waiting for interrupts

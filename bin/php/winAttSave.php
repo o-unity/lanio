@@ -15,6 +15,12 @@
  
  $left 		= intval($pos[0]);
  $top  		= intval($pos[1]);
+ if($left < 0){
+ 	$left = 0;
+ }
+ if($top < 0){
+ 	$top = 0;
+ } 
  
  $winwidth 	= intval($dim[0]);
  $winheight  = intval($dim[1]); 

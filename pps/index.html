@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="stylesheet" href="js/webix/codebase/webix.css" type="text/css">
+	<script src="js/webix/codebase/webix.js" type="text/javascript"></script>
+	<!--<script type="text/javascript" src="json/static/menu.js"></script>-->
+	<style>
+		.logo {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			z-index: 100;addData
+			padding: 30px;
+		}
+		.imgEvent {
+			padding-top:3px; 
+			padding-right:5px; 
+			padding-left:5px;
+		}
+	
+	</style>
+</head>
+
+
+
+<body>
+	<script type="text/javascript" charset="utf-8">
+	
+	
+		var json_TextForm = "<strong>JSON Call</strong><br>You can use the tag ##value## in "
+		
+
+		var menu = {
+			id: "top_menu",
+			view: "menu",
+			type: {
+				subsign: true
+			},
+			data: [{
+				id: "1",
+				value: "Authorization"
+			}, {
+				id: "2",
+				value: "Background Processes"
+			}, {
+				id: "3",
+				value: "Network Settings"
+			}]
+		};
+		
+		
+			
+		webix.ui({
+			type: "space",
+			cols: [{
+				type: "clean",
+				width: 400,
+				rows: [{
+					template: "<i>Verfuegbare Protokolle</i>",
+					height: 30
+				}, {
+					container: "listA",
+					id: "deviceController",
+					view: "grouplist",
+					width: 400,
+					height: 600,
+					scroll: false,
+					url: "json/static/menu.json?jjj",
+					template: function(obj){ 
+    					return "<img src='img/"+obj.icon+"' width='22px'  align='texttop'> "+obj.value
+					}
+				}, {
+					view: "template"
+				}]
+			}, {
+				type: "wide",
+				width:"100%",
+				rows: [
+					{ 
+						type:"clean", 
+						cols:[ 
+							menu 
+						] 
+					},{ 
+						type:"clean",
+						rows: [
+							{
+								id: "json_TextForm",
+								template:json_TextForm,
+								autoheight: true,
+								hidden:false
+							},{
+								id: "textTemplate",
+								template:"<br>",
+								hidden:false,
+							}
+							
+							
+						]
+					}
+				]
+			}]
+		});
+		
+		
+
+		function genHash(id){
+  			var t = String(new Date().getTime());
+  			return id + "_" + t.substring(8); 
+		}
+		
+		
+		
+	</script>
+
+	<!--<img class="logo" src="img/ebrixx2.png">-->
+</body>
+
+
+
+
+
+
+</html>

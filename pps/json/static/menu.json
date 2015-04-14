@@ -1,0 +1,11 @@
+[{
+		id: "menu_input",
+		value: "Montag 13. April 2015 ",
+		icon: "input.png"
+	}, {
+		id: "menu_output",
+		value: "Sonntag 12. April 2015 ",
+		icon: "output.png"
+	}
+
+]
