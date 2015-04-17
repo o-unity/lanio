@@ -8,16 +8,14 @@
 	<style>
 		.logo {
 			position: fixed;
-			bottom: 0;
+			top: 0;
 			right: 0;
 			z-index: 100;addData
 			padding: 30px;
 		}
-		.imgEvent {
-			padding-top:3px; 
-			padding-right:5px; 
-			padding-left:5px;
-		}
+	    .highlight{
+	        background-color:#FFAAAA;
+	    }		
 	
 	</style>
 </head>
@@ -28,7 +26,7 @@
 	<script type="text/javascript" charset="utf-8">
 	
 	
-		var json_TextForm = "<strong>JSON Call</strong><br>You can use the tag ##value## in "
+		var json_TextForm = "<strong>Batch-Protokoll</strong><br>Montag, 13. April 2015"
 		
 
 		var menu = {
@@ -39,13 +37,7 @@
 			},
 			data: [{
 				id: "1",
-				value: "Authorization"
-			}, {
-				id: "2",
-				value: "Background Processes"
-			}, {
-				id: "3",
-				value: "Network Settings"
+				value: "Settings"
 			}]
 		};
 		
@@ -57,18 +49,34 @@
 				type: "clean",
 				width: 400,
 				rows: [{
-					template: "<i>Verfuegbare Protokolle</i>",
-					height: 30
+					template: "<i>Verf&uuml;gbare Protokolle</i>",
+					height: 50
 				}, {
-					container: "listA",
-					id: "deviceController",
-					view: "grouplist",
+					container: "list",
+					id: "daylist",
+					view: "unitlist",
 					width: 400,
 					height: 600,
 					scroll: false,
+					select:true,
+					scheme:{
+						$sort:{
+							by:"days,id",
+							dir: 'desc'
+						}
+					},
+					uniteBy:function(obj){
+						if(obj.days == 1){
+							return "gestern";
+						}
+						if(obj.days < 7){
+							return "letzte Woche";
+						}						
+						return "&Auml;lter";
+					},					
 					url: "json/static/menu.json?jjj",
 					template: function(obj){ 
-    					return "<img src='img/"+obj.icon+"' width='22px'  align='texttop'> "+obj.value
+    					return "<img style='float: left;padding-top:5px' src='img/"+obj.icon+"' width='28px'><span style='width:80px;float: left;padding-left:7px'>"+obj.day+"</span> "+obj.value
 					}
 				}, {
 					view: "template"
@@ -84,19 +92,42 @@
 						] 
 					},{ 
 						type:"clean",
-						rows: [
-							{
+						rows: [{
 								id: "json_TextForm",
 								template:json_TextForm,
 								autoheight: true,
-								hidden:false
+								hidden:true
 							},{
-								id: "textTemplate",
+								id: "treeList",
+								container:"testD",
+								view:"treetable",
+								select:true,
+								filterMode:{
+								        showSubItems:true,
+								        level:4
+								},								
+								type:{
+								   folder:function(obj){
+								   		//obj.$css = "highlight";
+								        return "<img src='img/"+obj.icon+"' width='23px'  align='texttop'>"
+								    }
+								},	
+								columns:[
+									{ id:"value",	header:["Title",{content:"textFilter"}],	width:400,
+										template:"{common.treetable()} #value#" },
+									{ id:"state",	header:["State",{content:"selectFilter"}],	width:50, cssFormat:mark_status},
+									{ id:"substate",	header:["State Reason",{content:"selectFilter"}],	width:200, cssFormat:mark_status2},
+									{ id:"exitcode",	header:["Exit Code",{content:"selectFilter"}],	width:100}
+								],
+								autowidth:true,
+								url: "json/static/batch.json",
+								ready:function(){
+							    	$$('daylist').select($$('daylist').getFirstId());
+							    }
+							},{
 								template:"<br>",
-								hidden:false,
+								autoheight: true
 							}
-							
-							
 						]
 					}
 				]
@@ -104,6 +135,63 @@
 		});
 		
 		
+		webix.ui({
+			view:"window",
+			id:"dataProperty",
+			height:250,
+		    width:500,
+		    hidden:true,
+		    borderless:false,
+		    animate:{direction: "left", type:"slide", subtype:"vertical"},
+		    head:{
+				view:"toolbar", cols:[
+					{view:"label", label: " " },
+					{ view:"button", label: 'close', width: 80, align: 'right', click:"$$('dataProperty').hide();"}
+					]
+			}
+			,
+			body:{
+				
+				type:"clean",
+				rows: [{
+					view:"property",  
+					id:"datapropertyData",
+					autoheight: true,
+					elements:[
+						{ label:"State", type:"text", id:"propState", value: "nok"},
+						{ label:"State Reason", type:"text", id:"propStateReason", value: "waiting for in condition"},
+						{ label:"Order ID", type:"text", id:"propOrderId", value: "25aff8"},
+						{ label:"Node", type:"text", id:"propNode", value: "HPROD"}
+					]		
+				},{
+					template:"<pre style='font-size:8pt'>Validating parameters<br>End of Validating parameters<br>.................................................<br><br>Executing job step : Process<br></pre>"
+				}]
+				
+			}			
+		});		
+		
+		function mark_status(value, config){
+		    if (value == "nok")
+		        return { "background":"#FFAAAA" };
+		    if (value == "ok")
+		        return { "background":"#A4C400" };		        
+		    if (value == "waiting for in condition")
+		        return { "background":"#FA6800" };	
+		    if (value == "waiting for user action")
+		        return { "background":"#1BA1E2" };
+		    if (value == "no data")
+		        return { "background":"#00ABA9" };	
+		    if (value == "running")
+		        return { "background":"#E3C800" };			        
+		        //#A4C400;
+		    return value;
+		}
+		function mark_status2(value, config){
+		    if (value == "running")
+		        return { "background":"#E3C800" };			        
+		        //#A4C400;
+		    return value;
+		}		
 
 		function genHash(id){
   			var t = String(new Date().getTime());
@@ -111,10 +199,49 @@
 		}
 		
 		
+		$$('treeList').attachEvent("onItemClick", function(id,value){
+			
+			if($$('treeList').getItem(id.row).$level == 4){
+				console.log("to do: open property with data " + id.row);
+				resizeDataProperty();
+				
+				$$("datapropertyData").load("json/static/dataproperty.json");
+				$$('dataProperty').show();	
+				//$$('treeList').select(id.row);
+			}
+			else{
+				//console.log($$('treeList').select(id.row));
+				$$('treeList').unselect(id.row);
+			}
+		});	
+		
+		function resizeDataProperty(){
+			var screenWidth = window.innerWidth
+			|| document.documentElement.clientWidth
+			|| document.body.clientWidth;
+			
+			var screenHeight = window.innerHeight
+			|| document.documentElement.clientHeight
+			|| document.body.clientHeight;
+			
+			$$('dataProperty').setPosition(screenWidth-$$('dataProperty').config.width-10, 149);
+			$$('dataProperty').define("height", screenHeight-149-12);
+			$$('dataProperty').resize();	
+		}
+		
+		
+		webix.ready(function(){
+		    //$$('daylist').select($$('daylist').getFirstId())
+		    //console.log($$('daylist').getFirstId());
+		    //$$('dataProperty').hide();
+		});		
+
+		webix.event(window, "resize", function(){ resizeDataProperty(); })
+		
 		
 	</script>
 
-	<!--<img class="logo" src="img/ebrixx2.png">-->
+	<img class="logo" src="img/logo_sympany.png"> 
 </body>
 
 
